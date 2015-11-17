@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/bg1.jpg);
+}
+
+body {
+    background: url(../images/overlay.png);
+}
+
+h1 {
+    top: 50%;
+    left: 50%;
+    width: 240px;
+    height: 200px;
+    font-size: 36px;
+    font-family: Montserrat;
+    text-align: center;
+    color: #fff;
+    padding-top: 200px;
+    text-shadow: 2px 2px 2px #000;
+    margin: -100px 0 0 -100px;
+    background-repeat: no-repeat;
+    background-image: url(../images/elephant.png);
+    background-position: center top;
+    position: absolute;
+}
