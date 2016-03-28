@@ -1,0 +1,17 @@
+body {
+    padding-top: 80px;
+}
+
+a.brand {
+    font-weight: bold;
+    margin: 20px 5px 0 0;
+    float: left;
+    background-image: url(../images/elephant-mini.png);
+    width: 120px;
+    height: 50px;
+    margin: 0;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-left: 60px;
+    margin-top: 5px;
+}

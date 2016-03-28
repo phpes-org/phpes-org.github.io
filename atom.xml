@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[PHP-ES]]></title>
+    <link href="/atom.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2016-03-28T17:13:56-03:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Blog]]></title>
+            <link href="/blog/2016/03/28/blog"/>
+            <updated>2016-03-28T00:00:00-03:00</updated>
+            <id>/blog/2016/03/28/blog</id>
+            <content type="html"><![CDATA[<p>Esse blog foi criado para deixar o site do PHP-ES mais dinâmico. Através desse espaço vamos publicar links, dicas e tutoriais sobre PHP e desenvolvimento web.</p>
+
+<p>Utilizando o projeto escrito em PHP <a href="https://sculpin.io/">Sculpin</a> todo o site é gerado a partir de arquivos estáticos. Dessa forma continua hospedado no próprio Github.</p>
+
+<p>Por enquanto é só, até o próximo post!</p>
+]]></content>
+        </entry>
+    </feed>
