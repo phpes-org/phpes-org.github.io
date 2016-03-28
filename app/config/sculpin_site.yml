@@ -3,6 +3,7 @@
 # in a template to get the contents of the `title` key.
 title: PHP-ES
 subtitle: PHP Espírito Santo
+google_analytics_tracking_id: UA-75721006-1
 
 # Insert your disqus shortname
 #disqus:
