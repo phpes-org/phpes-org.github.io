@@ -57,9 +57,7 @@
             </div>
         </header>
         <div class="container">
-            <div class="posts">
-                {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
-            </div>
+            {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
         </div>
         <footer class="container">
             &copy; {{ "now"|date("Y") }} {{ site.title }}

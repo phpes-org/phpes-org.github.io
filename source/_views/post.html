@@ -5,22 +5,19 @@
 {% endblock %}
 
 {% block content_wrapper %}
-    <article>
+    <article class="post">
         <header>
             <h2>{{ page.title }} <small>post</small></h2>
+            {% if page.author %}
+                <p class="author">
+                    Por <a href="{{ page.author.link }}">{{ page.author.name }}</a>
+                </p>
+            {% endif %}
         </header>
         <div>
             {{ page.blocks.content|raw }}
         </div>
         <hr />
-        {% if page.categories %}
-            <p class="categories">
-            Categories:
-            {% for category in page.categories %}
-            <a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}
-            </p>
-        {% endif %}
         {% if page.tags %}
             <p class="tags">
             Tags:
@@ -32,12 +29,22 @@
 
         {% if page.previous_post or page.next_post %}
             <nav class="article">
-                <ul>
+                <ul class="pager">
                     {% if page.next_post %}
-                        <li>Next: <a class="next" href="{{ site.url }}{{ page.next_post.url }}" title="{{ page.next_post.title }}"><span class="title">{{ page.next_post.title }}</span></a></li>
+                        <li>
+                            <a href="{{ site.url }}{{ page.next_post.url }}" title="{{ page.next_post.title }}">
+                                Próximo
+                                &raquo;
+                            </a>
+                        </li>
                     {% endif %}
                     {% if page.previous_post %}
-                        <li>Previous: <a class="previous" href="{{ site.url }}{{ page.previous_post.url }}" title="{{ page.previous_post.title }}"><span class="title">{{ page.previous_post.title }}</span></a></li>
+                        <li>
+                            <a href="{{ site.url }}{{ page.previous_post.url }}" title="{{ page.previous_post.title }}">
+                                &laquo;
+                                Anterior
+                            </a>
+                        </li>
                     {% endif %}
                 </ul>
             </nav>

@@ -34,3 +34,11 @@ a.brand:hover {
 a, a:hover {
     color: #26ADE4;
 }
+
+article.post header {
+    padding-bottom: 20px;
+}
+
+article header .author {
+    font-style: italic;
+}
