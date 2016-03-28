@@ -42,7 +42,6 @@
                     <div id="navbar-main" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li><a href="/blog">Arquivo</a></li>
-                            <li><a href="/blog/categories">Categorias</a></li>
                             <li><a href="/blog/tags">Tags</a></li>
                             <li><a href="/about">Sobre</a></li>
                         </ul>
@@ -51,11 +50,13 @@
             </div>
         </header>
         <div class="container">
-            <div class="posts">
-                    <article>
+                <article class="post">
         <header>
             <h2>Blog <small>post</small></h2>
-        </header>
+                            <p class="author">
+                    Por <a href="http://github.com/rogeriolino">Rogério Lino</a>
+                </p>
+                    </header>
         <div>
             <p>Esse blog foi criado para deixar o site do PHP-ES mais dinâmico. Através desse espaço vamos publicar links, dicas e tutoriais sobre PHP e desenvolvimento web.</p>
 
@@ -65,10 +66,7 @@
 
         </div>
         <hr />
-                    <p class="categories">
-            Categories:
-                        <a href="/blog/categories/geral">geral</a>                        </p>
-                            <p class="tags">
+                    <p class="tags">
             Tags:
                         <a href="/blog/tags/blog">blog</a>,                         <a href="/blog/tags/sculpin">sculpin</a>                        </p>
         
@@ -76,7 +74,6 @@
 
 
 
-            </div>
         </div>
         <footer class="container">
             &copy; 2016 PHP-ES
