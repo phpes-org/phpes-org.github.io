@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[PHP-ES]]></title>
+    <link href="/blog/tags/awesome.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2016-03-29T10:44:59-03:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Awesome PHP]]></title>
+            <link href="/blog/2016/03/29/awesome-php"/>
+            <updated>2016-03-29T00:00:00-03:00</updated>
+            <id>/blog/2016/03/29/awesome-php</id>
+            <content type="html"><![CDATA[<p>Awesome PHP é um repositório no Github que reúne os mais variados conteúdos relacionados à PHP.</p>
+
+<blockquote>
+  <p>A curated list of amazingly awesome PHP libraries, resources and shiny things.</p>
+</blockquote>
+
+<p>Fonte: <a href="https://github.com/ziadoz/awesome-php">https://github.com/ziadoz/awesome-php</a></p>
+]]></content>
+        </entry>
+    </feed>

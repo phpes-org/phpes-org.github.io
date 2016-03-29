@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[PHP-ES]]></title>
+    <link href="/blog/tags/doc.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2016-03-29T10:44:59-03:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[PHP: The Right Way]]></title>
+            <link href="/blog/2016/03/30/php-the-right-way"/>
+            <updated>2016-03-30T00:00:00-03:00</updated>
+            <id>/blog/2016/03/30/php-the-right-way</id>
+            <content type="html"><![CDATA[<p><a href="http://www.phptherightway.com/">PHP: The Right Way</a> é uma leitura obrigatória para todo desenvolvedor PHP. Abordando os padrões e melhores práticas de desenvolvimento.</p>
+
+<blockquote>
+  <p>There’s a lot of outdated information on the Web that leads new PHP users astray, propagating bad practices and insecure code. PHP: The Right Way is an easy-to-read, quick reference for PHP popular coding standards, links to authoritative tutorials around the Web and what the contributors consider to be best practices at the present time.</p>
+</blockquote>
+
+<p>Fonte: <a href="http://www.phptherightway.com/">http://www.phptherightway.com/</a></p>
+]]></content>
+        </entry>
+    </feed>
