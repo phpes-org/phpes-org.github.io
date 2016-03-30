@@ -2,6 +2,10 @@
 
 {% block head_meta %}
     <meta name="robots" content="index, follow">
+
+    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ page.title }}" />
 {% endblock %}
 
 {% block content_wrapper %}
