@@ -3,9 +3,11 @@
 {% block head_meta %}
     <meta name="robots" content="index, follow">
 
-    <meta property="og:url" content="{{ site.base_url }}{{ page.url }}" />
     <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ site.base_url }}{{ page.url }}" />
     <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ site.subtitle }}" />
+    <meta property="og:image" content="{{ site.base_url }}images/og-image.png" />
 {% endblock %}
 
 {% block content_wrapper %}

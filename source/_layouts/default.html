@@ -7,8 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         {% block head_meta %}
             <meta name="robots" content="noindex, follow">
+            <meta property="og:url" content="{{ site.base_url }}" />
+            <meta property="og:title" content="{{ site.title }}" />
+            <meta property="og:description" content="{{ site.subtitle }}" />
+            <meta property="og:image" content="{{ site.base_url }}images/og-image.png" />
         {% endblock %}
-        <meta property="og:image" content="{{ site.base_url }}images/og-image.png" />
 
         <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.css">
         <link rel="stylesheet" href="{{ site.url }}/css/custom.min.css">
