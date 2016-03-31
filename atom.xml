@@ -3,9 +3,23 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="/atom.xml" rel="self"/>
     <link href="/"/>
-    <updated>2016-03-30T09:50:51-03:00</updated>
+    <updated>2016-03-31T00:28:43-03:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[3v4l]]></title>
+            <link href="/blog/2016/03/31/3v4l"/>
+            <updated>2016-03-31T00:00:00-03:00</updated>
+            <id>/blog/2016/03/31/3v4l</id>
+            <content type="html"><![CDATA[<p>Execute o seu código em mais de 150 versões de de PHP e HHVM.</p>
+
+<blockquote>
+  <p>3v4l.org is an online shell that allows you to run your code on my server. I compiled more than 150 different PHP versions (every version released since 4.3.0) plus HHVM for you to use.</p>
+</blockquote>
+
+<p><a href="https://3v4l.org/">https://3v4l.org/</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[PHP: The Right Way]]></title>
             <link href="/blog/2016/03/30/php-the-right-way"/>
