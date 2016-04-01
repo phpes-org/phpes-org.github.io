@@ -3,9 +3,21 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="/atom.xml" rel="self"/>
     <link href="/"/>
-    <updated>2016-03-31T00:28:43-03:00</updated>
+    <updated>2016-04-01T07:47:08-03:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Adobe anuncia compra do PHP]]></title>
+            <link href="/blog/2016/04/01/adobe-anuncia-compra-php"/>
+            <updated>2016-04-01T00:00:00-03:00</updated>
+            <id>/blog/2016/04/01/adobe-anuncia-compra-php</id>
+            <content type="html"><![CDATA[<p>Depois de uma forte disputa com a Oracle a Adobe anunciou a aquisição dos direitos da linguagem PHP e de todas suas marcas nessa sexta-feira.</p>
+
+<p>Com isso a gigante do Photoshop pretende fazer com que o Adobe Animate CC (antigo Flash Professional) passe exportar suas animações também em código PHP.</p>
+
+<p>Fonte: <a href="https://pt.wikipedia.org/wiki/Dia_da_mentira">https://blogs.adobe.com/</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[3v4l]]></title>
             <link href="/blog/2016/03/31/3v4l"/>
