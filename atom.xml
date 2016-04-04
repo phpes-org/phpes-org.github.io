@@ -3,9 +3,23 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="/atom.xml" rel="self"/>
     <link href="/"/>
-    <updated>2016-04-02T13:41:20-03:00</updated>
+    <updated>2016-04-04T10:14:56-03:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[PHP Live Regex]]></title>
+            <link href="/blog/2016/04/04/php-live-regex"/>
+            <updated>2016-04-04T00:00:00-03:00</updated>
+            <id>/blog/2016/04/04/php-live-regex</id>
+            <content type="html"><![CDATA[<p>Ferramenta online para criar e testar expressões regulares em PHP.</p>
+
+<blockquote>
+  <p>PHP Live Regex - A Live Regular Expression Tester for PHP</p>
+</blockquote>
+
+<p>Fonte: <a href="http://www.phpliveregex.com/">http://www.phpliveregex.com/</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Adobe anuncia compra do PHP]]></title>
             <link href="/blog/2016/04/01/adobe-anuncia-compra-php"/>

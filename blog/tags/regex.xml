@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[PHP-ES]]></title>
+    <link href="/blog/tags/regex.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2016-04-04T10:14:56-03:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[PHP Live Regex]]></title>
+            <link href="/blog/2016/04/04/php-live-regex"/>
+            <updated>2016-04-04T00:00:00-03:00</updated>
+            <id>/blog/2016/04/04/php-live-regex</id>
+            <content type="html"><![CDATA[<p>Ferramenta online para criar e testar expressões regulares em PHP.</p>
+
+<blockquote>
+  <p>PHP Live Regex - A Live Regular Expression Tester for PHP</p>
+</blockquote>
+
+<p>Fonte: <a href="http://www.phpliveregex.com/">http://www.phpliveregex.com/</a></p>
+]]></content>
+        </entry>
+    </feed>
