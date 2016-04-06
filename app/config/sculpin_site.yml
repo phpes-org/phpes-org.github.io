@@ -7,5 +7,5 @@ google_analytics_tracking_id: UA-75721006-1
 base_url: http://www.phpes.org/
 
 # Insert your disqus shortname
-#disqus:
-#    shortname:
+disqus:
+    shortname: phpes
