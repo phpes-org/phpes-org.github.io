@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[PHP-ES]]></title>
+    <link href="/blog/tags/emulator.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2016-04-06T00:10:31-03:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[PHP Terminal GameBoy Emulator]]></title>
+            <link href="/blog/2016/04/06/php-terminal-gameboy-emulator"/>
+            <updated>2016-04-06T00:00:00-03:00</updated>
+            <id>/blog/2016/04/06/php-terminal-gameboy-emulator</id>
+            <content type="html"><![CDATA[<p>Para responder a pergunta do que dá para fazer utilizando PHP, surge o projeto de um emulador de GameBoy via terminal.</p>
+
+<blockquote>
+  <p>Some people will ask me: "Why you did that?"</p>
+  
+  <p>Well, a friend asked me "What PHP can do?". I thought about that awhile and the idea came up. With PHP7's performance improvement now it's possible to emulate some systems :smile: and, come on, that's funny! :dancers:</p>
+  
+  <p>It's based on the GameBoy JS Emulator.</p>
+</blockquote>
+
+<p>Fonte: <a href="https://github.com/gabrielrcouto/php-terminal-gameboy-emulator/">https://github.com/gabrielrcouto/php-terminal-gameboy-emulator/</a></p>
+]]></content>
+        </entry>
+    </feed>
