@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PHP GUI &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
+        <title>PHP-FFMpeg &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
         <meta charset="utf-8">
         <meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="robots" content="index, follow">
 
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://www.phpes.org//blog/2016/04/07/php-gui" />
-    <meta property="og:title" content="PHP GUI" />
+    <meta property="og:url" content="http://www.phpes.org//blog/2016/04/08/php-ffmpeg" />
+    <meta property="og:title" content="PHP-FFMpeg" />
     <meta property="og:description" content="PHP Espírito Santo" />
     <meta property="og:image" content="http://www.phpes.org/images/og-image.png" />
 
@@ -56,36 +56,45 @@
         <div class="container">
                 <article class="post">
         <header>
-            <h2>PHP GUI <small>post</small></h2>
+            <h2>PHP-FFMpeg <small>post</small></h2>
                             <p class="author">
                     Por <a href="http://github.com/rogeriolino">Rogério Lino</a>
                 </p>
                     </header>
         <div>
-            <p><a href="https://github.com/gabrielrcouto/php-gui">PHP-GUI</a> é um projeto experimental que permite criar programas com interface gráfica nativa do desktop do usuário sem a necessidade de extensões adicionais.</p>
+            <p><a href="https://github.com/PHP-FFMpeg/PHP-FFMpeg">PHP-FFMpeg</a> é um projeto que representa de forma orientada a objetos (OOP) a biblioteca ffmpeg/avconv, facilitando a manipulação de arquivos de áudio e vídeo.</p>
 
 <blockquote>
-  <p>PHP can be more than a "Web Language", it's a fast language, with a cross platform interpreter and a good CLI. GUI is a natural step for completing this ecosystem.</p>
-  
-  <p>For many years, GUI projects are being developed for PHP, like PHP-GTK, PHP-QT, wxPHP and so many others, but none of them became popular.</p>
+  <p>This library requires a working FFMpeg install. You will need both FFMpeg and FFProbe binaries to use it. Be sure that these binaries can be located with system PATH to get the benefit of the binary detection, otherwise you should have to explicitely give the binaries path on load.</p>
 </blockquote>
+
+<p>Exemplo:</p>
+
+<pre><code>$ffmpeg = FFMpeg\FFMpeg::create();
+$video = $ffmpeg-&gt;open('video.mpg');
+$video
+    -&gt;filters()
+    -&gt;resize(new FFMpeg\Coordinate\Dimension(320, 240))
+    -&gt;synchronize();
+$video
+    -&gt;frame(FFMpeg\Coordinate\TimeCode::fromSeconds(10))
+    -&gt;save('frame.jpg');
+$video
+    -&gt;save(new FFMpeg\Format\Video\X264(), 'export-x264.mp4')
+    -&gt;save(new FFMpeg\Format\Video\WMV(), 'export-wmv.wmv')
+    -&gt;save(new FFMpeg\Format\Video\WebM(), 'export-webm.webm');
+</code></pre>
 
         </div>
         <hr />
                     <p class="tags">
             Tags:
-                        <a href="/blog/tags/php">php</a>,                         <a href="/blog/tags/gui">gui</a>,                         <a href="/blog/tags/interface">interface</a>,                         <a href="/blog/tags/desktop">desktop</a>                        </p>
+                        <a href="/blog/tags/php">php</a>,                         <a href="/blog/tags/ffmpeg">ffmpeg</a>,                         <a href="/blog/tags/avconv">avconv</a>                        </p>
         
                     <nav class="article">
                 <ul class="pager">
-                                            <li>
-                            <a href="/blog/2016/04/08/php-ffmpeg" title="PHP-FFMpeg">
-                                Próximo
-                                &raquo;
-                            </a>
-                        </li>
                                                                 <li>
-                            <a href="/blog/2016/04/06/php-terminal-gameboy-emulator" title="PHP Terminal GameBoy Emulator">
+                            <a href="/blog/2016/04/07/php-gui" title="PHP GUI">
                                 &laquo;
                                 Anterior
                             </a>
@@ -99,7 +108,7 @@
     <script>
     var disqus_shortname = 'phpes';
     var disqus_config = function () {
-        this.page.url = "http://www.phpes.org//blog/2016/04/07/php-gui";
+        this.page.url = "http://www.phpes.org//blog/2016/04/08/php-ffmpeg";
     };
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');

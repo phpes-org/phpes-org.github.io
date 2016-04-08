@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[PHP-ES]]></title>
+    <link href="/blog/tags/avconv.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2016-04-08T09:31:24-03:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[PHP-FFMpeg]]></title>
+            <link href="/blog/2016/04/08/php-ffmpeg"/>
+            <updated>2016-04-08T00:00:00-03:00</updated>
+            <id>/blog/2016/04/08/php-ffmpeg</id>
+            <content type="html"><![CDATA[<p><a href="https://github.com/PHP-FFMpeg/PHP-FFMpeg">PHP-FFMpeg</a> é um projeto que representa de forma orientada a objetos (OOP) a biblioteca ffmpeg/avconv, facilitando a manipulação de arquivos de áudio e vídeo.</p>
+
+<blockquote>
+  <p>This library requires a working FFMpeg install. You will need both FFMpeg and FFProbe binaries to use it. Be sure that these binaries can be located with system PATH to get the benefit of the binary detection, otherwise you should have to explicitely give the binaries path on load.</p>
+</blockquote>
+
+<p>Exemplo:</p>
+
+<pre><code>$ffmpeg = FFMpeg\FFMpeg::create();
+$video = $ffmpeg-&gt;open('video.mpg');
+$video
+    -&gt;filters()
+    -&gt;resize(new FFMpeg\Coordinate\Dimension(320, 240))
+    -&gt;synchronize();
+$video
+    -&gt;frame(FFMpeg\Coordinate\TimeCode::fromSeconds(10))
+    -&gt;save('frame.jpg');
+$video
+    -&gt;save(new FFMpeg\Format\Video\X264(), 'export-x264.mp4')
+    -&gt;save(new FFMpeg\Format\Video\WMV(), 'export-wmv.wmv')
+    -&gt;save(new FFMpeg\Format\Video\WebM(), 'export-webm.webm');
+</code></pre>
+]]></content>
+        </entry>
+    </feed>

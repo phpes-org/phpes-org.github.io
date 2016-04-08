@@ -54,6 +54,39 @@
         <div class="container">
                 <article>
         <header>
+            <h2><a href="/blog/2016/04/08/php-ffmpeg">PHP-FFMpeg</a></h2>
+        </header>
+        <div>
+            <p><a href="https://github.com/PHP-FFMpeg/PHP-FFMpeg">PHP-FFMpeg</a> é um projeto que representa de forma orientada a objetos (OOP) a biblioteca ffmpeg/avconv, facilitando a manipulação de arquivos de áudio e vídeo.</p>
+
+<blockquote>
+  <p>This library requires a working FFMpeg install. You will need both FFMpeg and FFProbe binaries to use it. Be sure that these binaries can be located with system PATH to get the benefit of the binary detection, otherwise you should have to explicitely give the binaries path on load.</p>
+</blockquote>
+
+<p>Exemplo:</p>
+
+<pre><code>$ffmpeg = FFMpeg\FFMpeg::create();
+$video = $ffmpeg-&gt;open('video.mpg');
+$video
+    -&gt;filters()
+    -&gt;resize(new FFMpeg\Coordinate\Dimension(320, 240))
+    -&gt;synchronize();
+$video
+    -&gt;frame(FFMpeg\Coordinate\TimeCode::fromSeconds(10))
+    -&gt;save('frame.jpg');
+$video
+    -&gt;save(new FFMpeg\Format\Video\X264(), 'export-x264.mp4')
+    -&gt;save(new FFMpeg\Format\Video\WMV(), 'export-wmv.wmv')
+    -&gt;save(new FFMpeg\Format\Video\WebM(), 'export-webm.webm');
+</code></pre>
+
+        </div>
+                    <p class="tags">
+            Tags:
+                        <a href="/blog/tags/php">php</a>,                         <a href="/blog/tags/ffmpeg">ffmpeg</a>,                         <a href="/blog/tags/avconv">avconv</a>                        </p>
+            </article>
+    <article>
+        <header>
             <h2><a href="/blog/2016/04/07/php-gui">PHP GUI</a></h2>
         </header>
         <div>
