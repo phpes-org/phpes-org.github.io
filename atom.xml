@@ -3,9 +3,40 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="/atom.xml" rel="self"/>
     <link href="/"/>
-    <updated>2016-04-08T09:31:24-03:00</updated>
+    <updated>2016-04-11T10:53:36-03:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Imagine]]></title>
+            <link href="/blog/2016/04/11/imagine"/>
+            <updated>2016-04-11T00:00:00-03:00</updated>
+            <id>/blog/2016/04/11/imagine</id>
+            <content type="html"><![CDATA[<p><a href="https://github.com/avalanche123/Imagine">Imagine</a> é uma biblioteca OOP de manipulação de imagem com implementações para as extensões GD2, Imagick e Gmagick. Com a Imagine é possível redimensionar, criar thumbnail, adicionar marca d'água, efeitos, etc.</p>
+
+<p>Exemplo:</p>
+
+<pre><code>&lt;?php
+
+$imagine = new Imagine\Gd\Imagine();
+// or
+$imagine = new Imagine\Imagick\Imagine();
+// or
+$imagine = new Imagine\Gmagick\Imagine();
+
+$size    = new Imagine\Image\Box(40, 40);
+
+$mode    = Imagine\Image\ImageInterface::THUMBNAIL_INSET;
+// or
+$mode    = Imagine\Image\ImageInterface::THUMBNAIL_OUTBOUND;
+
+$imagine-&gt;open('/path/to/large_image.jpg')
+    -&gt;thumbnail($size, $mode)
+    -&gt;save('/path/to/thumbnail.png')
+</code></pre>
+
+<p>Documentação: <a href="http://imagine.readthedocs.org/en/latest/">http://imagine.readthedocs.org/en/latest/</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[PHP-FFMpeg]]></title>
             <link href="/blog/2016/04/08/php-ffmpeg"/>
@@ -147,18 +178,6 @@ $video
 </blockquote>
 
 <p>Fonte: <a href="https://github.com/ziadoz/awesome-php">https://github.com/ziadoz/awesome-php</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Blog]]></title>
-            <link href="/blog/2016/03/28/blog"/>
-            <updated>2016-03-28T00:00:00-03:00</updated>
-            <id>/blog/2016/03/28/blog</id>
-            <content type="html"><![CDATA[<p>Esse blog foi criado para deixar o site do PHP-ES mais dinâmico. Através desse espaço vamos publicar links, dicas e tutoriais sobre PHP e desenvolvimento web.</p>
-
-<p>Utilizando o projeto escrito em PHP <a href="https://sculpin.io/">Sculpin</a> todo o site é gerado a partir de arquivos estáticos. Dessa forma continua hospedado no próprio Github.</p>
-
-<p>Por enquanto é só, até o próximo post!</p>
 ]]></content>
         </entry>
     </feed>

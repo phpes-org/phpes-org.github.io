@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Posts Archive &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
+        <title>Imagine &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
         <meta charset="utf-8">
         <meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <meta name="robots" content="noindex, follow">
-            <meta property="og:url" content="http://www.phpes.org/" />
-            <meta property="og:title" content="PHP-ES" />
-            <meta property="og:description" content="PHP Espírito Santo" />
-            <meta property="og:image" content="http://www.phpes.org/images/og-image.png" />
-        
+            <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.phpes.org//blog/2016/04/11/imagine" />
+    <meta property="og:title" content="Imagine" />
+    <meta property="og:description" content="PHP Espírito Santo" />
+    <meta property="og:image" content="http://www.phpes.org/images/og-image.png" />
+
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/custom.min.css">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
@@ -52,45 +54,75 @@
             </div>
         </header>
         <div class="container">
-            
-<h2>Arquivo</h2>
-        <h3>Abril 2016</h3>
-  <div>
-    <a href="/blog/2016/04/11/imagine">Imagine</a>
-  </div>
-  <div>
-    <a href="/blog/2016/04/08/php-ffmpeg">PHP-FFMpeg</a>
-  </div>
-  <div>
-    <a href="/blog/2016/04/07/php-gui">PHP GUI</a>
-  </div>
-  <div>
-    <a href="/blog/2016/04/06/php-terminal-gameboy-emulator">PHP Terminal GameBoy Emulator</a>
-  </div>
-  <div>
-    <a href="/blog/2016/04/05/natika-forum-system">Natika Forum system</a>
-  </div>
-  <div>
-    <a href="/blog/2016/04/04/php-live-regex">PHP Live Regex</a>
-  </div>
-  <div>
-    <a href="/blog/2016/04/01/adobe-anuncia-compra-php">Adobe anuncia compra do PHP</a>
-  </div>
-  <div>
-    <a href="/blog/2016/03/31/3v4l">3v4l</a>
-  </div>
-  <div>
-    <a href="/blog/2016/03/30/php-the-right-way">PHP: The Right Way</a>
-  </div>
-  <div>
-    <a href="/blog/2016/03/29/awesome-php">Awesome PHP</a>
-  </div>
+                <article class="post">
+        <header>
+            <h2>Imagine <small>post</small></h2>
+                            <p class="author">
+                    Por <a href="http://github.com/rogeriolino">Rogério Lino</a>
+                </p>
+                    </header>
+        <div>
+            <p><a href="https://github.com/avalanche123/Imagine">Imagine</a> é uma biblioteca OOP de manipulação de imagem com implementações para as extensões GD2, Imagick e Gmagick. Com a Imagine é possível redimensionar, criar thumbnail, adicionar marca d'água, efeitos, etc.</p>
 
-<div>
-    <nav class="article clearfix">
-            <a class="next" href="/blog/page/2.html" title="Next Page"><span class="title">Next Page</span></a>
-        </nav>
-</div>        </div>
+<p>Exemplo:</p>
+
+<pre><code>&lt;?php
+
+$imagine = new Imagine\Gd\Imagine();
+// or
+$imagine = new Imagine\Imagick\Imagine();
+// or
+$imagine = new Imagine\Gmagick\Imagine();
+
+$size    = new Imagine\Image\Box(40, 40);
+
+$mode    = Imagine\Image\ImageInterface::THUMBNAIL_INSET;
+// or
+$mode    = Imagine\Image\ImageInterface::THUMBNAIL_OUTBOUND;
+
+$imagine-&gt;open('/path/to/large_image.jpg')
+    -&gt;thumbnail($size, $mode)
+    -&gt;save('/path/to/thumbnail.png')
+</code></pre>
+
+<p>Documentação: <a href="http://imagine.readthedocs.org/en/latest/">http://imagine.readthedocs.org/en/latest/</a></p>
+
+        </div>
+        <hr />
+                    <p class="tags">
+            Tags:
+                        <a href="/blog/tags/php">php</a>,                         <a href="/blog/tags/imagine">imagine</a>,                         <a href="/blog/tags/gd2">gd2</a>,                         <a href="/blog/tags/imagick">imagick</a>,                         <a href="/blog/tags/gmagick">gmagick</a>                        </p>
+        
+                    <nav class="article">
+                <ul class="pager">
+                                                                <li>
+                            <a href="/blog/2016/04/08/php-ffmpeg" title="PHP-FFMpeg">
+                                &laquo;
+                                Anterior
+                            </a>
+                        </li>
+                                    </ul>
+            </nav>
+            </article>
+
+
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = 'phpes';
+    var disqus_config = function () {
+        this.page.url = "http://www.phpes.org//blog/2016/04/11/imagine";
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+
+    s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+
+        </div>
         <footer class="container">
             &copy; 2016 PHP-ES - Grupo de PHP do Espírito Santo
         </footer>
