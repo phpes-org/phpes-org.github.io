@@ -1,0 +1,15 @@
+---
+title: 12º Fórum Espírito Livre
+author:
+    name: Rogério Lino
+    link: http://github.com/rogeriolino
+tags:
+    - forum
+    - espirito-livre
+    - vila-velha
+
+---
+
+Nos dias 4, 5 e 6 de maio acontecerá o [12º Fórum Espírito Livre](http://forum.espiritolivre.org/12ed/)
+
+>O 12º Fórum Espírito Livre tem como objetivos reunir a comunidade estadual e nacional interessada em desenvolvimento e aplicação de software livre e de código aberto. Dessa maneira, visa compartilhar experiências e conhecimento, de modo a estimular o uso crescente dos softwares livres, tecnologias e padrões abertos, o aprimoramento de tecnologias, a difusão da filosofia de compartilhamento e criação colaborativa e coletiva. Além disso espera-se estreitar a comunicação entre colaboradores e leitores da Revista Espírito Livre.
