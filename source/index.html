@@ -27,7 +27,23 @@ use:
 {% endfor %}
 {% if page.pagination.previous_page or page.pagination.next_page %}
     <nav>
-        {% if page.pagination.previous_page %}<a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts</a>{% endif %}<br />
-        {% if page.pagination.next_page %}<a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Posts</a>{% endif %}<br />
+        <ul class="pager">
+            {% if page.pagination.next_page %}
+                <li>
+                    <a href="{{ site.url }}{{ page.pagination.next_page.url }}">
+                        Posts antigos
+                        &raquo;
+                    </a>
+                </li>
+            {% endif %}
+            {% if page.pagination.previous_page %}
+                <li>
+                    <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">
+                        &laquo;
+                        Novos posts
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
     </nav>
 {% endif %}
