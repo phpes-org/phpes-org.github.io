@@ -3,9 +3,25 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="/atom.xml" rel="self"/>
     <link href="/"/>
-    <updated>2016-04-12T10:34:00-03:00</updated>
+    <updated>2016-04-13T10:02:44-03:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Conferência PHP em Porto Alegre]]></title>
+            <link href="/blog/2016/04/13/conferencia-php-em-porto-alegre"/>
+            <updated>2016-04-13T00:00:00-03:00</updated>
+            <id>/blog/2016/04/13/conferencia-php-em-porto-alegre</id>
+            <content type="html"><![CDATA[<blockquote>
+  <p>Está chegando o grande dia da Conferência PHP do Rio Grande do Sul, organizada pelo PHPRS.</p>
+  
+  <p>Haverá diversas palestras sobre PHP, segurança, carreira e muito mais, além daquele networking de sempre, para fazer novos contatos, encontrar novas oportunidades e aprender mais.</p>
+  
+  <p>O evento ocorre no dia 7 de Maio de 2016 em Porto Alegre – RS, na Faculdade SENAC. Os ingressos já estão a venda pelo site http://conf.phprs.com.br/. Se você quiser a camiseta, é bom correr pois já estão esgotando.</p>
+</blockquote>
+
+<p>Site do evento: <a href="http://conf.phprs.com.br/">http://conf.phprs.com.br/</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[12º Fórum Espírito Livre]]></title>
             <link href="/blog/2016/04/12/12-forum-espirito-livre"/>
@@ -164,20 +180,6 @@ $video
 </blockquote>
 
 <p><a href="https://3v4l.org/">https://3v4l.org/</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[PHP: The Right Way]]></title>
-            <link href="/blog/2016/03/30/php-the-right-way"/>
-            <updated>2016-03-30T00:00:00-03:00</updated>
-            <id>/blog/2016/03/30/php-the-right-way</id>
-            <content type="html"><![CDATA[<p><a href="http://www.phptherightway.com/">PHP: The Right Way</a> é uma leitura obrigatória para todo desenvolvedor PHP. Abordando os padrões e melhores práticas de desenvolvimento.</p>
-
-<blockquote>
-  <p>There’s a lot of outdated information on the Web that leads new PHP users astray, propagating bad practices and insecure code. PHP: The Right Way is an easy-to-read, quick reference for PHP popular coding standards, links to authoritative tutorials around the Web and what the contributors consider to be best practices at the present time.</p>
-</blockquote>
-
-<p>Fonte: <a href="http://www.phptherightway.com/">http://www.phptherightway.com/</a></p>
 ]]></content>
         </entry>
     </feed>
