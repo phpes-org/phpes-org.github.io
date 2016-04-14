@@ -3,9 +3,21 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="/blog/tags/php.xml" rel="self"/>
     <link href="/"/>
-    <updated>2016-04-13T10:02:44-03:00</updated>
+    <updated>2016-04-14T16:08:07-03:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[PHP must watch]]></title>
+            <link href="/blog/2016/04/14/php-must-watch"/>
+            <updated>2016-04-14T00:00:00-03:00</updated>
+            <id>/blog/2016/04/14/php-must-watch</id>
+            <content type="html"><![CDATA[<p><a href="https://github.com/phptodayorg/php-must-watch">PHP must watch</a> é um repositório contendo uma lista de conferências sobre PHP:</p>
+
+<blockquote>
+  <p>A list of interesting conference talks and great videos on PHP. Inspired by js-must-watch</p>
+</blockquote>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Conferência PHP em Porto Alegre]]></title>
             <link href="/blog/2016/04/13/conferencia-php-em-porto-alegre"/>
@@ -168,20 +180,6 @@ $video
 </blockquote>
 
 <p>Fonte: <a href="http://www.phptherightway.com/">http://www.phptherightway.com/</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Awesome PHP]]></title>
-            <link href="/blog/2016/03/29/awesome-php"/>
-            <updated>2016-03-29T00:00:00-03:00</updated>
-            <id>/blog/2016/03/29/awesome-php</id>
-            <content type="html"><![CDATA[<p>Awesome PHP é um repositório no Github que reúne os mais variados conteúdos relacionados à PHP.</p>
-
-<blockquote>
-  <p>A curated list of amazingly awesome PHP libraries, resources and shiny things.</p>
-</blockquote>
-
-<p>Fonte: <a href="https://github.com/ziadoz/awesome-php">https://github.com/ziadoz/awesome-php</a></p>
 ]]></content>
         </entry>
     </feed>
