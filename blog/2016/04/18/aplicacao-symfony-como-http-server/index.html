@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Tag Archive "php" &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
+        <title>Aplicação Symfony como HTTP Server &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
         <meta charset="utf-8">
         <meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="alternate" type="application/atom+xml" href="/blog/tags/php.xml" title="PHP-ES 'php' tag feed" />
-    <meta name="robots" content="noindex, follow">
+            <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.phpes.org//blog/2016/04/18/aplicacao-symfony-como-http-server" />
+    <meta property="og:title" content="Aplicação Symfony como HTTP Server" />
+    <meta property="og:description" content="PHP Espírito Santo" />
+    <meta property="og:image" content="http://www.phpes.org/images/og-image.png" />
 
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/custom.min.css">
@@ -50,20 +55,61 @@
         </header>
         <div class="container">
             <div class="col-md-9">
-                <h2>"php"</h2>
-        <h3>March 2016</h3>
-<article>
-  <div><a href="/blog/2016/03/30/php-the-right-way">PHP: The Right Way</a></div>
-</article>
-<article>
-  <div><a href="/blog/2016/03/29/awesome-php">Awesome PHP</a></div>
-</article>
+                    <article class="post">
+        <header>
+            <h2>Aplicação Symfony como HTTP Server <small>post</small></h2>
+                            <p class="author">
+                    Por <a href="http://github.com/rogeriolino">Rogério Lino</a>
+                </p>
+                    </header>
+        <div>
+            <p>Tutorial ensinando transformar uma aplicação Symfony em um servidor HTTP pronto para executar, e sem necessidade servidor adicional como por exemplo NGINX e/ou Apache2, utilizando a biblioteca ReactPHP.</p>
 
-<div>
-    <nav class="article clearfix">
-        <a class="previous" href="//blog/tags/php" title="Previous Page"><span class="title">Previous Page</span></a>
+<blockquote>
+  <p>TL;DR: Run your application as a HTTP server to increase its performances.</p>
+  
+  <p>HTTP frameworks, such as Symfony, allow us to build applications that have the potential to achieve Super Speed.</p>
+  
+  <p>A first way to make use of it is to run our application as a HTTP server. In this article we'll take a Symfony application and demonstrate how to run it as HTTP server using ReactPHP.</p>
+</blockquote>
+
+<p>Fonte: <a href="https://gnugat.github.io/2016/04/13/super-speed-sf-react-php.html">https://gnugat.github.io/2016/04/13/super-speed-sf-react-php.html</a></p>
+
+        </div>
+        <hr />
+                    <p class="tags">
+            Tags:
+                        <a href="/blog/tags/php">php</a>,                         <a href="/blog/tags/symfony">symfony</a>,                         <a href="/blog/tags/reactphp">reactphp</a>,                         <a href="/blog/tags/http">http</a>,                         <a href="/blog/tags/server">server</a>                        </p>
+        
+                    <nav class="article">
+                <ul class="pager">
+                                            <li>
+                            <a href="/blog/2016/04/14/php-must-watch" title="PHP must watch">
+                                &laquo;
+                                Anterior
+                            </a>
+                        </li>
+                                                        </ul>
             </nav>
-</div>
+            </article>
+
+
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = 'phpes';
+    var disqus_config = function () {
+        this.page.url = "http://www.phpes.org//blog/2016/04/18/aplicacao-symfony-como-http-server";
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+
+    s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+
             </div>
             <div class="col-md-3">
                 <div class="feature">
