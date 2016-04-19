@@ -3,9 +3,23 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="/blog/tags/php.xml" rel="self"/>
     <link href="/"/>
-    <updated>2016-04-18T10:32:41-03:00</updated>
+    <updated>2016-04-19T09:40:28-03:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[PPM - PHP Process Manager]]></title>
+            <link href="/blog/2016/04/19/ppm-php-process-manager"/>
+            <updated>2016-04-19T00:00:00-03:00</updated>
+            <id>/blog/2016/04/19/ppm-php-process-manager</id>
+            <content type="html"><![CDATA[<p>PHP-PM é um gerenciador de processo, supercharger e load balancer para aplicações PHP que chega a ser 15 vezes mais rápidos do uma aplicação PHP tradicional.</p>
+
+<blockquote>
+  <p>It's based on ReactPHP and works best with applications that use request-response frameworks like Symfony's HTTPKernel. The approach of this is to kill the expensive bootstrap of PHP (declaring symbols, loading/parsing files) and the bootstrap of feature-rich frameworks. See Performance section for a quick hint. PHP-PM basically spawns several PHP instances as worker bootstraping your application (eg. the whole Symfony Kernel) and hold it in the memory to be prepared for every incoming request: This is why PHP-PM makes your application so fast.</p>
+</blockquote>
+
+<p>Repositório do projeto: <a href="https://github.com/php-pm/php-pm">https://github.com/php-pm/php-pm</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Aplicação Symfony como HTTP Server]]></title>
             <link href="/blog/2016/04/18/aplicacao-symfony-como-http-server"/>
@@ -170,20 +184,6 @@ $video
 </blockquote>
 
 <p>Fonte: <a href="http://www.phpliveregex.com/">http://www.phpliveregex.com/</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[3v4l]]></title>
-            <link href="/blog/2016/03/31/3v4l"/>
-            <updated>2016-03-31T00:00:00-03:00</updated>
-            <id>/blog/2016/03/31/3v4l</id>
-            <content type="html"><![CDATA[<p>Execute o seu código em mais de 150 versões de de PHP e HHVM.</p>
-
-<blockquote>
-  <p>3v4l.org is an online shell that allows you to run your code on my server. I compiled more than 150 different PHP versions (every version released since 4.3.0) plus HHVM for you to use.</p>
-</blockquote>
-
-<p><a href="https://3v4l.org/">https://3v4l.org/</a></p>
 ]]></content>
         </entry>
     </feed>

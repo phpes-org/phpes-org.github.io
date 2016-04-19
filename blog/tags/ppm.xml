@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="/blog/tags/server.xml" rel="self"/>
+    <link href="/blog/tags/ppm.xml" rel="self"/>
     <link href="/"/>
     <updated>2016-04-19T09:40:28-03:00</updated>
     <id>/</id>
@@ -18,24 +18,6 @@
 </blockquote>
 
 <p>Repositório do projeto: <a href="https://github.com/php-pm/php-pm">https://github.com/php-pm/php-pm</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Aplicação Symfony como HTTP Server]]></title>
-            <link href="/blog/2016/04/18/aplicacao-symfony-como-http-server"/>
-            <updated>2016-04-18T00:00:00-03:00</updated>
-            <id>/blog/2016/04/18/aplicacao-symfony-como-http-server</id>
-            <content type="html"><![CDATA[<p>Tutorial ensinando transformar uma aplicação Symfony em um servidor HTTP pronto para executar, e sem necessidade servidor adicional como por exemplo NGINX e/ou Apache2, utilizando a biblioteca ReactPHP.</p>
-
-<blockquote>
-  <p>TL;DR: Run your application as a HTTP server to increase its performances.</p>
-  
-  <p>HTTP frameworks, such as Symfony, allow us to build applications that have the potential to achieve Super Speed.</p>
-  
-  <p>A first way to make use of it is to run our application as a HTTP server. In this article we'll take a Symfony application and demonstrate how to run it as HTTP server using ReactPHP.</p>
-</blockquote>
-
-<p>Fonte: <a href="https://gnugat.github.io/2016/04/13/super-speed-sf-react-php.html">https://gnugat.github.io/2016/04/13/super-speed-sf-react-php.html</a></p>
 ]]></content>
         </entry>
     </feed>
