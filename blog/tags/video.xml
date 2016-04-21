@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="/blog/tags/video.xml" rel="self"/>
-    <link href="/"/>
-    <updated>2016-04-20T11:28:27-03:00</updated>
-    <id>/</id>
+    <link href="http://www.phpes.org/blog/tags/video.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2016-04-21T09:15:11-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[PHP must watch]]></title>
-            <link href="/blog/2016/04/14/php-must-watch"/>
+            <link href="http://www.phpes.org/blog/2016/04/14/php-must-watch"/>
             <updated>2016-04-14T00:00:00-03:00</updated>
-            <id>/blog/2016/04/14/php-must-watch</id>
+            <id>http://www.phpes.org/blog/2016/04/14/php-must-watch</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/phptodayorg/php-must-watch">PHP must watch</a> é um repositório contendo uma lista de conferências sobre PHP:</p>
 
 <blockquote>

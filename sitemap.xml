@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc></loc>
-    <lastmod>2016-04-20</lastmod>
+    <loc>http://www.phpes.org</loc>
+    <lastmod>2016-04-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/20/como-usar-o-mongodb-com-php</loc>
+    <loc>http://www.phpes.org/blog/2016/04/20/como-usar-o-mongodb-com-php</loc>
     <lastmod>2016-04-20T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/19/ppm-php-process-manager</loc>
+    <loc>http://www.phpes.org/blog/2016/04/19/ppm-php-process-manager</loc>
     <lastmod>2016-04-19T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/18/aplicacao-symfony-como-http-server</loc>
+    <loc>http://www.phpes.org/blog/2016/04/18/aplicacao-symfony-como-http-server</loc>
     <lastmod>2016-04-18T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/14/php-must-watch</loc>
+    <loc>http://www.phpes.org/blog/2016/04/14/php-must-watch</loc>
     <lastmod>2016-04-14T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/13/conferencia-php-em-porto-alegre</loc>
+    <loc>http://www.phpes.org/blog/2016/04/13/conferencia-php-em-porto-alegre</loc>
     <lastmod>2016-04-13T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/12/12-forum-espirito-livre</loc>
+    <loc>http://www.phpes.org/blog/2016/04/12/12-forum-espirito-livre</loc>
     <lastmod>2016-04-12T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/11/imagine</loc>
+    <loc>http://www.phpes.org/blog/2016/04/11/imagine</loc>
     <lastmod>2016-04-11T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/08/php-ffmpeg</loc>
+    <loc>http://www.phpes.org/blog/2016/04/08/php-ffmpeg</loc>
     <lastmod>2016-04-08T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/07/php-gui</loc>
+    <loc>http://www.phpes.org/blog/2016/04/07/php-gui</loc>
     <lastmod>2016-04-07T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/06/php-terminal-gameboy-emulator</loc>
+    <loc>http://www.phpes.org/blog/2016/04/06/php-terminal-gameboy-emulator</loc>
     <lastmod>2016-04-06T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/05/natika-forum-system</loc>
+    <loc>http://www.phpes.org/blog/2016/04/05/natika-forum-system</loc>
     <lastmod>2016-04-05T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/04/php-live-regex</loc>
+    <loc>http://www.phpes.org/blog/2016/04/04/php-live-regex</loc>
     <lastmod>2016-04-04T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/04/01/adobe-anuncia-compra-php</loc>
+    <loc>http://www.phpes.org/blog/2016/04/01/adobe-anuncia-compra-php</loc>
     <lastmod>2016-04-01T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/03/31/3v4l</loc>
+    <loc>http://www.phpes.org/blog/2016/03/31/3v4l</loc>
     <lastmod>2016-03-31T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/03/30/php-the-right-way</loc>
+    <loc>http://www.phpes.org/blog/2016/03/30/php-the-right-way</loc>
     <lastmod>2016-03-30T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/03/29/awesome-php</loc>
+    <loc>http://www.phpes.org/blog/2016/03/29/awesome-php</loc>
     <lastmod>2016-03-29T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2016/03/28/blog</loc>
+    <loc>http://www.phpes.org/blog/2016/03/28/blog</loc>
     <lastmod>2016-03-28T00:00:00-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>

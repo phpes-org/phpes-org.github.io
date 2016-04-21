@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="/blog/tags/load-balancer.xml" rel="self"/>
-    <link href="/"/>
-    <updated>2016-04-20T11:28:27-03:00</updated>
-    <id>/</id>
+    <link href="http://www.phpes.org/blog/tags/load-balancer.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2016-04-21T09:15:11-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[PPM - PHP Process Manager]]></title>
-            <link href="/blog/2016/04/19/ppm-php-process-manager"/>
+            <link href="http://www.phpes.org/blog/2016/04/19/ppm-php-process-manager"/>
             <updated>2016-04-19T00:00:00-03:00</updated>
-            <id>/blog/2016/04/19/ppm-php-process-manager</id>
+            <id>http://www.phpes.org/blog/2016/04/19/ppm-php-process-manager</id>
             <content type="html"><![CDATA[<p>PHP-PM é um gerenciador de processo, supercharger e load balancer para aplicações PHP que chega a ser 15 vezes mais rápidos do uma aplicação PHP tradicional.</p>
 
 <blockquote>

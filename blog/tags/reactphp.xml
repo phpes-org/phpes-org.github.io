@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="/blog/tags/reactphp.xml" rel="self"/>
-    <link href="/"/>
-    <updated>2016-04-20T11:28:27-03:00</updated>
-    <id>/</id>
+    <link href="http://www.phpes.org/blog/tags/reactphp.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2016-04-21T09:15:11-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Aplicação Symfony como HTTP Server]]></title>
-            <link href="/blog/2016/04/18/aplicacao-symfony-como-http-server"/>
+            <link href="http://www.phpes.org/blog/2016/04/18/aplicacao-symfony-como-http-server"/>
             <updated>2016-04-18T00:00:00-03:00</updated>
-            <id>/blog/2016/04/18/aplicacao-symfony-como-http-server</id>
+            <id>http://www.phpes.org/blog/2016/04/18/aplicacao-symfony-como-http-server</id>
             <content type="html"><![CDATA[<p>Tutorial ensinando transformar uma aplicação Symfony em um servidor HTTP pronto para executar, e sem necessidade servidor adicional como por exemplo NGINX e/ou Apache2, utilizando a biblioteca ReactPHP.</p>
 
 <blockquote>

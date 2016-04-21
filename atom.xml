@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="/atom.xml" rel="self"/>
-    <link href="/"/>
-    <updated>2016-04-20T11:28:27-03:00</updated>
-    <id>/</id>
+    <link href="http://www.phpes.org/atom.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2016-04-21T09:15:11-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Como usar o MongoDB com PHP]]></title>
-            <link href="/blog/2016/04/20/como-usar-o-mongodb-com-php"/>
+            <link href="http://www.phpes.org/blog/2016/04/20/como-usar-o-mongodb-com-php"/>
             <updated>2016-04-20T00:00:00-03:00</updated>
-            <id>/blog/2016/04/20/como-usar-o-mongodb-com-php</id>
+            <id>http://www.phpes.org/blog/2016/04/20/como-usar-o-mongodb-com-php</id>
             <content type="html"><![CDATA[<blockquote>
   <p>Dentre os bancos de dados NoSQL da atualidade um dos mais usados é o MongoDB, seja pela sua eficiência em trabalhar com enormes volumes de dados ou pela sua flexibilidade, algo comum em bancos NoSQL. Abordaremos neste artigo como trabalhar com ele no PHP.</p>
 </blockquote>
@@ -20,9 +20,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[PPM - PHP Process Manager]]></title>
-            <link href="/blog/2016/04/19/ppm-php-process-manager"/>
+            <link href="http://www.phpes.org/blog/2016/04/19/ppm-php-process-manager"/>
             <updated>2016-04-19T00:00:00-03:00</updated>
-            <id>/blog/2016/04/19/ppm-php-process-manager</id>
+            <id>http://www.phpes.org/blog/2016/04/19/ppm-php-process-manager</id>
             <content type="html"><![CDATA[<p>PHP-PM é um gerenciador de processo, supercharger e load balancer para aplicações PHP que chega a ser 15 vezes mais rápidos do uma aplicação PHP tradicional.</p>
 
 <blockquote>
@@ -34,9 +34,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Aplicação Symfony como HTTP Server]]></title>
-            <link href="/blog/2016/04/18/aplicacao-symfony-como-http-server"/>
+            <link href="http://www.phpes.org/blog/2016/04/18/aplicacao-symfony-como-http-server"/>
             <updated>2016-04-18T00:00:00-03:00</updated>
-            <id>/blog/2016/04/18/aplicacao-symfony-como-http-server</id>
+            <id>http://www.phpes.org/blog/2016/04/18/aplicacao-symfony-como-http-server</id>
             <content type="html"><![CDATA[<p>Tutorial ensinando transformar uma aplicação Symfony em um servidor HTTP pronto para executar, e sem necessidade servidor adicional como por exemplo NGINX e/ou Apache2, utilizando a biblioteca ReactPHP.</p>
 
 <blockquote>
@@ -52,9 +52,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[PHP must watch]]></title>
-            <link href="/blog/2016/04/14/php-must-watch"/>
+            <link href="http://www.phpes.org/blog/2016/04/14/php-must-watch"/>
             <updated>2016-04-14T00:00:00-03:00</updated>
-            <id>/blog/2016/04/14/php-must-watch</id>
+            <id>http://www.phpes.org/blog/2016/04/14/php-must-watch</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/phptodayorg/php-must-watch">PHP must watch</a> é um repositório contendo uma lista de conferências sobre PHP:</p>
 
 <blockquote>
@@ -64,9 +64,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Conferência PHP em Porto Alegre]]></title>
-            <link href="/blog/2016/04/13/conferencia-php-em-porto-alegre"/>
+            <link href="http://www.phpes.org/blog/2016/04/13/conferencia-php-em-porto-alegre"/>
             <updated>2016-04-13T00:00:00-03:00</updated>
-            <id>/blog/2016/04/13/conferencia-php-em-porto-alegre</id>
+            <id>http://www.phpes.org/blog/2016/04/13/conferencia-php-em-porto-alegre</id>
             <content type="html"><![CDATA[<blockquote>
   <p>Está chegando o grande dia da Conferência PHP do Rio Grande do Sul, organizada pelo PHPRS.</p>
   
@@ -80,9 +80,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[12º Fórum Espírito Livre]]></title>
-            <link href="/blog/2016/04/12/12-forum-espirito-livre"/>
+            <link href="http://www.phpes.org/blog/2016/04/12/12-forum-espirito-livre"/>
             <updated>2016-04-12T00:00:00-03:00</updated>
-            <id>/blog/2016/04/12/12-forum-espirito-livre</id>
+            <id>http://www.phpes.org/blog/2016/04/12/12-forum-espirito-livre</id>
             <content type="html"><![CDATA[<p>Nos dias 4, 5 e 6 de maio acontecerá o <a href="http://forum.espiritolivre.org/12ed/">12º Fórum Espírito Livre</a> em Vila Velha, Espírito Santo.</p>
 
 <blockquote>
@@ -94,9 +94,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Imagine]]></title>
-            <link href="/blog/2016/04/11/imagine"/>
+            <link href="http://www.phpes.org/blog/2016/04/11/imagine"/>
             <updated>2016-04-11T00:00:00-03:00</updated>
-            <id>/blog/2016/04/11/imagine</id>
+            <id>http://www.phpes.org/blog/2016/04/11/imagine</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/avalanche123/Imagine">Imagine</a> é uma biblioteca OOP de manipulação de imagem com implementações para as extensões GD2, Imagick e Gmagick. Com a Imagine é possível redimensionar, criar thumbnail, adicionar marca d'água, efeitos, etc.</p>
 
 <p>Exemplo:</p>
@@ -125,9 +125,9 @@ $imagine-&gt;open('/path/to/large_image.jpg')
         </entry>
             <entry>
             <title type="html"><![CDATA[PHP-FFMpeg]]></title>
-            <link href="/blog/2016/04/08/php-ffmpeg"/>
+            <link href="http://www.phpes.org/blog/2016/04/08/php-ffmpeg"/>
             <updated>2016-04-08T00:00:00-03:00</updated>
-            <id>/blog/2016/04/08/php-ffmpeg</id>
+            <id>http://www.phpes.org/blog/2016/04/08/php-ffmpeg</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/PHP-FFMpeg/PHP-FFMpeg">PHP-FFMpeg</a> é um projeto que representa de forma orientada a objetos (OOP) a biblioteca ffmpeg/avconv, facilitando a manipulação de arquivos de áudio e vídeo.</p>
 
 <blockquote>
@@ -154,9 +154,9 @@ $video
         </entry>
             <entry>
             <title type="html"><![CDATA[PHP GUI]]></title>
-            <link href="/blog/2016/04/07/php-gui"/>
+            <link href="http://www.phpes.org/blog/2016/04/07/php-gui"/>
             <updated>2016-04-07T00:00:00-03:00</updated>
-            <id>/blog/2016/04/07/php-gui</id>
+            <id>http://www.phpes.org/blog/2016/04/07/php-gui</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/gabrielrcouto/php-gui">PHP-GUI</a> é um projeto experimental que permite criar programas com interface gráfica nativa do desktop do usuário sem a necessidade de extensões adicionais.</p>
 
 <blockquote>
@@ -168,9 +168,9 @@ $video
         </entry>
             <entry>
             <title type="html"><![CDATA[PHP Terminal GameBoy Emulator]]></title>
-            <link href="/blog/2016/04/06/php-terminal-gameboy-emulator"/>
+            <link href="http://www.phpes.org/blog/2016/04/06/php-terminal-gameboy-emulator"/>
             <updated>2016-04-06T00:00:00-03:00</updated>
-            <id>/blog/2016/04/06/php-terminal-gameboy-emulator</id>
+            <id>http://www.phpes.org/blog/2016/04/06/php-terminal-gameboy-emulator</id>
             <content type="html"><![CDATA[<p>Para responder a pergunta do que dá para fazer utilizando PHP, surge o projeto de um emulador de GameBoy via terminal.</p>
 
 <blockquote>
