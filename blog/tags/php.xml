@@ -3,9 +3,21 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/blog/tags/php.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2016-04-21T09:15:11-03:00</updated>
+    <updated>2016-04-25T14:43:25-03:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[PuPHPet]]></title>
+            <link href="http://www.phpes.org/blog/2016/04/25/puphpet"/>
+            <updated>2016-04-25T00:00:00-03:00</updated>
+            <id>http://www.phpes.org/blog/2016/04/25/puphpet</id>
+            <content type="html"><![CDATA[<p><a href="https://puphpet.com/">Puphpet</a> é uma ferramenta gráfica para gerar configuração de máquinas virtuais para o desenvolvimento web. Suporta Vagrant e Puppet.</p>
+
+<blockquote>
+  <p>A simple GUI to set up virtual machines for Web development.</p>
+</blockquote>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Como usar o MongoDB com PHP]]></title>
             <link href="http://www.phpes.org/blog/2016/04/20/como-usar-o-mongodb-com-php"/>
@@ -168,20 +180,6 @@ $video
 </blockquote>
 
 <p>Fonte: <a href="https://github.com/gabrielrcouto/php-terminal-gameboy-emulator/">https://github.com/gabrielrcouto/php-terminal-gameboy-emulator/</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Natika Forum system]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/05/natika-forum-system"/>
-            <updated>2016-04-05T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/05/natika-forum-system</id>
-            <content type="html"><![CDATA[<p>Sistema simples de fórum escrito em PHP voltado para desenvolvedores e integrado com autenticação via redes sociais (Social Login).</p>
-
-<blockquote>
-  <p>Simple PHP Forum system for developers.</p>
-</blockquote>
-
-<p>Fonte: <a href="http://natika.windwalker.io/">http://natika.windwalker.io/</a></p>
 ]]></content>
         </entry>
     </feed>
