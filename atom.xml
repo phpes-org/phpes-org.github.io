@@ -3,9 +3,23 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/atom.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2016-04-25T14:43:25-03:00</updated>
+    <updated>2016-04-26T11:30:32-03:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Pagekit CMS]]></title>
+            <link href="http://www.phpes.org/blog/2016/04/26/pagekit-cms"/>
+            <updated>2016-04-26T00:00:00-03:00</updated>
+            <id>http://www.phpes.org/blog/2016/04/26/pagekit-cms</id>
+            <content type="html"><![CDATA[<p>Divulgado hoje no blog do Symfony o novo CMS <a href="https://pagekit.com/">PageKit</a>, que tem o código-fonte aberto e é construído utilizando os components do Symfony. Segundo definição do site do projeto, o PageKit é um CMS moderno, intuitivo, modular, e flexível.</p>
+
+<blockquote>
+  <p>Pagekit is an Open Source CMS built with several Symfony Components. Recently we had the opportunity to meet with Jan Schönherr, one of its lead developers, and we talked with him about Symfony and Pagekit.</p>
+</blockquote>
+
+<p>Fonte: <a href="http://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components">http://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[PuPHPet]]></title>
             <link href="http://www.phpes.org/blog/2016/04/25/puphpet"/>
@@ -162,20 +176,6 @@ $video
     -&gt;save(new FFMpeg\Format\Video\WMV(), 'export-wmv.wmv')
     -&gt;save(new FFMpeg\Format\Video\WebM(), 'export-webm.webm');
 </code></pre>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[PHP GUI]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/07/php-gui"/>
-            <updated>2016-04-07T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/07/php-gui</id>
-            <content type="html"><![CDATA[<p><a href="https://github.com/gabrielrcouto/php-gui">PHP-GUI</a> é um projeto experimental que permite criar programas com interface gráfica nativa do desktop do usuário sem a necessidade de extensões adicionais.</p>
-
-<blockquote>
-  <p>PHP can be more than a "Web Language", it's a fast language, with a cross platform interpreter and a good CLI. GUI is a natural step for completing this ecosystem.</p>
-  
-  <p>For many years, GUI projects are being developed for PHP, like PHP-GTK, PHP-QT, wxPHP and so many others, but none of them became popular.</p>
-</blockquote>
 ]]></content>
         </entry>
     </feed>
