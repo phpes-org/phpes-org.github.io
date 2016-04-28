@@ -55,6 +55,40 @@
             <div class="col-md-9">
                     <article>
         <header>
+            <h2><a href="http://www.phpes.org/blog/2016/04/28/jobby">Jobby</a></h2>
+        </header>
+        <div>
+            <p>Com <a href="https://github.com/jobbyphp/jobby">Jobby</a> você gerencia os jobs através do PHP sem necessidade de alterar a crontab.</p>
+
+<blockquote>
+  <p>Install the master jobby cron job, and it will manage all your offline tasks. Add jobs without modifying crontab. Jobby can handle logging, locking, error emails and more.</p>
+</blockquote>
+
+<p>Basta apenas uma entrada principal na crontab.</p>
+
+<pre><code>* * * * * cd /path/to/project &amp;&amp; php jobby.php 1&gt;&gt; /dev/null 2&gt;&amp;1
+</code></pre>
+
+<p>Funcionalidades:</p>
+
+<ul>
+<li>Maintain one master crontab job.</li>
+<li>Jobs run via PHP, so you can run them under any programmatic conditions.</li>
+<li>Use ordinary crontab schedule syntax (powered by the excellent cron-expression).</li>
+<li>Run only one copy of a job at a given time.</li>
+<li>Send email whenever a job exits with an error status.</li>
+<li>Run job as another user, if crontab user has sudo privileges.</li>
+<li>Run only on certain hostnames (handy in webfarms).</li>
+<li>Theoretical Windows support (but not ever tested)</li>
+</ul>
+
+        </div>
+                    <p class="tags">
+            Tags:
+                        <a href="http://www.phpes.org/blog/tags/php">php</a>,                         <a href="http://www.phpes.org/blog/tags/cron">cron</a>,                         <a href="http://www.phpes.org/blog/tags/job">job</a>,                         <a href="http://www.phpes.org/blog/tags/jobby">jobby</a>                        </p>
+            </article>
+    <article>
+        <header>
             <h2><a href="http://www.phpes.org/blog/2016/04/26/pagekit-cms">Pagekit CMS</a></h2>
         </header>
         <div>
@@ -231,39 +265,6 @@ $imagine-&gt;open('/path/to/large_image.jpg')
                     <p class="tags">
             Tags:
                         <a href="http://www.phpes.org/blog/tags/php">php</a>,                         <a href="http://www.phpes.org/blog/tags/imagine">imagine</a>,                         <a href="http://www.phpes.org/blog/tags/gd2">gd2</a>,                         <a href="http://www.phpes.org/blog/tags/imagick">imagick</a>,                         <a href="http://www.phpes.org/blog/tags/gmagick">gmagick</a>                        </p>
-            </article>
-    <article>
-        <header>
-            <h2><a href="http://www.phpes.org/blog/2016/04/08/php-ffmpeg">PHP-FFMpeg</a></h2>
-        </header>
-        <div>
-            <p><a href="https://github.com/PHP-FFMpeg/PHP-FFMpeg">PHP-FFMpeg</a> é um projeto que representa de forma orientada a objetos (OOP) a biblioteca ffmpeg/avconv, facilitando a manipulação de arquivos de áudio e vídeo.</p>
-
-<blockquote>
-  <p>This library requires a working FFMpeg install. You will need both FFMpeg and FFProbe binaries to use it. Be sure that these binaries can be located with system PATH to get the benefit of the binary detection, otherwise you should have to explicitely give the binaries path on load.</p>
-</blockquote>
-
-<p>Exemplo:</p>
-
-<pre><code>$ffmpeg = FFMpeg\FFMpeg::create();
-$video = $ffmpeg-&gt;open('video.mpg');
-$video
-    -&gt;filters()
-    -&gt;resize(new FFMpeg\Coordinate\Dimension(320, 240))
-    -&gt;synchronize();
-$video
-    -&gt;frame(FFMpeg\Coordinate\TimeCode::fromSeconds(10))
-    -&gt;save('frame.jpg');
-$video
-    -&gt;save(new FFMpeg\Format\Video\X264(), 'export-x264.mp4')
-    -&gt;save(new FFMpeg\Format\Video\WMV(), 'export-wmv.wmv')
-    -&gt;save(new FFMpeg\Format\Video\WebM(), 'export-webm.webm');
-</code></pre>
-
-        </div>
-                    <p class="tags">
-            Tags:
-                        <a href="http://www.phpes.org/blog/tags/php">php</a>,                         <a href="http://www.phpes.org/blog/tags/ffmpeg">ffmpeg</a>,                         <a href="http://www.phpes.org/blog/tags/avconv">avconv</a>                        </p>
             </article>
     <nav>
         <ul class="pager">
