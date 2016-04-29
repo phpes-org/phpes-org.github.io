@@ -3,9 +3,23 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/blog/tags/symfony.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2016-04-28T09:04:19-03:00</updated>
+    <updated>2016-04-29T13:10:08-03:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Awesome Symfony]]></title>
+            <link href="http://www.phpes.org/blog/2016/04/29/awesome-symfony"/>
+            <updated>2016-04-29T00:00:00-03:00</updated>
+            <id>http://www.phpes.org/blog/2016/04/29/awesome-symfony</id>
+            <content type="html"><![CDATA[<p>Coletânea com bundles, utilitários e recursos para desenvolvimento utilizando o framework Symfony.</p>
+
+<blockquote>
+  <p>A list of awesome Symfony bundles, utilities and resources.</p>
+</blockquote>
+
+<p>Fonte: <a href="https://github.com/sitepoint/awesome-symfony">https://github.com/sitepoint/awesome-symfony</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Pagekit CMS]]></title>
             <link href="http://www.phpes.org/blog/2016/04/26/pagekit-cms"/>
