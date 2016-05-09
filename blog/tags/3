@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Posts Archive &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
+        <title>Tag Archive "php" &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
         <meta charset="utf-8">
         <meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <meta name="robots" content="noindex, follow">
-            <meta property="og:url" content="http://www.phpes.org" />
-            <meta property="og:title" content="PHP-ES" />
-            <meta property="og:description" content="PHP Espírito Santo" />
-            <meta property="og:image" content="http://www.phpes.orgimages/og-image.png" />
-        
+            <link rel="alternate" type="application/atom+xml" href="http://www.phpes.org/blog/tags/php.xml" title="PHP-ES 'php' tag feed" />
+    <meta name="robots" content="noindex, follow">
+
         <link rel="stylesheet" href="http://www.phpes.org/css/bootstrap.css">
         <link rel="stylesheet" href="http://www.phpes.org/css/custom.min.css">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
@@ -53,45 +50,18 @@
         </header>
         <div class="container">
             <div class="col-md-9">
-                
-<h2>Arquivo</h2>
-        <h3>Maio 2016</h3>
-  <div>
-    <a href="http://www.phpes.org/blog/2016/05/09/deptrac">Deptrac</a>
-  </div>
-  <div>
-    <a href="http://www.phpes.org/blog/2016/05/03/nfephp">NFePHP</a>
-  </div>
-  <div>
-    <a href="http://www.phpes.org/blog/2016/05/02/piwik">Piwik</a>
-  </div>
-  <div>
-    <a href="http://www.phpes.org/blog/2016/04/29/awesome-symfony">Awesome Symfony</a>
-  </div>
-  <div>
-    <a href="http://www.phpes.org/blog/2016/04/28/jobby">Jobby</a>
-  </div>
-  <div>
-    <a href="http://www.phpes.org/blog/2016/04/26/pagekit-cms">Pagekit CMS</a>
-  </div>
-  <div>
-    <a href="http://www.phpes.org/blog/2016/04/25/puphpet">PuPHPet</a>
-  </div>
-  <div>
-    <a href="http://www.phpes.org/blog/2016/04/20/como-usar-o-mongodb-com-php">Como usar o MongoDB com PHP</a>
-  </div>
-  <div>
-    <a href="http://www.phpes.org/blog/2016/04/19/ppm-php-process-manager">PPM - PHP Process Manager</a>
-  </div>
-  <div>
-    <a href="http://www.phpes.org/blog/2016/04/18/aplicacao-symfony-como-http-server">Aplicação Symfony como HTTP Server</a>
-  </div>
+                <h2>"php"</h2>
+        <h3>March 2016</h3>
+<article>
+  <div><a href="http://www.phpes.org/blog/2016/03/29/awesome-php">Awesome PHP</a></div>
+</article>
 
 <div>
     <nav class="article clearfix">
-            <a class="next" href="http://www.phpes.org/blog/page/2.html" title="Next Page"><span class="title">Next Page</span></a>
-        </nav>
-</div>            </div>
+        <a class="previous" href="http://www.phpes.org/blog/tags/2" title="Previous Page"><span class="title">Previous Page</span></a>
+            </nav>
+</div>
+            </div>
             <div class="col-md-3">
                 <div class="feature">
                     <h4>
