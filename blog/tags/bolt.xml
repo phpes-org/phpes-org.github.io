@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/cms.xml" rel="self"/>
+    <link href="http://www.phpes.org/blog/tags/bolt.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
     <updated>2016-05-11T17:51:46-03:00</updated>
     <id>http://www.phpes.org/</id>
@@ -18,20 +18,6 @@
 </blockquote>
 
 <p>Fonte: <a href="https://bolt.cm/newsitem/bolt-3-0-0-stable-released">https://bolt.cm/newsitem/bolt-3-0-0-stable-released</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Pagekit CMS]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/26/pagekit-cms"/>
-            <updated>2016-04-26T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/26/pagekit-cms</id>
-            <content type="html"><![CDATA[<p>Divulgado hoje no blog do Symfony o novo CMS <a href="https://pagekit.com/">PageKit</a>, que tem o código-fonte aberto e é construído utilizando os components do Symfony. Segundo definição do site do projeto, o PageKit é um CMS moderno, intuitivo, modular, e flexível.</p>
-
-<blockquote>
-  <p>Pagekit is an Open Source CMS built with several Symfony Components. Recently we had the opportunity to meet with Jan Schönherr, one of its lead developers, and we talked with him about Symfony and Pagekit.</p>
-</blockquote>
-
-<p>Fonte: <a href="http://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components">http://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components</a></p>
 ]]></content>
         </entry>
     </feed>
