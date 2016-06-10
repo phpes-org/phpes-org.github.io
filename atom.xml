@@ -3,9 +3,25 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/atom.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2016-06-05T16:19:57-03:00</updated>
+    <updated>2016-06-10T16:16:10-03:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[PHP 7.1 Alpha]]></title>
+            <link href="http://www.phpes.org/blog/2016/06/10/php-71-alpha"/>
+            <updated>2016-06-10T00:00:00-03:00</updated>
+            <id>http://www.phpes.org/blog/2016/06/10/php-71-alpha</id>
+            <content type="html"><![CDATA[<p>Ontem foi lançada a primeira versão alpha do PHP 7.1.0.</p>
+
+<blockquote>
+  <p>The PHP development team announces the immediate availability of PHP 7.1.0 Alpha 1. This release marks the beginning of the first minor release in the PHP 7.x series. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system.</p>
+</blockquote>
+
+<p>Lembrando sempre que é uma versão prévia e que não deve ser utilizada em produção.</p>
+
+<p>Fonte: <a href="http://php.net/archive/2016.php#id2016-06-09-1">http://php.net/archive/2016.php#id2016-06-09-1</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Mudanças PHP 7.1]]></title>
             <link href="http://www.phpes.org/blog/2016/05/18/mudancas-php-7-1"/>
@@ -227,18 +243,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
 <blockquote>
   <p>A simple GUI to set up virtual machines for Web development.</p>
 </blockquote>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Como usar o MongoDB com PHP]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/20/como-usar-o-mongodb-com-php"/>
-            <updated>2016-04-20T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/20/como-usar-o-mongodb-com-php</id>
-            <content type="html"><![CDATA[<blockquote>
-  <p>Dentre os bancos de dados NoSQL da atualidade um dos mais usados é o MongoDB, seja pela sua eficiência em trabalhar com enormes volumes de dados ou pela sua flexibilidade, algo comum em bancos NoSQL. Abordaremos neste artigo como trabalhar com ele no PHP.</p>
-</blockquote>
-
-<p>Fonte: <a href="https://blog.butecopensource.org/como-usar-o-mongodb-com-php/">https://blog.butecopensource.org/como-usar-o-mongodb-com-php/</a></p>
 ]]></content>
         </entry>
     </feed>
