@@ -3,9 +3,19 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/atom.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2016-06-10T16:16:10-03:00</updated>
+    <updated>2016-06-30T15:13:47-03:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Zend Framework 3 Lançado]]></title>
+            <link href="http://www.phpes.org/blog/2016/06/30/zend-framework-3-lancado"/>
+            <updated>2016-06-30T00:00:00-03:00</updated>
+            <id>http://www.phpes.org/blog/2016/06/30/zend-framework-3-lancado</id>
+            <content type="html"><![CDATA[<p>Dia 28 foi anunciado no blog oficial do Zend Framework o lançamento da versão 3. Agora seguindo a <a href="http://www.php-fig.org/psr/psr-7/">PSR-7</a> e compatível com PHP 7.0.</p>
+
+<p>Fonte: <a href="https://framework.zend.com/blog/2016-06-28-zend-framework-3.html">https://framework.zend.com/blog/2016-06-28-zend-framework-3.html</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[PHP 7.1 Alpha]]></title>
             <link href="http://www.phpes.org/blog/2016/06/10/php-71-alpha"/>
@@ -231,18 +241,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
 </blockquote>
 
 <p>Fonte: <a href="http://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components">http://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[PuPHPet]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/25/puphpet"/>
-            <updated>2016-04-25T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/25/puphpet</id>
-            <content type="html"><![CDATA[<p><a href="https://puphpet.com/">Puphpet</a> é uma ferramenta gráfica para gerar configuração de máquinas virtuais para o desenvolvimento web. Suporta Vagrant e Puppet.</p>
-
-<blockquote>
-  <p>A simple GUI to set up virtual machines for Web development.</p>
-</blockquote>
 ]]></content>
         </entry>
     </feed>
