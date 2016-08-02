@@ -3,9 +3,21 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/blog/tags/symfony.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2016-06-30T15:13:47-03:00</updated>
+    <updated>2016-08-02T12:37:00-03:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Symfony 3 Slides]]></title>
+            <link href="http://www.phpes.org/blog/2016/08/02/symfony-3-slides"/>
+            <updated>2016-08-02T00:00:00-03:00</updated>
+            <id>http://www.phpes.org/blog/2016/08/02/symfony-3-slides</id>
+            <content type="html"><![CDATA[<p>Está disponível na Internet a minha apresentação do curso Symfony 3 (40 horas) que ministrei na Mindworks.</p>
+
+<p>Caso tenha interesse em participar do treinamento basta entrar em contato pelo do site da <a href="http://www.mindworks.com.br/">Mindworks</a> e ver disponibilidade de novas turmas.</p>
+
+<p>Sides: <a href="http://slides.com/rogeriolino/symfony-3">http://slides.com/rogeriolino/symfony-3</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Awesome Symfony]]></title>
             <link href="http://www.phpes.org/blog/2016/04/29/awesome-symfony"/>
