@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Symfony 3 Slides &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
+        <title>Crunz &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
         <meta charset="utf-8">
         <meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,8 @@
             <meta name="robots" content="index, follow">
 
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://www.phpes.org/blog/2016/08/02/symfony-3-slides" />
-    <meta property="og:title" content="Symfony 3 Slides" />
+    <meta property="og:url" content="http://www.phpes.org/blog/2016/08/31/crunz" />
+    <meta property="og:title" content="Crunz" />
     <meta property="og:description" content="PHP Espírito Santo" />
     <meta property="og:image" content="http://www.phpes.org/images/og-image.png" />
 
@@ -60,39 +60,47 @@
             <div class="col-md-9">
                     <article class="post">
         <header>
-            <h2>Symfony 3 Slides <small>post</small></h2>
+            <h2>Crunz <small>post</small></h2>
                             <p class="author">
                     Por <a href="http://github.com/rogeriolino">Rogério Lino</a>
                 </p>
                     </header>
         <div>
-            <p>Está disponível na Internet a minha apresentação do curso Symfony 3 (40 horas) que ministrei na Mindworks.</p>
+            <p><a href="https://github.com/lavary/crunz">Crunz</a> é um agendador de tarefas periódicas escrito em PHP. Possibilitando configurar as tarefas a serem executadas através de uma API fluente.</p>
 
-<p>Caso tenha interesse em participar do treinamento basta entrar em contato pelo do site da <a href="http://www.mindworks.com.br/">Mindworks</a> e ver disponibilidade de novas turmas.</p>
+<pre><code class="php">&lt;?php
 
-<p>Sides: <a href="http://slides.com/rogeriolino/symfony-3">http://slides.com/rogeriolino/symfony-3</a></p>
+use Crunz\Schedule;
+
+$schedule = new Schedule();
+$schedule-&gt;run('cp project project-bk')       
+         -&gt;daily()
+
+return $schedule;
+</code></pre>
+
+<p>E por fim adicionar uma única entrada na crontab para para executar o Crunz a cada minuto:</p>
+
+<pre><code>* * * * * /project/vendor/bin/crunz schedule:run
+</code></pre>
+
+<p>Para visualizar maiores informações sobre a biblioteca é só acessar a <a href="https://github.com/lavary/crunz">página do projeto no Github</a>.</p>
 
         </div>
         <hr />
                     <p class="tags">
             Tags:
-                        <a href="http://www.phpes.org/blog/tags/symfony">symfony</a>,                         <a href="http://www.phpes.org/blog/tags/slides">slides</a>,                         <a href="http://www.phpes.org/blog/tags/curso">curso</a>                        </p>
+                        <a href="http://www.phpes.org/blog/tags/crunz">crunz</a>,                         <a href="http://www.phpes.org/blog/tags/cron">cron</a>,                         <a href="http://www.phpes.org/blog/tags/job">job</a>                        </p>
         
                     <nav class="article">
                 <ul class="pager">
                                             <li>
-                            <a href="http://www.phpes.org/blog/2016/06/30/zend-framework-3-lancado" title="Zend Framework 3 Lançado">
+                            <a href="http://www.phpes.org/blog/2016/08/02/symfony-3-slides" title="Symfony 3 Slides">
                                 &laquo;
                                 Anterior
                             </a>
                         </li>
-                                                                <li>
-                            <a href="http://www.phpes.org/blog/2016/08/31/crunz" title="Crunz">
-                                Próximo
-                                &raquo;
-                            </a>
-                        </li>
-                                    </ul>
+                                                        </ul>
             </nav>
             </article>
 
@@ -101,7 +109,7 @@
     <script>
     var disqus_shortname = 'phpes';
     var disqus_config = function () {
-        this.page.url = "http://www.phpes.org/blog/2016/08/02/symfony-3-slides";
+        this.page.url = "http://www.phpes.org/blog/2016/08/31/crunz";
     };
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
