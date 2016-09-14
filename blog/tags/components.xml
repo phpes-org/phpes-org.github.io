@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[PHP-ES]]></title>
+    <link href="http://www.phpes.org/blog/tags/components.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2016-09-14T14:20:55-03:00</updated>
+    <id>http://www.phpes.org/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Symfony 500million]]></title>
+            <link href="http://www.phpes.org/blog/2016/09/14/symfony-500million"/>
+            <updated>2016-09-14T00:00:00-03:00</updated>
+            <id>http://www.phpes.org/blog/2016/09/14/symfony-500million</id>
+            <content type="html"><![CDATA[<p>Desde o lançamento do Symfony 2.0 (28 de julho de 2011) os pacotes dos componentes do framework já foram baixados mais de 480 milhões de vezes. E para acompanhar essa marca chegar a 500mi foi lançada uma página com o contador de downloads (apenas downloads via Composer):</p>
+
+<p><a href="https://symfony.com/500million">https://symfony.com/500million</a></p>
+
+<p>De acordo com a página, seguindo a taxa de download atual, a marca de 500 milhões de downloads será alcançada no dia 26 deste mês às 06h34 (horário de Brasília).</p>
+
+<p>E as melhores fotos publicadas no Twitter com a hashtag <code>#500million</code> serão premiadas (<a href="http://symfony.com/blog/the-road-to-500-million-symfony-downloads">conforme publicação no blog oficial</a>).</p>
+
+<p>Fonte: <a href="http://symfony.com/blog/the-road-to-500-million-symfony-downloads">http://symfony.com/blog/the-road-to-500-million-symfony-downloads</a></p>
+]]></content>
+        </entry>
+    </feed>

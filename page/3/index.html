@@ -58,6 +58,41 @@
             <div class="col-md-9">
                     <article>
         <header>
+            <h2><a href="http://www.phpes.org/blog/2016/04/11/imagine">Imagine</a></h2>
+        </header>
+        <div>
+            <p><a href="https://github.com/avalanche123/Imagine">Imagine</a> é uma biblioteca OOP de manipulação de imagem com implementações para as extensões GD2, Imagick e Gmagick. Com a Imagine é possível redimensionar, criar thumbnail, adicionar marca d'água, efeitos, etc.</p>
+
+<p>Exemplo:</p>
+
+<pre><code>&lt;?php
+
+$imagine = new Imagine\Gd\Imagine();
+// or
+$imagine = new Imagine\Imagick\Imagine();
+// or
+$imagine = new Imagine\Gmagick\Imagine();
+
+$size    = new Imagine\Image\Box(40, 40);
+
+$mode    = Imagine\Image\ImageInterface::THUMBNAIL_INSET;
+// or
+$mode    = Imagine\Image\ImageInterface::THUMBNAIL_OUTBOUND;
+
+$imagine-&gt;open('/path/to/large_image.jpg')
+    -&gt;thumbnail($size, $mode)
+    -&gt;save('/path/to/thumbnail.png')
+</code></pre>
+
+<p>Documentação: <a href="http://imagine.readthedocs.org/en/latest/">http://imagine.readthedocs.org/en/latest/</a></p>
+
+        </div>
+                    <p class="tags">
+            Tags:
+                        <a href="http://www.phpes.org/blog/tags/php">php</a>,                         <a href="http://www.phpes.org/blog/tags/imagine">imagine</a>,                         <a href="http://www.phpes.org/blog/tags/gd2">gd2</a>,                         <a href="http://www.phpes.org/blog/tags/imagick">imagick</a>,                         <a href="http://www.phpes.org/blog/tags/gmagick">gmagick</a>                        </p>
+            </article>
+    <article>
+        <header>
             <h2><a href="http://www.phpes.org/blog/2016/04/08/php-ffmpeg">PHP-FFMpeg</a></h2>
         </header>
         <div>
@@ -235,24 +270,14 @@ $video
             Tags:
                         <a href="http://www.phpes.org/blog/tags/php">php</a>,                         <a href="http://www.phpes.org/blog/tags/awesome">awesome</a>                        </p>
             </article>
-    <article>
-        <header>
-            <h2><a href="http://www.phpes.org/blog/2016/03/28/blog">Blog</a></h2>
-        </header>
-        <div>
-            <p>Esse blog foi criado para deixar o site do PHP-ES mais dinâmico. Através desse espaço vamos publicar links, dicas e tutoriais sobre PHP e desenvolvimento web.</p>
-
-<p>Utilizando o projeto escrito em PHP <a href="https://sculpin.io/">Sculpin</a> todo o site é gerado a partir de arquivos estáticos. Dessa forma continua hospedado no próprio Github.</p>
-
-<p>Por enquanto é só, até o próximo post!</p>
-
-        </div>
-                    <p class="tags">
-            Tags:
-                        <a href="http://www.phpes.org/blog/tags/blog">blog</a>,                         <a href="http://www.phpes.org/blog/tags/sculpin">sculpin</a>                        </p>
-            </article>
     <nav>
         <ul class="pager">
+                            <li>
+                    <a href="http://www.phpes.org/page/4">
+                        Posts antigos
+                        &raquo;
+                    </a>
+                </li>
                                         <li>
                     <a href="http://www.phpes.org/page/2">
                         &laquo;
