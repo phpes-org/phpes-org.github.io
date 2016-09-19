@@ -3,9 +3,27 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/atom.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2016-09-14T14:20:55-03:00</updated>
+    <updated>2016-09-19T17:31:40-03:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Design Patterns PHP]]></title>
+            <link href="http://www.phpes.org/blog/2016/09/19/design-patterns-php"/>
+            <updated>2016-09-19T00:00:00-03:00</updated>
+            <id>http://www.phpes.org/blog/2016/09/19/design-patterns-php</id>
+            <content type="html"><![CDATA[<blockquote>
+  <p>Esta é uma coleção de padrões de projetos conhecidos e alguns códigos de exemplo de como implementá-los em PHP. Todo padrão tem uma pequena lista de exemplos (muitos deles vindos do Zend Framework, Symfony2 ou Doctrine2 já que tenho mais familiaridade com eles</p>
+  
+  <p>Eu acredito que o problema com os padrões é que muitas pessoas os conhecem mas não sabem quando aplicá-los</p>
+</blockquote>
+
+<ul>
+<li>Original (en): <a href="http://designpatternsphp.readthedocs.io/">DesignPatternsPHP</a></li>
+<li>Português (pt_BR): <a href="http://designpatternsphp.readthedocs.io/pt_BR/latest/README.html">DesignPatternsPHP</a></li>
+<li>Código-fonte: <a href="https://github.com/domnikl/DesignPatternsPHP">Github</a></li>
+</ul>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Symfony 500million]]></title>
             <link href="http://www.phpes.org/blog/2016/09/14/symfony-500million"/>
@@ -223,20 +241,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
 </blockquote>
 
 <p>Fonte: <a href="https://github.com/nfephp-org/nfephp">https://github.com/nfephp-org/nfephp</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Piwik]]></title>
-            <link href="http://www.phpes.org/blog/2016/05/02/piwik"/>
-            <updated>2016-05-02T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/05/02/piwik</id>
-            <content type="html"><![CDATA[<p><a href="http://piwik.org/">Piwik</a> é uma alternativa opensource ao Google Analytics, escrito em PHP e que utiliza MySQL como base de dados.</p>
-
-<blockquote>
-  <p>Piwik is a full featured PHP MySQL software program that you download and install on your own webserver. At the end of the five minute installation process you will be given a JavaScript code. Simply copy and paste this tag on websites you wish to track and access your analytics reports in real time.</p>
-  
-  <p>Piwik aims to be a Free software alternative to Google Analytics, and is already used on more than 1,000,000 websites. Privacy is built-in!</p>
-</blockquote>
 ]]></content>
         </entry>
     </feed>
