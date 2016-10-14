@@ -3,9 +3,19 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/atom.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2016-09-19T17:31:40-03:00</updated>
+    <updated>2016-10-14T18:25:53-03:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Dontbug debugger]]></title>
+            <link href="http://www.phpes.org/blog/2016/10/14/dontbug-debugger"/>
+            <updated>2016-10-14T00:00:00-03:00</updated>
+            <id>http://www.phpes.org/blog/2016/10/14/dontbug-debugger</id>
+            <content type="html"><![CDATA[<p><a href="https://github.com/sidkshatriya/dontbug">Dontbug debugger</a> permite gravar a execução de scripts PHP e depois visualizar a execução na IDE através do modo debug (tanto a execução normal quanto reversa).</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DA76z77KtY0" frameborder="0" allowfullscreen></iframe>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Design Patterns PHP]]></title>
             <link href="http://www.phpes.org/blog/2016/09/19/design-patterns-php"/>
@@ -228,19 +238,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
 </blockquote>
 
 <p>Fonte: <a href="http://symfony.com/blog/clean-software-architecture-with-deptrac">http://symfony.com/blog/clean-software-architecture-with-deptrac</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[NFePHP]]></title>
-            <link href="http://www.phpes.org/blog/2016/05/03/nfephp"/>
-            <updated>2016-05-03T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/05/03/nfephp</id>
-            <content type="html"><![CDATA[<blockquote>
-  <p>API para comunicação entre o emitente de NFe e os serviços dos SEFAZ estaduais. Inteiramente construído em PHP, roda em qualquer sistema operacional.
-  NFePHP é uma API para gerenciamento das comunicações entre o emitente de NFe e os serviços dos SEFAZ estaduais. Inteiramente construído em PHP para rodar sob qualquer sistema operacional.</p>
-</blockquote>
-
-<p>Fonte: <a href="https://github.com/nfephp-org/nfephp">https://github.com/nfephp-org/nfephp</a></p>
 ]]></content>
         </entry>
     </feed>
