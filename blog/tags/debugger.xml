@@ -3,9 +3,36 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/blog/tags/debugger.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2016-10-14T18:25:54-03:00</updated>
+    <updated>2016-12-02T12:53:38-02:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[PsySH]]></title>
+            <link href="http://www.phpes.org/blog/2016/12/02/psysh"/>
+            <updated>2016-12-02T00:00:00-02:00</updated>
+            <id>http://www.phpes.org/blog/2016/12/02/psysh</id>
+            <content type="html"><![CDATA[<p><a href="http://psysh.org/">PsySH</a> é um console interativo para desenvolvimento PHP muito semelhante ao console do Python.</p>
+
+<blockquote>
+  <p>psysh</p>
+  
+  <p>A runtime developer console, interactive debugger and REPL for PHP.</p>
+</blockquote>
+
+<p>Instalação</p>
+
+<pre><code class="sh">$ wget https://git.io/psysh
+$ chmod +x psysh
+</code></pre>
+
+<p>Uso</p>
+
+<pre><code class="sh">$ ./psysh
+</code></pre>
+
+<p>Após executar o comando <code>psysh</code> iniciará o console interativo. Para saber mais sobre as funcionalidades acesse o site do projeto: <a href="http://psysh.org/#features">http://psysh.org/#features</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Dontbug debugger]]></title>
             <link href="http://www.phpes.org/blog/2016/10/14/dontbug-debugger"/>
