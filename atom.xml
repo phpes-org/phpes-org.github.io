@@ -3,9 +3,28 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/atom.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2016-12-02T12:53:38-02:00</updated>
+    <updated>2017-01-10T14:56:42-02:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Mailer RCE Flaw Vulnerability]]></title>
+            <link href="http://www.phpes.org/blog/2017/01/10/mailer-rce-flaw-vulnerability"/>
+            <updated>2017-01-10T00:00:00-02:00</updated>
+            <id>http://www.phpes.org/blog/2017/01/10/mailer-rce-flaw-vulnerability</id>
+            <content type="html"><![CDATA[<p>No final do ano passado foram encontradas falhas RCE (Remote Code Execution) nas seguintes bibliotecas: PHPMailer (até v5.2.20) SwiftMailer (até v5.4.4) e Zend-mail (até v2.4.10).</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xyYMYvT2bx8" frameborder="0" allowfullscreen></iframe>
+
+<p>Maiores detalhes:</p>
+
+<ul>
+<li>PHPMailer &lt; 5.2.18 Remote Code Execution (CVE-2016-10033)</li>
+<li>PHPMailer &lt; 5.2.20 Remote Code Execution (CVE-2016-10045 / escapeshell bypass)</li>
+<li>SwiftMailer &lt;= 5.4.5-DEV Remote Code Execution (CVE-2016-10074)</li>
+<li>Zend Framework / zend-mail &lt; 2.4.11 - Remote Code Execution (CVE-2016-10034)</li>
+</ul>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[PsySH]]></title>
             <link href="http://www.phpes.org/blog/2016/12/02/psysh"/>
@@ -233,20 +252,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
 <li><a href="https://dotdev.co/upcoming-changes-in-php-7-1-76ebea53b820">https://dotdev.co/upcoming-changes-in-php-7-1-76ebea53b820</a></li>
 <li><a href="https://wiki.php.net/rfc#php_71">https://wiki.php.net/rfc#php_71</a></li>
 </ul>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Bolt CMS]]></title>
-            <link href="http://www.phpes.org/blog/2016/05/11/bolt-cms"/>
-            <updated>2016-05-11T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/05/11/bolt-cms</id>
-            <content type="html"><![CDATA[<p>Lançada a versão 3.0.0 do gerenciador de conteúdo <a href="https://bolt.cm/">Bolt</a> (CMS desenvolvido utilizando <a href="http://silex.sensiolabs.org/">Silex</a> e <a href="http://twig.sensiolabs.org/">Twig</a>, ambos do <a href="http://symfony.com/">Symfony</a>).</p>
-
-<blockquote>
-  <p>Bolt is an open source Content Management Tool, which strives to be as simple and straightforward as possible. It is quick to set up, easy to configure, uses elegant templates, and above all: It’s a joy to use.</p>
-</blockquote>
-
-<p>Fonte: <a href="https://bolt.cm/newsitem/bolt-3-0-0-stable-released">https://bolt.cm/newsitem/bolt-3-0-0-stable-released</a></p>
 ]]></content>
         </entry>
     </feed>
