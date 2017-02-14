@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/interface.xml" rel="self"/>
+    <link href="http://www.phpes.org/blog/tags/middleware.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
     <updated>2017-02-14T13:52:17-02:00</updated>
     <id>http://www.phpes.org/</id>
@@ -24,20 +24,6 @@
 </blockquote>
 
 <p>Visualizar todos os middlewares disponíveis: <a href="http://www.php-middleworld.com/explore">http://www.php-middleworld.com/explore</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[PHP GUI]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/07/php-gui"/>
-            <updated>2016-04-07T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/07/php-gui</id>
-            <content type="html"><![CDATA[<p><a href="https://github.com/gabrielrcouto/php-gui">PHP-GUI</a> é um projeto experimental que permite criar programas com interface gráfica nativa do desktop do usuário sem a necessidade de extensões adicionais.</p>
-
-<blockquote>
-  <p>PHP can be more than a "Web Language", it's a fast language, with a cross platform interpreter and a good CLI. GUI is a natural step for completing this ecosystem.</p>
-  
-  <p>For many years, GUI projects are being developed for PHP, like PHP-GTK, PHP-QT, wxPHP and so many others, but none of them became popular.</p>
-</blockquote>
 ]]></content>
         </entry>
     </feed>

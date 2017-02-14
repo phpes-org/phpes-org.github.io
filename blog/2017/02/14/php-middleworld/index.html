@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Tag Archive "http" &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
+        <title>PHP Middleworld &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
         <meta charset="utf-8">
         <meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="PHP-ES - Grupo de PHP do Espírito Santo">
         <meta name="keywords" content="php, phpes, grupo, espirito santo, php7, dicas, tutoriais, notícias, blog">
 
-            <link rel="alternate" type="application/atom+xml" href="http://www.phpes.org/blog/tags/http.xml" title="PHP-ES 'http' tag feed" />
-    <meta name="robots" content="noindex, follow">
+            <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.phpes.org/blog/2017/02/14/php-middleworld" />
+    <meta property="og:title" content="PHP Middleworld" />
+    <meta property="og:description" content="PHP Espírito Santo" />
+    <meta property="og:image" content="http://www.phpes.org/images/og-image.png" />
 
         <link rel="stylesheet" href="http://www.phpes.org/css/bootstrap.css">
         <link rel="stylesheet" href="http://www.phpes.org/css/custom.min.css">
@@ -53,21 +58,63 @@
         </header>
         <div class="container">
             <div class="col-md-9">
-                <h2>"http"</h2>
-        <h3>February 2017</h3>
-<article>
-  <div><a href="http://www.phpes.org/blog/2017/02/14/php-middleworld">PHP Middleworld</a></div>
-</article>
-        <h3>April 2016</h3>
-<article>
-  <div><a href="http://www.phpes.org/blog/2016/04/19/ppm-php-process-manager">PPM - PHP Process Manager</a></div>
-</article>
-<article>
-  <div><a href="http://www.phpes.org/blog/2016/04/18/aplicacao-symfony-como-http-server">Aplicação Symfony como HTTP Server</a></div>
-</article>
+                    <article class="post">
+        <header>
+            <h2>PHP Middleworld <small>post</small></h2>
+                            <p class="author">
+                    Por <a href="http://github.com/rogeriolino">Rogério Lino</a>
+                </p>
+                    </header>
+        <div>
+            <p><a href="http://www.php-middleworld.com/">PHP Middleworld</a> é um site que facilita a busca por implementações de middleware da <a href="http://www.php-fig.org/psr/psr-7/">PSR-7</a> para serem utilizados em frameworks compatíveis.</p>
 
-<div>
-</div>
+<blockquote>
+  <p>What is middleware?</p>
+  
+  <p>In the realm of web application development Middleware refers to functions wrapped around business logic. They rely upon the decorator pattern and are composed in a sort of layered stack. You could think of them as onion layers, with your business logic residing at the innermost stratum (more on Wikipedia).</p>
+  
+  <p>Several modern PHP frameworks (such as Zend Expressive and Slim) embrace such framework-agnostic, reuse-oriented paradigm, wholly supporting PSR-7 compliant middleware.</p>
+  
+  <p>Goal for PHP Middleworld is collecting all available PSR-7 compliant middleware and provide a unique, consistent repository, encouraging middleware reuse and exchange among PHP developers.</p>
+</blockquote>
+
+<p>Visualizar todos os middlewares disponíveis: <a href="http://www.php-middleworld.com/explore">http://www.php-middleworld.com/explore</a></p>
+
+        </div>
+        <hr />
+                    <p class="tags">
+            Tags:
+                        <a href="http://www.phpes.org/blog/tags/middleware">middleware</a>,                         <a href="http://www.phpes.org/blog/tags/psr-7">psr-7</a>,                         <a href="http://www.phpes.org/blog/tags/interface">interface</a>,                         <a href="http://www.phpes.org/blog/tags/http">http</a>                        </p>
+        
+                    <nav class="article">
+                <ul class="pager">
+                                            <li>
+                            <a href="http://www.phpes.org/blog/2017/01/10/mailer-rce-flaw-vulnerability" title="Mailer RCE Flaw Vulnerability">
+                                &laquo;
+                                Anterior
+                            </a>
+                        </li>
+                                                        </ul>
+            </nav>
+            </article>
+
+
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = 'phpes';
+    var disqus_config = function () {
+        this.page.url = "http://www.phpes.org/blog/2017/02/14/php-middleworld";
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+
+    s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+
             </div>
             <div class="col-md-3">
                 <div class="feature">
