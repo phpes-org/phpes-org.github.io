@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/imagick.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2017-05-08T15:56:00-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="http://localhost:8000/blog/tags/imagick.xml" rel="self"/>
+    <link href="http://localhost:8000/"/>
+    <updated>2018-08-13T15:43:26-03:00</updated>
+    <id>http://localhost:8000/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Imagine]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/11/imagine"/>
+            <link href="http://localhost:8000/blog/2016/04/11/imagine/"/>
             <updated>2016-04-11T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/11/imagine</id>
+            <id>http://localhost:8000/blog/2016/04/11/imagine/</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/avalanche123/Imagine">Imagine</a> é uma biblioteca OOP de manipulação de imagem com implementações para as extensões GD2, Imagick e Gmagick. Com a Imagine é possível redimensionar, criar thumbnail, adicionar marca d'água, efeitos, etc.</p>
 
 <p>Exemplo:</p>

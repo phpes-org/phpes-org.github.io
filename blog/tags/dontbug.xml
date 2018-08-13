@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/dontbug.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2017-05-08T15:56:00-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="http://localhost:8000/blog/tags/dontbug.xml" rel="self"/>
+    <link href="http://localhost:8000/"/>
+    <updated>2018-08-13T15:43:26-03:00</updated>
+    <id>http://localhost:8000/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Dontbug debugger]]></title>
-            <link href="http://www.phpes.org/blog/2016/10/14/dontbug-debugger"/>
+            <link href="http://localhost:8000/blog/2016/10/14/dontbug-debugger/"/>
             <updated>2016-10-14T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/10/14/dontbug-debugger</id>
+            <id>http://localhost:8000/blog/2016/10/14/dontbug-debugger/</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/sidkshatriya/dontbug">Dontbug debugger</a> permite gravar a execução de scripts PHP e depois visualizar a execução na IDE através do modo debug (tanto a execução normal quanto reversa).</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DA76z77KtY0" frameborder="0" allowfullscreen></iframe>

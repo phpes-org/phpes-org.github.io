@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/gui.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2017-05-08T15:56:00-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="http://localhost:8000/blog/tags/gui.xml" rel="self"/>
+    <link href="http://localhost:8000/"/>
+    <updated>2018-08-13T15:43:26-03:00</updated>
+    <id>http://localhost:8000/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[PHP GUI]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/07/php-gui"/>
+            <link href="http://localhost:8000/blog/2016/04/07/php-gui/"/>
             <updated>2016-04-07T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/07/php-gui</id>
+            <id>http://localhost:8000/blog/2016/04/07/php-gui/</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/gabrielrcouto/php-gui">PHP-GUI</a> é um projeto experimental que permite criar programas com interface gráfica nativa do desktop do usuário sem a necessidade de extensões adicionais.</p>
 
 <blockquote>

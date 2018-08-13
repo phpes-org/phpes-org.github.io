@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/blog.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2017-05-08T15:56:00-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="http://localhost:8000/blog/tags/blog.xml" rel="self"/>
+    <link href="http://localhost:8000/"/>
+    <updated>2018-08-13T15:43:26-03:00</updated>
+    <id>http://localhost:8000/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Blog]]></title>
-            <link href="http://www.phpes.org/blog/2016/03/28/blog"/>
+            <link href="http://localhost:8000/blog/2016/03/28/blog/"/>
             <updated>2016-03-28T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/03/28/blog</id>
+            <id>http://localhost:8000/blog/2016/03/28/blog/</id>
             <content type="html"><![CDATA[<p>Esse blog foi criado para deixar o site do PHP-ES mais dinâmico. Através desse espaço vamos publicar links, dicas e tutoriais sobre PHP e desenvolvimento web.</p>
 
 <p>Utilizando o projeto escrito em PHP <a href="https://sculpin.io/">Sculpin</a> todo o site é gerado a partir de arquivos estáticos. Dessa forma continua hospedado no próprio Github.</p>

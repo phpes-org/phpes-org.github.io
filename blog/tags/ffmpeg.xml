@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/ffmpeg.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2017-05-08T15:56:00-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="http://localhost:8000/blog/tags/ffmpeg.xml" rel="self"/>
+    <link href="http://localhost:8000/"/>
+    <updated>2018-08-13T15:43:26-03:00</updated>
+    <id>http://localhost:8000/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[PHP-FFMpeg]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/08/php-ffmpeg"/>
+            <link href="http://localhost:8000/blog/2016/04/08/php-ffmpeg/"/>
             <updated>2016-04-08T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/08/php-ffmpeg</id>
+            <id>http://localhost:8000/blog/2016/04/08/php-ffmpeg/</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/PHP-FFMpeg/PHP-FFMpeg">PHP-FFMpeg</a> é um projeto que representa de forma orientada a objetos (OOP) a biblioteca ffmpeg/avconv, facilitando a manipulação de arquivos de áudio e vídeo.</p>
 
 <blockquote>

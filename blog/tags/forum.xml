@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/forum.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2017-05-08T15:56:00-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="http://localhost:8000/blog/tags/forum.xml" rel="self"/>
+    <link href="http://localhost:8000/"/>
+    <updated>2018-08-13T15:43:26-03:00</updated>
+    <id>http://localhost:8000/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[12º Fórum Espírito Livre]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/12/12-forum-espirito-livre"/>
+            <link href="http://localhost:8000/blog/2016/04/12/12-forum-espirito-livre/"/>
             <updated>2016-04-12T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/12/12-forum-espirito-livre</id>
+            <id>http://localhost:8000/blog/2016/04/12/12-forum-espirito-livre/</id>
             <content type="html"><![CDATA[<p>Nos dias 4, 5 e 6 de maio acontecerá o <a href="http://forum.espiritolivre.org/12ed/">12º Fórum Espírito Livre</a> em Vila Velha, Espírito Santo.</p>
 
 <blockquote>

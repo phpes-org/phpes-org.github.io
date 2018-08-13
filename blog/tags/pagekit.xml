@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/pagekit.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2017-05-08T15:56:00-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="http://localhost:8000/blog/tags/pagekit.xml" rel="self"/>
+    <link href="http://localhost:8000/"/>
+    <updated>2018-08-13T15:43:26-03:00</updated>
+    <id>http://localhost:8000/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Pagekit CMS]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/26/pagekit-cms"/>
+            <link href="http://localhost:8000/blog/2016/04/26/pagekit-cms/"/>
             <updated>2016-04-26T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/26/pagekit-cms</id>
+            <id>http://localhost:8000/blog/2016/04/26/pagekit-cms/</id>
             <content type="html"><![CDATA[<p>Divulgado hoje no blog do Symfony o novo CMS <a href="https://pagekit.com/">PageKit</a>, que tem o código-fonte aberto e é construído utilizando os components do Symfony. Segundo definição do site do projeto, o PageKit é um CMS moderno, intuitivo, modular, e flexível.</p>
 
 <blockquote>

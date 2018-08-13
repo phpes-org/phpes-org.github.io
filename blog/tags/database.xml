@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/database.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2017-05-08T15:56:00-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="http://localhost:8000/blog/tags/database.xml" rel="self"/>
+    <link href="http://localhost:8000/"/>
+    <updated>2018-08-13T15:43:26-03:00</updated>
+    <id>http://localhost:8000/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Como usar o MongoDB com PHP]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/20/como-usar-o-mongodb-com-php"/>
+            <link href="http://localhost:8000/blog/2016/04/20/como-usar-o-mongodb-com-php/"/>
             <updated>2016-04-20T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/20/como-usar-o-mongodb-com-php</id>
+            <id>http://localhost:8000/blog/2016/04/20/como-usar-o-mongodb-com-php/</id>
             <content type="html"><![CDATA[<blockquote>
   <p>Dentre os bancos de dados NoSQL da atualidade um dos mais usados é o MongoDB, seja pela sua eficiência em trabalhar com enormes volumes de dados ou pela sua flexibilidade, algo comum em bancos NoSQL. Abordaremos neste artigo como trabalhar com ele no PHP.</p>
 </blockquote>

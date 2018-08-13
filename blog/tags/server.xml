@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/server.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2017-05-08T15:56:00-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="http://localhost:8000/blog/tags/server.xml" rel="self"/>
+    <link href="http://localhost:8000/"/>
+    <updated>2018-08-13T15:43:26-03:00</updated>
+    <id>http://localhost:8000/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[PPM - PHP Process Manager]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/19/ppm-php-process-manager"/>
+            <link href="http://localhost:8000/blog/2016/04/19/ppm-php-process-manager/"/>
             <updated>2016-04-19T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/19/ppm-php-process-manager</id>
+            <id>http://localhost:8000/blog/2016/04/19/ppm-php-process-manager/</id>
             <content type="html"><![CDATA[<p>PHP-PM é um gerenciador de processo, supercharger e load balancer para aplicações PHP que chega a ser 15 vezes mais rápidos do uma aplicação PHP tradicional.</p>
 
 <blockquote>
@@ -22,9 +22,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Aplicação Symfony como HTTP Server]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/18/aplicacao-symfony-como-http-server"/>
+            <link href="http://localhost:8000/blog/2016/04/18/aplicacao-symfony-como-http-server/"/>
             <updated>2016-04-18T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/18/aplicacao-symfony-como-http-server</id>
+            <id>http://localhost:8000/blog/2016/04/18/aplicacao-symfony-como-http-server/</id>
             <content type="html"><![CDATA[<p>Tutorial ensinando transformar uma aplicação Symfony em um servidor HTTP pronto para executar, e sem necessidade servidor adicional como por exemplo NGINX e/ou Apache2, utilizando a biblioteca ReactPHP.</p>
 
 <blockquote>

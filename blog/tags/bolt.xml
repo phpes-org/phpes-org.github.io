@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/bolt.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2017-05-08T15:56:00-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="http://localhost:8000/blog/tags/bolt.xml" rel="self"/>
+    <link href="http://localhost:8000/"/>
+    <updated>2018-08-13T15:43:26-03:00</updated>
+    <id>http://localhost:8000/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Bolt CMS]]></title>
-            <link href="http://www.phpes.org/blog/2016/05/11/bolt-cms"/>
+            <link href="http://localhost:8000/blog/2016/05/11/bolt-cms/"/>
             <updated>2016-05-11T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/05/11/bolt-cms</id>
+            <id>http://localhost:8000/blog/2016/05/11/bolt-cms/</id>
             <content type="html"><![CDATA[<p>Lançada a versão 3.0.0 do gerenciador de conteúdo <a href="https://bolt.cm/">Bolt</a> (CMS desenvolvido utilizando <a href="http://silex.sensiolabs.org/">Silex</a> e <a href="http://twig.sensiolabs.org/">Twig</a>, ambos do <a href="http://symfony.com/">Symfony</a>).</p>
 
 <blockquote>
