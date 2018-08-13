@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://phpes.org/blog/tags/interface.xml" rel="self"/>
-    <link href="http://phpes.org/"/>
-    <updated>2018-08-13T15:44:28-03:00</updated>
-    <id>http://phpes.org/</id>
+    <link href="http://www.phpes.org/blog/tags/interface.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2018-08-13T15:45:36-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[PHP Middleworld]]></title>
-            <link href="http://phpes.org/blog/2017/02/14/php-middleworld/"/>
+            <link href="http://www.phpes.org/blog/2017/02/14/php-middleworld/"/>
             <updated>2017-02-14T00:00:00-02:00</updated>
-            <id>http://phpes.org/blog/2017/02/14/php-middleworld/</id>
+            <id>http://www.phpes.org/blog/2017/02/14/php-middleworld/</id>
             <content type="html"><![CDATA[<p><a href="http://www.php-middleworld.com/">PHP Middleworld</a> é um site que facilita a busca por implementações de middleware da <a href="http://www.php-fig.org/psr/psr-7/">PSR-7</a> para serem utilizados em frameworks compatíveis.</p>
 
 <blockquote>
@@ -28,9 +28,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[PHP GUI]]></title>
-            <link href="http://phpes.org/blog/2016/04/07/php-gui/"/>
+            <link href="http://www.phpes.org/blog/2016/04/07/php-gui/"/>
             <updated>2016-04-07T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/04/07/php-gui/</id>
+            <id>http://www.phpes.org/blog/2016/04/07/php-gui/</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/gabrielrcouto/php-gui">PHP-GUI</a> é um projeto experimental que permite criar programas com interface gráfica nativa do desktop do usuário sem a necessidade de extensões adicionais.</p>
 
 <blockquote>

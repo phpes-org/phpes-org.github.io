@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://phpes.org/blog/tags/symfony3.3.xml" rel="self"/>
-    <link href="http://phpes.org/"/>
-    <updated>2018-08-13T15:44:28-03:00</updated>
-    <id>http://phpes.org/</id>
+    <link href="http://www.phpes.org/blog/tags/symfony3.3.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2018-08-13T15:45:36-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Symfony 4 Preview]]></title>
-            <link href="http://phpes.org/blog/2017/05/08/symfony-4-preview/"/>
+            <link href="http://www.phpes.org/blog/2017/05/08/symfony-4-preview/"/>
             <updated>2017-05-08T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2017/05/08/symfony-4-preview/</id>
+            <id>http://www.phpes.org/blog/2017/05/08/symfony-4-preview/</id>
             <content type="html"><![CDATA[<p>O criador do Symfony, <a href="https://connect.sensiolabs.com/profile/fabpot">Fabien Potencier</a>, escreveu em seu <a href="https://medium.com/@fabpot">perfil do Medium</a> uma série de publicações a respeito da futura versão do framework, e semana passada ele terminou essa série com uma demonstração de como será essa nova versão maior (funcionalidades já presentes na versão 3.3).</p>
 
 <p>Tópicos:</p>

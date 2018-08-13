@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://phpes.org/blog/tags/php.xml" rel="self"/>
-    <link href="http://phpes.org/"/>
-    <updated>2018-08-13T15:44:28-03:00</updated>
-    <id>http://phpes.org/</id>
+    <link href="http://www.phpes.org/blog/tags/php.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2018-08-13T15:45:36-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[A Semana PHP]]></title>
-            <link href="http://phpes.org/blog/2018/08/13/a-semana-php/"/>
+            <link href="http://www.phpes.org/blog/2018/08/13/a-semana-php/"/>
             <updated>2018-08-13T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2018/08/13/a-semana-php/</id>
+            <id>http://www.phpes.org/blog/2018/08/13/a-semana-php/</id>
             <content type="html"><![CDATA[<p>Depois de mais de 1 ano sem publicar no site estamos de volta para dar uma dica de uma Newsletter semana sobre PHP: <a href="https://www.getrevue.co/profile/asemanaphp">A Semana PHP</a>.</p>
 
 <p>Veja abaixo um trecho sobre a nova edição, de número 198.</p>
@@ -24,9 +24,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[PHP 7.1 Alpha]]></title>
-            <link href="http://phpes.org/blog/2016/06/10/php-71-alpha/"/>
+            <link href="http://www.phpes.org/blog/2016/06/10/php-71-alpha/"/>
             <updated>2016-06-10T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/06/10/php-71-alpha/</id>
+            <id>http://www.phpes.org/blog/2016/06/10/php-71-alpha/</id>
             <content type="html"><![CDATA[<p>Ontem foi lançada a primeira versão alpha do PHP 7.1.0.</p>
 
 <blockquote>
@@ -40,9 +40,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Mudanças PHP 7.1]]></title>
-            <link href="http://phpes.org/blog/2016/05/18/mudancas-php-7-1/"/>
+            <link href="http://www.phpes.org/blog/2016/05/18/mudancas-php-7-1/"/>
             <updated>2016-05-18T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/05/18/mudancas-php-7-1/</id>
+            <id>http://www.phpes.org/blog/2016/05/18/mudancas-php-7-1/</id>
             <content type="html"><![CDATA[<p>Entre as <a href="https://wiki.php.net/rfc#php_71">alterações previstas</a> para a versão 7.1 do PHP, as que mais me chamaram atenção são:</p>
 
 <h3 id="catching-multiple-exception-types"><a href="https://wiki.php.net/rfc/multiple-catch">Catching Multiple Exception Types</a></h3>
@@ -134,9 +134,9 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
         </entry>
             <entry>
             <title type="html"><![CDATA[Bolt CMS]]></title>
-            <link href="http://phpes.org/blog/2016/05/11/bolt-cms/"/>
+            <link href="http://www.phpes.org/blog/2016/05/11/bolt-cms/"/>
             <updated>2016-05-11T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/05/11/bolt-cms/</id>
+            <id>http://www.phpes.org/blog/2016/05/11/bolt-cms/</id>
             <content type="html"><![CDATA[<p>Lançada a versão 3.0.0 do gerenciador de conteúdo <a href="https://bolt.cm/">Bolt</a> (CMS desenvolvido utilizando <a href="http://silex.sensiolabs.org/">Silex</a> e <a href="http://twig.sensiolabs.org/">Twig</a>, ambos do <a href="http://symfony.com/">Symfony</a>).</p>
 
 <blockquote>
@@ -148,9 +148,9 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
         </entry>
             <entry>
             <title type="html"><![CDATA[Deptrac]]></title>
-            <link href="http://phpes.org/blog/2016/05/09/deptrac/"/>
+            <link href="http://www.phpes.org/blog/2016/05/09/deptrac/"/>
             <updated>2016-05-09T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/05/09/deptrac/</id>
+            <id>http://www.phpes.org/blog/2016/05/09/deptrac/</id>
             <content type="html"><![CDATA[<p>No início do mês foi anunciado no blog do Symfony uma nova ferramenta da Sensio Labs. Trata-se do <a href="https://github.com/sensiolabs-de/deptrac">Deptrac</a>, que é um analisador de código que verifica as dependências entre as camadas da sua aplicação e alerta em caso de quebra de alguma regra definida.</p>
 
 <p><img src="https://raw.githubusercontent.com/sensiolabs-de/deptrac/master/examples/ControllerServiceRepository1.png" alt="ModelController1" /></p>
@@ -166,9 +166,9 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
         </entry>
             <entry>
             <title type="html"><![CDATA[NFePHP]]></title>
-            <link href="http://phpes.org/blog/2016/05/03/nfephp/"/>
+            <link href="http://www.phpes.org/blog/2016/05/03/nfephp/"/>
             <updated>2016-05-03T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/05/03/nfephp/</id>
+            <id>http://www.phpes.org/blog/2016/05/03/nfephp/</id>
             <content type="html"><![CDATA[<blockquote>
   <p>API para comunicação entre o emitente de NFe e os serviços dos SEFAZ estaduais. Inteiramente construído em PHP, roda em qualquer sistema operacional.
   NFePHP é uma API para gerenciamento das comunicações entre o emitente de NFe e os serviços dos SEFAZ estaduais. Inteiramente construído em PHP para rodar sob qualquer sistema operacional.</p>
@@ -179,9 +179,9 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
         </entry>
             <entry>
             <title type="html"><![CDATA[Piwik]]></title>
-            <link href="http://phpes.org/blog/2016/05/02/piwik/"/>
+            <link href="http://www.phpes.org/blog/2016/05/02/piwik/"/>
             <updated>2016-05-02T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/05/02/piwik/</id>
+            <id>http://www.phpes.org/blog/2016/05/02/piwik/</id>
             <content type="html"><![CDATA[<p><a href="http://piwik.org/">Piwik</a> é uma alternativa opensource ao Google Analytics, escrito em PHP e que utiliza MySQL como base de dados.</p>
 
 <blockquote>
@@ -193,9 +193,9 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
         </entry>
             <entry>
             <title type="html"><![CDATA[Awesome Symfony]]></title>
-            <link href="http://phpes.org/blog/2016/04/29/awesome-symfony/"/>
+            <link href="http://www.phpes.org/blog/2016/04/29/awesome-symfony/"/>
             <updated>2016-04-29T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/04/29/awesome-symfony/</id>
+            <id>http://www.phpes.org/blog/2016/04/29/awesome-symfony/</id>
             <content type="html"><![CDATA[<p>Coletânea com bundles, utilitários e recursos para desenvolvimento utilizando o framework Symfony.</p>
 
 <blockquote>
@@ -207,9 +207,9 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
         </entry>
             <entry>
             <title type="html"><![CDATA[Jobby]]></title>
-            <link href="http://phpes.org/blog/2016/04/28/jobby/"/>
+            <link href="http://www.phpes.org/blog/2016/04/28/jobby/"/>
             <updated>2016-04-28T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/04/28/jobby/</id>
+            <id>http://www.phpes.org/blog/2016/04/28/jobby/</id>
             <content type="html"><![CDATA[<p>Com <a href="https://github.com/jobbyphp/jobby">Jobby</a> você gerencia os jobs através do PHP sem necessidade de alterar a crontab.</p>
 
 <blockquote>
@@ -237,9 +237,9 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
         </entry>
             <entry>
             <title type="html"><![CDATA[Pagekit CMS]]></title>
-            <link href="http://phpes.org/blog/2016/04/26/pagekit-cms/"/>
+            <link href="http://www.phpes.org/blog/2016/04/26/pagekit-cms/"/>
             <updated>2016-04-26T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/04/26/pagekit-cms/</id>
+            <id>http://www.phpes.org/blog/2016/04/26/pagekit-cms/</id>
             <content type="html"><![CDATA[<p>Divulgado hoje no blog do Symfony o novo CMS <a href="https://pagekit.com/">PageKit</a>, que tem o código-fonte aberto e é construído utilizando os components do Symfony. Segundo definição do site do projeto, o PageKit é um CMS moderno, intuitivo, modular, e flexível.</p>
 
 <blockquote>

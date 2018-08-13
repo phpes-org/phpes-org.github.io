@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /blog/tags/
 Disallow: /blog/categories/
 
-Sitemap: http://phpes.org/sitemap.xml
+Sitemap: http://www.phpes.org/sitemap.xml

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://phpes.org/blog/tags/console.xml" rel="self"/>
-    <link href="http://phpes.org/"/>
-    <updated>2018-08-13T15:44:28-03:00</updated>
-    <id>http://phpes.org/</id>
+    <link href="http://www.phpes.org/blog/tags/console.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2018-08-13T15:45:36-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[PsySH]]></title>
-            <link href="http://phpes.org/blog/2016/12/02/psysh/"/>
+            <link href="http://www.phpes.org/blog/2016/12/02/psysh/"/>
             <updated>2016-12-02T00:00:00-02:00</updated>
-            <id>http://phpes.org/blog/2016/12/02/psysh/</id>
+            <id>http://www.phpes.org/blog/2016/12/02/psysh/</id>
             <content type="html"><![CDATA[<p><a href="http://psysh.org/">PsySH</a> é um console interativo para desenvolvimento PHP muito semelhante ao console do Python.</p>
 
 <blockquote>

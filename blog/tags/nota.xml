@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://phpes.org/blog/tags/nota.xml" rel="self"/>
-    <link href="http://phpes.org/"/>
-    <updated>2018-08-13T15:44:28-03:00</updated>
-    <id>http://phpes.org/</id>
+    <link href="http://www.phpes.org/blog/tags/nota.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2018-08-13T15:45:36-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[NFePHP]]></title>
-            <link href="http://phpes.org/blog/2016/05/03/nfephp/"/>
+            <link href="http://www.phpes.org/blog/2016/05/03/nfephp/"/>
             <updated>2016-05-03T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/05/03/nfephp/</id>
+            <id>http://www.phpes.org/blog/2016/05/03/nfephp/</id>
             <content type="html"><![CDATA[<blockquote>
   <p>API para comunicação entre o emitente de NFe e os serviços dos SEFAZ estaduais. Inteiramente construído em PHP, roda em qualquer sistema operacional.
   NFePHP é uma API para gerenciamento das comunicações entre o emitente de NFe e os serviços dos SEFAZ estaduais. Inteiramente construído em PHP para rodar sob qualquer sistema operacional.</p>

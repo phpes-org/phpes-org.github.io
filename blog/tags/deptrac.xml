@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://phpes.org/blog/tags/deptrac.xml" rel="self"/>
-    <link href="http://phpes.org/"/>
-    <updated>2018-08-13T15:44:28-03:00</updated>
-    <id>http://phpes.org/</id>
+    <link href="http://www.phpes.org/blog/tags/deptrac.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2018-08-13T15:45:36-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Deptrac]]></title>
-            <link href="http://phpes.org/blog/2016/05/09/deptrac/"/>
+            <link href="http://www.phpes.org/blog/2016/05/09/deptrac/"/>
             <updated>2016-05-09T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/05/09/deptrac/</id>
+            <id>http://www.phpes.org/blog/2016/05/09/deptrac/</id>
             <content type="html"><![CDATA[<p>No início do mês foi anunciado no blog do Symfony uma nova ferramenta da Sensio Labs. Trata-se do <a href="https://github.com/sensiolabs-de/deptrac">Deptrac</a>, que é um analisador de código que verifica as dependências entre as camadas da sua aplicação e alerta em caso de quebra de alguma regra definida.</p>
 
 <p><img src="https://raw.githubusercontent.com/sensiolabs-de/deptrac/master/examples/ControllerServiceRepository1.png" alt="ModelController1" /></p>

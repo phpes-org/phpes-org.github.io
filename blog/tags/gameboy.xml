@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://phpes.org/blog/tags/gameboy.xml" rel="self"/>
-    <link href="http://phpes.org/"/>
-    <updated>2018-08-13T15:44:29-03:00</updated>
-    <id>http://phpes.org/</id>
+    <link href="http://www.phpes.org/blog/tags/gameboy.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2018-08-13T15:45:36-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[PHP Terminal GameBoy Emulator]]></title>
-            <link href="http://phpes.org/blog/2016/04/06/php-terminal-gameboy-emulator/"/>
+            <link href="http://www.phpes.org/blog/2016/04/06/php-terminal-gameboy-emulator/"/>
             <updated>2016-04-06T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/04/06/php-terminal-gameboy-emulator/</id>
+            <id>http://www.phpes.org/blog/2016/04/06/php-terminal-gameboy-emulator/</id>
             <content type="html"><![CDATA[<p>Para responder a pergunta do que dá para fazer utilizando PHP, surge o projeto de um emulador de GameBoy via terminal.</p>
 
 <blockquote>

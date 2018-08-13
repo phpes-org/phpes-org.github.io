@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://phpes.org/blog/tags/conferencia.xml" rel="self"/>
-    <link href="http://phpes.org/"/>
-    <updated>2018-08-13T15:44:28-03:00</updated>
-    <id>http://phpes.org/</id>
+    <link href="http://www.phpes.org/blog/tags/conferencia.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2018-08-13T15:45:36-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Conferência PHP em Porto Alegre]]></title>
-            <link href="http://phpes.org/blog/2016/04/13/conferencia-php-em-porto-alegre/"/>
+            <link href="http://www.phpes.org/blog/2016/04/13/conferencia-php-em-porto-alegre/"/>
             <updated>2016-04-13T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/04/13/conferencia-php-em-porto-alegre/</id>
+            <id>http://www.phpes.org/blog/2016/04/13/conferencia-php-em-porto-alegre/</id>
             <content type="html"><![CDATA[<blockquote>
   <p>Está chegando o grande dia da Conferência PHP do Rio Grande do Sul, organizada pelo PHPRS.</p>
   

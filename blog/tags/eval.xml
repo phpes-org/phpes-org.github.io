@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://phpes.org/blog/tags/eval.xml" rel="self"/>
-    <link href="http://phpes.org/"/>
-    <updated>2018-08-13T15:44:29-03:00</updated>
-    <id>http://phpes.org/</id>
+    <link href="http://www.phpes.org/blog/tags/eval.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2018-08-13T15:45:36-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[3v4l]]></title>
-            <link href="http://phpes.org/blog/2016/03/31/3v4l/"/>
+            <link href="http://www.phpes.org/blog/2016/03/31/3v4l/"/>
             <updated>2016-03-31T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/03/31/3v4l/</id>
+            <id>http://www.phpes.org/blog/2016/03/31/3v4l/</id>
             <content type="html"><![CDATA[<p>Execute o seu código em mais de 150 versões de de PHP e HHVM.</p>
 
 <blockquote>

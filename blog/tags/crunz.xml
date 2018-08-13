@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://phpes.org/blog/tags/crunz.xml" rel="self"/>
-    <link href="http://phpes.org/"/>
-    <updated>2018-08-13T15:44:28-03:00</updated>
-    <id>http://phpes.org/</id>
+    <link href="http://www.phpes.org/blog/tags/crunz.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2018-08-13T15:45:36-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Crunz]]></title>
-            <link href="http://phpes.org/blog/2016/08/31/crunz/"/>
+            <link href="http://www.phpes.org/blog/2016/08/31/crunz/"/>
             <updated>2016-08-31T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/08/31/crunz/</id>
+            <id>http://www.phpes.org/blog/2016/08/31/crunz/</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/lavary/crunz">Crunz</a> é um agendador de tarefas periódicas escrito em PHP. Possibilitando configurar as tarefas a serem executadas através de uma API fluente.</p>
 
 <pre><code class="php">&lt;?php

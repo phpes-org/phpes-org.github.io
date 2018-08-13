@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://phpes.org/blog/tags/vagrant.xml" rel="self"/>
-    <link href="http://phpes.org/"/>
-    <updated>2018-08-13T15:44:28-03:00</updated>
-    <id>http://phpes.org/</id>
+    <link href="http://www.phpes.org/blog/tags/vagrant.xml" rel="self"/>
+    <link href="http://www.phpes.org/"/>
+    <updated>2018-08-13T15:45:36-03:00</updated>
+    <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[PuPHPet]]></title>
-            <link href="http://phpes.org/blog/2016/04/25/puphpet/"/>
+            <link href="http://www.phpes.org/blog/2016/04/25/puphpet/"/>
             <updated>2016-04-25T00:00:00-03:00</updated>
-            <id>http://phpes.org/blog/2016/04/25/puphpet/</id>
+            <id>http://www.phpes.org/blog/2016/04/25/puphpet/</id>
             <content type="html"><![CDATA[<p><a href="https://puphpet.com/">Puphpet</a> é uma ferramenta gráfica para gerar configuração de máquinas virtuais para o desenvolvimento web. Suporta Vagrant e Puppet.</p>
 
 <blockquote>
