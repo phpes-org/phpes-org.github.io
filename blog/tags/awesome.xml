@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://localhost:8000/blog/tags/awesome.xml" rel="self"/>
-    <link href="http://localhost:8000/"/>
-    <updated>2018-08-13T15:43:26-03:00</updated>
-    <id>http://localhost:8000/</id>
+    <link href="http://phpes.org/blog/tags/awesome.xml" rel="self"/>
+    <link href="http://phpes.org/"/>
+    <updated>2018-08-13T15:44:28-03:00</updated>
+    <id>http://phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Awesome Symfony]]></title>
-            <link href="http://localhost:8000/blog/2016/04/29/awesome-symfony/"/>
+            <link href="http://phpes.org/blog/2016/04/29/awesome-symfony/"/>
             <updated>2016-04-29T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/04/29/awesome-symfony/</id>
+            <id>http://phpes.org/blog/2016/04/29/awesome-symfony/</id>
             <content type="html"><![CDATA[<p>Coletânea com bundles, utilitários e recursos para desenvolvimento utilizando o framework Symfony.</p>
 
 <blockquote>
@@ -22,9 +22,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Awesome PHP]]></title>
-            <link href="http://localhost:8000/blog/2016/03/29/awesome-php/"/>
+            <link href="http://phpes.org/blog/2016/03/29/awesome-php/"/>
             <updated>2016-03-29T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/03/29/awesome-php/</id>
+            <id>http://phpes.org/blog/2016/03/29/awesome-php/</id>
             <content type="html"><![CDATA[<p>Awesome PHP é um repositório no Github que reúne os mais variados conteúdos relacionados à PHP.</p>
 
 <blockquote>

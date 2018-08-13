@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://localhost:8000/blog/tags/regex.xml" rel="self"/>
-    <link href="http://localhost:8000/"/>
-    <updated>2018-08-13T15:43:26-03:00</updated>
-    <id>http://localhost:8000/</id>
+    <link href="http://phpes.org/blog/tags/regex.xml" rel="self"/>
+    <link href="http://phpes.org/"/>
+    <updated>2018-08-13T15:44:29-03:00</updated>
+    <id>http://phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Natika Forum system]]></title>
-            <link href="http://localhost:8000/blog/2016/04/05/natika-forum-system/"/>
+            <link href="http://phpes.org/blog/2016/04/05/natika-forum-system/"/>
             <updated>2016-04-05T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/04/05/natika-forum-system/</id>
+            <id>http://phpes.org/blog/2016/04/05/natika-forum-system/</id>
             <content type="html"><![CDATA[<p>Sistema simples de fórum escrito em PHP voltado para desenvolvedores e integrado com autenticação via redes sociais (Social Login).</p>
 
 <blockquote>
@@ -22,9 +22,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[PHP Live Regex]]></title>
-            <link href="http://localhost:8000/blog/2016/04/04/php-live-regex/"/>
+            <link href="http://phpes.org/blog/2016/04/04/php-live-regex/"/>
             <updated>2016-04-04T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/04/04/php-live-regex/</id>
+            <id>http://phpes.org/blog/2016/04/04/php-live-regex/</id>
             <content type="html"><![CDATA[<p>Ferramenta online para criar e testar expressões regulares em PHP.</p>
 
 <blockquote>

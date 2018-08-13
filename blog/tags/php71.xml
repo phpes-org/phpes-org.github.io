@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://localhost:8000/blog/tags/php71.xml" rel="self"/>
-    <link href="http://localhost:8000/"/>
-    <updated>2018-08-13T15:43:26-03:00</updated>
-    <id>http://localhost:8000/</id>
+    <link href="http://phpes.org/blog/tags/php71.xml" rel="self"/>
+    <link href="http://phpes.org/"/>
+    <updated>2018-08-13T15:44:28-03:00</updated>
+    <id>http://phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[PHP 7.1 Alpha]]></title>
-            <link href="http://localhost:8000/blog/2016/06/10/php-71-alpha/"/>
+            <link href="http://phpes.org/blog/2016/06/10/php-71-alpha/"/>
             <updated>2016-06-10T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/06/10/php-71-alpha/</id>
+            <id>http://phpes.org/blog/2016/06/10/php-71-alpha/</id>
             <content type="html"><![CDATA[<p>Ontem foi lançada a primeira versão alpha do PHP 7.1.0.</p>
 
 <blockquote>

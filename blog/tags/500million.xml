@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://localhost:8000/blog/tags/500million.xml" rel="self"/>
-    <link href="http://localhost:8000/"/>
-    <updated>2018-08-13T15:43:26-03:00</updated>
-    <id>http://localhost:8000/</id>
+    <link href="http://phpes.org/blog/tags/500million.xml" rel="self"/>
+    <link href="http://phpes.org/"/>
+    <updated>2018-08-13T15:44:28-03:00</updated>
+    <id>http://phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Symfony 500million]]></title>
-            <link href="http://localhost:8000/blog/2016/09/14/symfony-500million/"/>
+            <link href="http://phpes.org/blog/2016/09/14/symfony-500million/"/>
             <updated>2016-09-14T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/09/14/symfony-500million/</id>
+            <id>http://phpes.org/blog/2016/09/14/symfony-500million/</id>
             <content type="html"><![CDATA[<p>Desde o lançamento do Symfony 2.0 (28 de julho de 2011) os pacotes dos componentes do framework já foram baixados mais de 480 milhões de vezes. E para acompanhar essa marca chegar a 500mi foi lançada uma página com o contador de downloads (apenas downloads via Composer):</p>
 
 <p><a href="https://symfony.com/500million">https://symfony.com/500million</a></p>

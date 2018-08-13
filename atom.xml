@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://localhost:8000/atom.xml" rel="self"/>
-    <link href="http://localhost:8000/"/>
-    <updated>2018-08-13T15:43:26-03:00</updated>
-    <id>http://localhost:8000/</id>
+    <link href="http://phpes.org/atom.xml" rel="self"/>
+    <link href="http://phpes.org/"/>
+    <updated>2018-08-13T15:44:28-03:00</updated>
+    <id>http://phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[A Semana PHP]]></title>
-            <link href="http://localhost:8000/blog/2018/08/13/a-semana-php/"/>
+            <link href="http://phpes.org/blog/2018/08/13/a-semana-php/"/>
             <updated>2018-08-13T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2018/08/13/a-semana-php/</id>
+            <id>http://phpes.org/blog/2018/08/13/a-semana-php/</id>
             <content type="html"><![CDATA[<p>Depois de mais de 1 ano sem publicar no site estamos de volta para dar uma dica de uma Newsletter semana sobre PHP: <a href="https://www.getrevue.co/profile/asemanaphp">A Semana PHP</a>.</p>
 
 <p>Veja abaixo um trecho sobre a nova edição, de número 198.</p>
@@ -24,9 +24,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Symfony 4 Preview]]></title>
-            <link href="http://localhost:8000/blog/2017/05/08/symfony-4-preview/"/>
+            <link href="http://phpes.org/blog/2017/05/08/symfony-4-preview/"/>
             <updated>2017-05-08T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2017/05/08/symfony-4-preview/</id>
+            <id>http://phpes.org/blog/2017/05/08/symfony-4-preview/</id>
             <content type="html"><![CDATA[<p>O criador do Symfony, <a href="https://connect.sensiolabs.com/profile/fabpot">Fabien Potencier</a>, escreveu em seu <a href="https://medium.com/@fabpot">perfil do Medium</a> uma série de publicações a respeito da futura versão do framework, e semana passada ele terminou essa série com uma demonstração de como será essa nova versão maior (funcionalidades já presentes na versão 3.3).</p>
 
 <p>Tópicos:</p>
@@ -47,9 +47,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Benchmarking Laravel, Symfony, &amp; Zend]]></title>
-            <link href="http://localhost:8000/blog/2017/03/01/benchmarking-laravel-symfony-zend/"/>
+            <link href="http://phpes.org/blog/2017/03/01/benchmarking-laravel-symfony-zend/"/>
             <updated>2017-03-01T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2017/03/01/benchmarking-laravel-symfony-zend/</id>
+            <id>http://phpes.org/blog/2017/03/01/benchmarking-laravel-symfony-zend/</id>
             <content type="html"><![CDATA[<p>Post (inglês) demonstrando um benchmark entre os frameworks <a href="https://laravel.com">Laravel</a>, <a href="https://symfony.com">Symfony</a> e <a href="https://framework.zend.com">Zend</a>.</p>
 
 <blockquote>
@@ -61,9 +61,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[PHP Middleworld]]></title>
-            <link href="http://localhost:8000/blog/2017/02/14/php-middleworld/"/>
+            <link href="http://phpes.org/blog/2017/02/14/php-middleworld/"/>
             <updated>2017-02-14T00:00:00-02:00</updated>
-            <id>http://localhost:8000/blog/2017/02/14/php-middleworld/</id>
+            <id>http://phpes.org/blog/2017/02/14/php-middleworld/</id>
             <content type="html"><![CDATA[<p><a href="http://www.php-middleworld.com/">PHP Middleworld</a> é um site que facilita a busca por implementações de middleware da <a href="http://www.php-fig.org/psr/psr-7/">PSR-7</a> para serem utilizados em frameworks compatíveis.</p>
 
 <blockquote>
@@ -81,9 +81,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Mailer RCE Flaw Vulnerability]]></title>
-            <link href="http://localhost:8000/blog/2017/01/10/mailer-rce-flaw-vulnerability/"/>
+            <link href="http://phpes.org/blog/2017/01/10/mailer-rce-flaw-vulnerability/"/>
             <updated>2017-01-10T00:00:00-02:00</updated>
-            <id>http://localhost:8000/blog/2017/01/10/mailer-rce-flaw-vulnerability/</id>
+            <id>http://phpes.org/blog/2017/01/10/mailer-rce-flaw-vulnerability/</id>
             <content type="html"><![CDATA[<p>No final do ano passado foram encontradas falhas RCE (Remote Code Execution) nas seguintes bibliotecas: PHPMailer (até v5.2.20) SwiftMailer (até v5.4.4) e Zend-mail (até v2.4.10).</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xyYMYvT2bx8" frameborder="0" allowfullscreen></iframe>
@@ -100,9 +100,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[PsySH]]></title>
-            <link href="http://localhost:8000/blog/2016/12/02/psysh/"/>
+            <link href="http://phpes.org/blog/2016/12/02/psysh/"/>
             <updated>2016-12-02T00:00:00-02:00</updated>
-            <id>http://localhost:8000/blog/2016/12/02/psysh/</id>
+            <id>http://phpes.org/blog/2016/12/02/psysh/</id>
             <content type="html"><![CDATA[<p><a href="http://psysh.org/">PsySH</a> é um console interativo para desenvolvimento PHP muito semelhante ao console do Python.</p>
 
 <blockquote>
@@ -127,9 +127,9 @@ $ chmod +x psysh
         </entry>
             <entry>
             <title type="html"><![CDATA[Dontbug debugger]]></title>
-            <link href="http://localhost:8000/blog/2016/10/14/dontbug-debugger/"/>
+            <link href="http://phpes.org/blog/2016/10/14/dontbug-debugger/"/>
             <updated>2016-10-14T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/10/14/dontbug-debugger/</id>
+            <id>http://phpes.org/blog/2016/10/14/dontbug-debugger/</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/sidkshatriya/dontbug">Dontbug debugger</a> permite gravar a execução de scripts PHP e depois visualizar a execução na IDE através do modo debug (tanto a execução normal quanto reversa).</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DA76z77KtY0" frameborder="0" allowfullscreen></iframe>
@@ -137,9 +137,9 @@ $ chmod +x psysh
         </entry>
             <entry>
             <title type="html"><![CDATA[Design Patterns PHP]]></title>
-            <link href="http://localhost:8000/blog/2016/09/19/design-patterns-php/"/>
+            <link href="http://phpes.org/blog/2016/09/19/design-patterns-php/"/>
             <updated>2016-09-19T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/09/19/design-patterns-php/</id>
+            <id>http://phpes.org/blog/2016/09/19/design-patterns-php/</id>
             <content type="html"><![CDATA[<blockquote>
   <p>Esta é uma coleção de padrões de projetos conhecidos e alguns códigos de exemplo de como implementá-los em PHP. Todo padrão tem uma pequena lista de exemplos (muitos deles vindos do Zend Framework, Symfony2 ou Doctrine2 já que tenho mais familiaridade com eles</p>
   
@@ -155,9 +155,9 @@ $ chmod +x psysh
         </entry>
             <entry>
             <title type="html"><![CDATA[Symfony 500million]]></title>
-            <link href="http://localhost:8000/blog/2016/09/14/symfony-500million/"/>
+            <link href="http://phpes.org/blog/2016/09/14/symfony-500million/"/>
             <updated>2016-09-14T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/09/14/symfony-500million/</id>
+            <id>http://phpes.org/blog/2016/09/14/symfony-500million/</id>
             <content type="html"><![CDATA[<p>Desde o lançamento do Symfony 2.0 (28 de julho de 2011) os pacotes dos componentes do framework já foram baixados mais de 480 milhões de vezes. E para acompanhar essa marca chegar a 500mi foi lançada uma página com o contador de downloads (apenas downloads via Composer):</p>
 
 <p><a href="https://symfony.com/500million">https://symfony.com/500million</a></p>
@@ -171,9 +171,9 @@ $ chmod +x psysh
         </entry>
             <entry>
             <title type="html"><![CDATA[Crunz]]></title>
-            <link href="http://localhost:8000/blog/2016/08/31/crunz/"/>
+            <link href="http://phpes.org/blog/2016/08/31/crunz/"/>
             <updated>2016-08-31T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/08/31/crunz/</id>
+            <id>http://phpes.org/blog/2016/08/31/crunz/</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/lavary/crunz">Crunz</a> é um agendador de tarefas periódicas escrito em PHP. Possibilitando configurar as tarefas a serem executadas através de uma API fluente.</p>
 
 <pre><code class="php">&lt;?php

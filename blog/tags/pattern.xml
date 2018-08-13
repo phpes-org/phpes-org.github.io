@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://localhost:8000/blog/tags/pattern.xml" rel="self"/>
-    <link href="http://localhost:8000/"/>
-    <updated>2018-08-13T15:43:26-03:00</updated>
-    <id>http://localhost:8000/</id>
+    <link href="http://phpes.org/blog/tags/pattern.xml" rel="self"/>
+    <link href="http://phpes.org/"/>
+    <updated>2018-08-13T15:44:28-03:00</updated>
+    <id>http://phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Design Patterns PHP]]></title>
-            <link href="http://localhost:8000/blog/2016/09/19/design-patterns-php/"/>
+            <link href="http://phpes.org/blog/2016/09/19/design-patterns-php/"/>
             <updated>2016-09-19T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/09/19/design-patterns-php/</id>
+            <id>http://phpes.org/blog/2016/09/19/design-patterns-php/</id>
             <content type="html"><![CDATA[<blockquote>
   <p>Esta é uma coleção de padrões de projetos conhecidos e alguns códigos de exemplo de como implementá-los em PHP. Todo padrão tem uma pequena lista de exemplos (muitos deles vindos do Zend Framework, Symfony2 ou Doctrine2 já que tenho mais familiaridade com eles</p>
   

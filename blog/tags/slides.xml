@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://localhost:8000/blog/tags/slides.xml" rel="self"/>
-    <link href="http://localhost:8000/"/>
-    <updated>2018-08-13T15:43:26-03:00</updated>
-    <id>http://localhost:8000/</id>
+    <link href="http://phpes.org/blog/tags/slides.xml" rel="self"/>
+    <link href="http://phpes.org/"/>
+    <updated>2018-08-13T15:44:28-03:00</updated>
+    <id>http://phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Symfony 3 Slides]]></title>
-            <link href="http://localhost:8000/blog/2016/08/02/symfony-3-slides/"/>
+            <link href="http://phpes.org/blog/2016/08/02/symfony-3-slides/"/>
             <updated>2016-08-02T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/08/02/symfony-3-slides/</id>
+            <id>http://phpes.org/blog/2016/08/02/symfony-3-slides/</id>
             <content type="html"><![CDATA[<p>Está disponível na Internet a minha apresentação do curso Symfony 3 (40 horas) que ministrei na Mindworks.</p>
 
 <p>Caso tenha interesse em participar do treinamento basta entrar em contato pelo do site da <a href="http://www.mindworks.com.br/">Mindworks</a> e ver disponibilidade de novas turmas.</p>

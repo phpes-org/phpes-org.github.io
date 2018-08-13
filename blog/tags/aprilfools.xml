@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://localhost:8000/blog/tags/aprilfools.xml" rel="self"/>
-    <link href="http://localhost:8000/"/>
-    <updated>2018-08-13T15:43:26-03:00</updated>
-    <id>http://localhost:8000/</id>
+    <link href="http://phpes.org/blog/tags/aprilfools.xml" rel="self"/>
+    <link href="http://phpes.org/"/>
+    <updated>2018-08-13T15:44:29-03:00</updated>
+    <id>http://phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Adobe anuncia compra do PHP]]></title>
-            <link href="http://localhost:8000/blog/2016/04/01/adobe-anuncia-compra-php/"/>
+            <link href="http://phpes.org/blog/2016/04/01/adobe-anuncia-compra-php/"/>
             <updated>2016-04-01T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/04/01/adobe-anuncia-compra-php/</id>
+            <id>http://phpes.org/blog/2016/04/01/adobe-anuncia-compra-php/</id>
             <content type="html"><![CDATA[<p>Depois de uma forte disputa com a Oracle a Adobe anunciou a aquisição dos direitos da linguagem PHP e de todas suas marcas nessa sexta-feira.</p>
 
 <p>Com isso a gigante do Photoshop pretende fazer com que o Adobe Animate CC (antigo Flash Professional) passe exportar suas animações também em código PHP.</p>

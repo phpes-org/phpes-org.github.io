@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://localhost:8000/blog/tags/symfony.xml" rel="self"/>
-    <link href="http://localhost:8000/"/>
-    <updated>2018-08-13T15:43:26-03:00</updated>
-    <id>http://localhost:8000/</id>
+    <link href="http://phpes.org/blog/tags/symfony.xml" rel="self"/>
+    <link href="http://phpes.org/"/>
+    <updated>2018-08-13T15:44:28-03:00</updated>
+    <id>http://phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Symfony 4 Preview]]></title>
-            <link href="http://localhost:8000/blog/2017/05/08/symfony-4-preview/"/>
+            <link href="http://phpes.org/blog/2017/05/08/symfony-4-preview/"/>
             <updated>2017-05-08T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2017/05/08/symfony-4-preview/</id>
+            <id>http://phpes.org/blog/2017/05/08/symfony-4-preview/</id>
             <content type="html"><![CDATA[<p>O criador do Symfony, <a href="https://connect.sensiolabs.com/profile/fabpot">Fabien Potencier</a>, escreveu em seu <a href="https://medium.com/@fabpot">perfil do Medium</a> uma série de publicações a respeito da futura versão do framework, e semana passada ele terminou essa série com uma demonstração de como será essa nova versão maior (funcionalidades já presentes na versão 3.3).</p>
 
 <p>Tópicos:</p>
@@ -31,9 +31,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Benchmarking Laravel, Symfony, &amp; Zend]]></title>
-            <link href="http://localhost:8000/blog/2017/03/01/benchmarking-laravel-symfony-zend/"/>
+            <link href="http://phpes.org/blog/2017/03/01/benchmarking-laravel-symfony-zend/"/>
             <updated>2017-03-01T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2017/03/01/benchmarking-laravel-symfony-zend/</id>
+            <id>http://phpes.org/blog/2017/03/01/benchmarking-laravel-symfony-zend/</id>
             <content type="html"><![CDATA[<p>Post (inglês) demonstrando um benchmark entre os frameworks <a href="https://laravel.com">Laravel</a>, <a href="https://symfony.com">Symfony</a> e <a href="https://framework.zend.com">Zend</a>.</p>
 
 <blockquote>
@@ -45,9 +45,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Symfony 500million]]></title>
-            <link href="http://localhost:8000/blog/2016/09/14/symfony-500million/"/>
+            <link href="http://phpes.org/blog/2016/09/14/symfony-500million/"/>
             <updated>2016-09-14T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/09/14/symfony-500million/</id>
+            <id>http://phpes.org/blog/2016/09/14/symfony-500million/</id>
             <content type="html"><![CDATA[<p>Desde o lançamento do Symfony 2.0 (28 de julho de 2011) os pacotes dos componentes do framework já foram baixados mais de 480 milhões de vezes. E para acompanhar essa marca chegar a 500mi foi lançada uma página com o contador de downloads (apenas downloads via Composer):</p>
 
 <p><a href="https://symfony.com/500million">https://symfony.com/500million</a></p>
@@ -61,9 +61,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Symfony 3 Slides]]></title>
-            <link href="http://localhost:8000/blog/2016/08/02/symfony-3-slides/"/>
+            <link href="http://phpes.org/blog/2016/08/02/symfony-3-slides/"/>
             <updated>2016-08-02T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/08/02/symfony-3-slides/</id>
+            <id>http://phpes.org/blog/2016/08/02/symfony-3-slides/</id>
             <content type="html"><![CDATA[<p>Está disponível na Internet a minha apresentação do curso Symfony 3 (40 horas) que ministrei na Mindworks.</p>
 
 <p>Caso tenha interesse em participar do treinamento basta entrar em contato pelo do site da <a href="http://www.mindworks.com.br/">Mindworks</a> e ver disponibilidade de novas turmas.</p>
@@ -73,9 +73,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Awesome Symfony]]></title>
-            <link href="http://localhost:8000/blog/2016/04/29/awesome-symfony/"/>
+            <link href="http://phpes.org/blog/2016/04/29/awesome-symfony/"/>
             <updated>2016-04-29T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/04/29/awesome-symfony/</id>
+            <id>http://phpes.org/blog/2016/04/29/awesome-symfony/</id>
             <content type="html"><![CDATA[<p>Coletânea com bundles, utilitários e recursos para desenvolvimento utilizando o framework Symfony.</p>
 
 <blockquote>
@@ -87,9 +87,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Pagekit CMS]]></title>
-            <link href="http://localhost:8000/blog/2016/04/26/pagekit-cms/"/>
+            <link href="http://phpes.org/blog/2016/04/26/pagekit-cms/"/>
             <updated>2016-04-26T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/04/26/pagekit-cms/</id>
+            <id>http://phpes.org/blog/2016/04/26/pagekit-cms/</id>
             <content type="html"><![CDATA[<p>Divulgado hoje no blog do Symfony o novo CMS <a href="https://pagekit.com/">PageKit</a>, que tem o código-fonte aberto e é construído utilizando os components do Symfony. Segundo definição do site do projeto, o PageKit é um CMS moderno, intuitivo, modular, e flexível.</p>
 
 <blockquote>
@@ -101,9 +101,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Aplicação Symfony como HTTP Server]]></title>
-            <link href="http://localhost:8000/blog/2016/04/18/aplicacao-symfony-como-http-server/"/>
+            <link href="http://phpes.org/blog/2016/04/18/aplicacao-symfony-como-http-server/"/>
             <updated>2016-04-18T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2016/04/18/aplicacao-symfony-como-http-server/</id>
+            <id>http://phpes.org/blog/2016/04/18/aplicacao-symfony-como-http-server/</id>
             <content type="html"><![CDATA[<p>Tutorial ensinando transformar uma aplicação Symfony em um servidor HTTP pronto para executar, e sem necessidade servidor adicional como por exemplo NGINX e/ou Apache2, utilizando a biblioteca ReactPHP.</p>
 
 <blockquote>

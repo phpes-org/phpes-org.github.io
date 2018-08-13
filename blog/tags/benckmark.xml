@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://localhost:8000/blog/tags/benckmark.xml" rel="self"/>
-    <link href="http://localhost:8000/"/>
-    <updated>2018-08-13T15:43:26-03:00</updated>
-    <id>http://localhost:8000/</id>
+    <link href="http://phpes.org/blog/tags/benckmark.xml" rel="self"/>
+    <link href="http://phpes.org/"/>
+    <updated>2018-08-13T15:44:28-03:00</updated>
+    <id>http://phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Benchmarking Laravel, Symfony, &amp; Zend]]></title>
-            <link href="http://localhost:8000/blog/2017/03/01/benchmarking-laravel-symfony-zend/"/>
+            <link href="http://phpes.org/blog/2017/03/01/benchmarking-laravel-symfony-zend/"/>
             <updated>2017-03-01T00:00:00-03:00</updated>
-            <id>http://localhost:8000/blog/2017/03/01/benchmarking-laravel-symfony-zend/</id>
+            <id>http://phpes.org/blog/2017/03/01/benchmarking-laravel-symfony-zend/</id>
             <content type="html"><![CDATA[<p>Post (inglês) demonstrando um benchmark entre os frameworks <a href="https://laravel.com">Laravel</a>, <a href="https://symfony.com">Symfony</a> e <a href="https://framework.zend.com">Zend</a>.</p>
 
 <blockquote>
