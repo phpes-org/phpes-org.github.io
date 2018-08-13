@@ -15,14 +15,16 @@ use:
         <div>
             {{ post.blocks.content|raw }}
         </div>
-        {% if post.meta.tags %}
-            <p class="tags">
-            Tags:
-            {% for tag in post.meta.tags %}
-            <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}
-            </p>
-        {% endif %}
+        <footer>
+            {% if post.meta.tags %}
+                <p class="tags">
+                Tags:
+                {% for tag in post.meta.tags %}
+                <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %} {% endif %}
+                {% endfor %}
+                </p>
+            {% endif %}
+        </footer>
     </article>
 {% endfor %}
 {% if page.pagination.previous_page or page.pagination.next_page %}
