@@ -6,36 +6,59 @@ use:
     - posts
 
 ---
+{% set first = true %}
 {% set year = '0' %}
 {% set months = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'] %}
 {% set currMonth = post.date | date("m") - 1 %}
 
-<h2>Arquivo</h2>
-{% for post in page.pagination.items %}
-{% set this_year %}{{ post.date | date("Y") }}{% endset %}
-{% if year != this_year %}
-  {% set month = '0' %}
-  {% set year = this_year %}
-{% endif %}
-{% set this_month %}{{ months[currMonth] }}{% endset %}
-{% if month != this_month %}
-  {% set month = this_month %}
-  <h3>{{ month }} {{ year }}</h3>
-{% endif %}
+<article>
+  <header>
+    <h2>Arquivo</h2>
+  </header>
   <div>
-    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+    {% for post in page.pagination.items %}
+    {% set this_year %}{{ post.date | date("Y") }}{% endset %}
+    {% if year != this_year %}
+      {% set month = '0' %}
+      {% set year = this_year %}
+    {% endif %}
+    {% set this_month %}{{ months[currMonth] }}{% endset %}
+    {% if month != this_month %}
+      {% if not first %}
+        </ul>
+      {% endif %}
+      {% set first = false %}
+      {% set month = this_month %}
+      <h3>{{ month }} {{ year }}</h3>
+      <ul>
+    {% endif %}
+      <li>
+        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
   </div>
-{% endfor %}
-
+</article>
 <div>
-{% if page.pagination.previous_page or page.pagination.next_page %}
-    <nav class="article clearfix">
-    {% if page.pagination.previous_page %}
-    <a class="previous" href="{{ site.url }}{{ page.pagination.previous_page.url }}" title="Previous Page"><span class="title">Previous Page</span></a>
-    {% endif %}
-    {% if page.pagination.next_page %}
-    <a class="next" href="{{ site.url }}{{ page.pagination.next_page.url }}" title="Next Page"><span class="title">Next Page</span></a>
-    {% endif %}
-    </nav>
-{% endif %}
+  {% if page.pagination.previous_page or page.pagination.next_page %}
+      <nav class="article">
+        <ul class="pager">
+          {% if page.pagination.previous_page %}
+          <li>
+            <a  href="{{ site.url }}{{ page.pagination.previous_page.url }}" title="Página anterior">
+              &laquo;
+              Anterior
+            </a>
+          </li>
+          {% endif %}
+          {% if page.pagination.next_page %}
+          <li>
+            <a href="{{ site.url }}{{ page.pagination.next_page.url }}" title="Próxima">
+              Próxima
+              &raquo;
+            </a>
+          </li>
+          {% endif %}
+          </ul>
+      </nav>
+  {% endif %}
 </div>
