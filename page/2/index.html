@@ -57,6 +57,38 @@
             <div class="col-md-8">
                     <article>
         <header>
+            <h2><a href="http://www.phpes.org/blog/2016/08/31/crunz/">Crunz</a></h2>
+        </header>
+        <div>
+            <p><a href="https://github.com/lavary/crunz">Crunz</a> é um agendador de tarefas periódicas escrito em PHP. Possibilitando configurar as tarefas a serem executadas através de uma API fluente.</p>
+
+<pre><code class="php">&lt;?php
+
+use Crunz\Schedule;
+
+$schedule = new Schedule();
+$schedule-&gt;run('cp project project-bk')       
+         -&gt;daily()
+
+return $schedule;
+</code></pre>
+
+<p>E por fim adicionar uma única entrada na crontab para para executar o Crunz a cada minuto:</p>
+
+<pre><code>* * * * * /project/vendor/bin/crunz schedule:run
+</code></pre>
+
+<p>Para visualizar maiores informações sobre a biblioteca é só acessar a <a href="https://github.com/lavary/crunz">página do projeto no Github</a>.</p>
+
+        </div>
+        <footer>
+                            <p class="tags">
+                Tags:
+                                <a href="http://www.phpes.org/blog/tags/crunz">crunz</a>                                 <a href="http://www.phpes.org/blog/tags/cron">cron</a>                                 <a href="http://www.phpes.org/blog/tags/job">job</a>                                </p>
+                    </footer>
+    </article>
+    <article>
+        <header>
             <h2><a href="http://www.phpes.org/blog/2016/08/02/symfony-3-slides/">Symfony 3 Slides</a></h2>
         </header>
         <div>
@@ -312,42 +344,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
                             <p class="tags">
                 Tags:
                                 <a href="http://www.phpes.org/blog/tags/php">php</a>                                 <a href="http://www.phpes.org/blog/tags/awesome">awesome</a>                                 <a href="http://www.phpes.org/blog/tags/symfony">symfony</a>                                </p>
-                    </footer>
-    </article>
-    <article>
-        <header>
-            <h2><a href="http://www.phpes.org/blog/2016/04/28/jobby/">Jobby</a></h2>
-        </header>
-        <div>
-            <p>Com <a href="https://github.com/jobbyphp/jobby">Jobby</a> você gerencia os jobs através do PHP sem necessidade de alterar a crontab.</p>
-
-<blockquote>
-  <p>Install the master jobby cron job, and it will manage all your offline tasks. Add jobs without modifying crontab. Jobby can handle logging, locking, error emails and more.</p>
-</blockquote>
-
-<p>Basta apenas uma entrada principal na crontab.</p>
-
-<pre><code>* * * * * cd /path/to/project &amp;&amp; php jobby.php 1&gt;&gt; /dev/null 2&gt;&amp;1
-</code></pre>
-
-<p>Funcionalidades:</p>
-
-<ul>
-<li>Maintain one master crontab job.</li>
-<li>Jobs run via PHP, so you can run them under any programmatic conditions.</li>
-<li>Use ordinary crontab schedule syntax (powered by the excellent cron-expression).</li>
-<li>Run only one copy of a job at a given time.</li>
-<li>Send email whenever a job exits with an error status.</li>
-<li>Run job as another user, if crontab user has sudo privileges.</li>
-<li>Run only on certain hostnames (handy in webfarms).</li>
-<li>Theoretical Windows support (but not ever tested)</li>
-</ul>
-
-        </div>
-        <footer>
-                            <p class="tags">
-                Tags:
-                                <a href="http://www.phpes.org/blog/tags/php">php</a>                                 <a href="http://www.phpes.org/blog/tags/cron">cron</a>                                 <a href="http://www.phpes.org/blog/tags/job">job</a>                                 <a href="http://www.phpes.org/blog/tags/jobby">jobby</a>                                </p>
                     </footer>
     </article>
     <nav>

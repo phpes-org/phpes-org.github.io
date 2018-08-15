@@ -3,9 +3,17 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/blog/tags/reactphp.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2018-08-13T18:26:00-03:00</updated>
+    <updated>2018-08-15T14:04:03-03:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[[Vídeo] ReactPHP Middleware]]></title>
+            <link href="http://www.phpes.org/blog/2018/08/15/reactphp-middleware/"/>
+            <updated>2018-08-15T00:00:00-03:00</updated>
+            <id>http://www.phpes.org/blog/2018/08/15/reactphp-middleware/</id>
+            <content type="html"><![CDATA[<iframe style="width: 100%; height: 400px" src="https://www.youtube.com/embed/nRMlOrW2rwE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Aplicação Symfony como HTTP Server]]></title>
             <link href="http://www.phpes.org/blog/2016/04/18/aplicacao-symfony-como-http-server/"/>

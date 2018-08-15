@@ -3,9 +3,17 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/blog/tags/php.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2018-08-13T18:26:00-03:00</updated>
+    <updated>2018-08-15T14:04:03-03:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[[Vídeo] ReactPHP Middleware]]></title>
+            <link href="http://www.phpes.org/blog/2018/08/15/reactphp-middleware/"/>
+            <updated>2018-08-15T00:00:00-03:00</updated>
+            <id>http://www.phpes.org/blog/2018/08/15/reactphp-middleware/</id>
+            <content type="html"><![CDATA[<iframe style="width: 100%; height: 400px" src="https://www.youtube.com/embed/nRMlOrW2rwE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[A Semana PHP]]></title>
             <link href="http://www.phpes.org/blog/2018/08/13/a-semana-php/"/>
@@ -233,20 +241,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
 <li>Run only on certain hostnames (handy in webfarms).</li>
 <li>Theoretical Windows support (but not ever tested)</li>
 </ul>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Pagekit CMS]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/26/pagekit-cms/"/>
-            <updated>2016-04-26T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/26/pagekit-cms/</id>
-            <content type="html"><![CDATA[<p>Divulgado hoje no blog do Symfony o novo CMS <a href="https://pagekit.com/">PageKit</a>, que tem o código-fonte aberto e é construído utilizando os components do Symfony. Segundo definição do site do projeto, o PageKit é um CMS moderno, intuitivo, modular, e flexível.</p>
-
-<blockquote>
-  <p>Pagekit is an Open Source CMS built with several Symfony Components. Recently we had the opportunity to meet with Jan Schönherr, one of its lead developers, and we talked with him about Symfony and Pagekit.</p>
-</blockquote>
-
-<p>Fonte: <a href="http://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components">http://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components</a></p>
 ]]></content>
         </entry>
     </feed>

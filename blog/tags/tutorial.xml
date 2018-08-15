@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/video.xml" rel="self"/>
+    <link href="http://www.phpes.org/blog/tags/tutorial.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
     <updated>2018-08-15T14:04:03-03:00</updated>
     <id>http://www.phpes.org/</id>
@@ -12,18 +12,6 @@
             <updated>2018-08-15T00:00:00-03:00</updated>
             <id>http://www.phpes.org/blog/2018/08/15/reactphp-middleware/</id>
             <content type="html"><![CDATA[<iframe style="width: 100%; height: 400px" src="https://www.youtube.com/embed/nRMlOrW2rwE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[PHP must watch]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/14/php-must-watch/"/>
-            <updated>2016-04-14T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/14/php-must-watch/</id>
-            <content type="html"><![CDATA[<p><a href="https://github.com/phptodayorg/php-must-watch">PHP must watch</a> é um repositório contendo uma lista de conferências sobre PHP:</p>
-
-<blockquote>
-  <p>A list of interesting conference talks and great videos on PHP. Inspired by js-must-watch</p>
-</blockquote>
 ]]></content>
         </entry>
     </feed>
