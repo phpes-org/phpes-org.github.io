@@ -3,9 +3,32 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="http://www.phpes.org/blog/tags/php.xml" rel="self"/>
     <link href="http://www.phpes.org/"/>
-    <updated>2018-08-15T14:04:03-03:00</updated>
+    <updated>2018-09-19T12:26:44-03:00</updated>
     <id>http://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[10 coisas para não fazer no PHP 7]]></title>
+            <link href="http://www.phpes.org/blog/2018/08/19/10-coisas-para-nao-fazer-php-7/"/>
+            <updated>2018-08-19T00:00:00-03:00</updated>
+            <id>http://www.phpes.org/blog/2018/08/19/10-coisas-para-nao-fazer-php-7/</id>
+            <content type="html"><![CDATA[<p>Artigo em inglês listando 10 coisas para você não fazer no PHP7:</p>
+
+<ol>
+<li>Do Not Use mysql Functions</li>
+<li>Do Not Write Wasteful Code</li>
+<li>Do Not Use PHP Close Tags</li>
+<li>Do Not Pass by Reference if Not Needed</li>
+<li>Do Not Perform Queries In A Loop</li>
+<li>Do Not Use * in SQL Queries</li>
+<li>Do Not Trust User Input</li>
+<li>Do Not Try to Be Clever</li>
+<li>Do Not Reinvent the Wheel</li>
+<li>Do Not Neglect Other Languages</li>
+</ol>
+
+<p><a href="http://www.advanceidea.co.in/blog/things-not-to-do-in-php-7">http://www.advanceidea.co.in/blog/things-not-to-do-in-php-7</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[[Vídeo] ReactPHP Middleware]]></title>
             <link href="http://www.phpes.org/blog/2018/08/15/reactphp-middleware/"/>
@@ -211,36 +234,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
 </blockquote>
 
 <p>Fonte: <a href="https://github.com/sitepoint/awesome-symfony">https://github.com/sitepoint/awesome-symfony</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Jobby]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/28/jobby/"/>
-            <updated>2016-04-28T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/28/jobby/</id>
-            <content type="html"><![CDATA[<p>Com <a href="https://github.com/jobbyphp/jobby">Jobby</a> você gerencia os jobs através do PHP sem necessidade de alterar a crontab.</p>
-
-<blockquote>
-  <p>Install the master jobby cron job, and it will manage all your offline tasks. Add jobs without modifying crontab. Jobby can handle logging, locking, error emails and more.</p>
-</blockquote>
-
-<p>Basta apenas uma entrada principal na crontab.</p>
-
-<pre><code>* * * * * cd /path/to/project &amp;&amp; php jobby.php 1&gt;&gt; /dev/null 2&gt;&amp;1
-</code></pre>
-
-<p>Funcionalidades:</p>
-
-<ul>
-<li>Maintain one master crontab job.</li>
-<li>Jobs run via PHP, so you can run them under any programmatic conditions.</li>
-<li>Use ordinary crontab schedule syntax (powered by the excellent cron-expression).</li>
-<li>Run only one copy of a job at a given time.</li>
-<li>Send email whenever a job exits with an error status.</li>
-<li>Run job as another user, if crontab user has sudo privileges.</li>
-<li>Run only on certain hostnames (handy in webfarms).</li>
-<li>Theoretical Windows support (but not ever tested)</li>
-</ul>
 ]]></content>
         </entry>
     </feed>
