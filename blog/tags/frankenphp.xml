@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[PHP-ES]]></title>
+    <link href="https://www.phpes.org/blog/tags/frankenphp.xml" rel="self"/>
+    <link href="https://www.phpes.org/"/>
+    <updated>2024-11-14T18:20:31+00:00</updated>
+    <id>https://www.phpes.org/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[FrankenPHP 1.3]]></title>
+            <link href="https://www.phpes.org/blog/2024/11/14/frankenphp-130/"/>
+            <updated>2024-11-14T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2024/11/14/frankenphp-130/</id>
+            <content type="html"><![CDATA[<p>Uma nova versão <a href="https://frankenphp.dev/">FrankenPHP</a> foi lançada e de acordo com benchmark realizados pelo time de desenvolvimento, essa nova versão 1.3 é 54% mais eficiente que a versão anterior.</p>
+
+<p>Para quem ainda não conhece, FrankenPHP é um servidor de aplicação PHP constrituído em cima do servidor web Caddy. Além servir arquivos PHP nativamente, ainda possui suporte a Server-Sent Events através do protocolo <a href="https://mercure.rocks/">Mercure</a>.</p>
+
+<p><a href="https://dunglas.dev/2024/11/frankenphp-1-3-massive-performance-improvements-watcher-mode-dedicated-prometheus-metrics-and-more/">https://dunglas.dev/2024/11/frankenphp-1-3-massive-performance-improvements-watcher-mode-dedicated-prometheus-metrics-and-more/</a></p>
+]]></content>
+        </entry>
+    </feed>

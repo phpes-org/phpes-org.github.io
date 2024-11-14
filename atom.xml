@@ -3,9 +3,21 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/atom.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2024-11-14T18:09:09+00:00</updated>
+    <updated>2024-11-14T18:20:31+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[FrankenPHP 1.3]]></title>
+            <link href="https://www.phpes.org/blog/2024/11/14/frankenphp-130/"/>
+            <updated>2024-11-14T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2024/11/14/frankenphp-130/</id>
+            <content type="html"><![CDATA[<p>Uma nova versão <a href="https://frankenphp.dev/">FrankenPHP</a> foi lançada e de acordo com benchmark realizados pelo time de desenvolvimento, essa nova versão 1.3 é 54% mais eficiente que a versão anterior.</p>
+
+<p>Para quem ainda não conhece, FrankenPHP é um servidor de aplicação PHP constrituído em cima do servidor web Caddy. Além servir arquivos PHP nativamente, ainda possui suporte a Server-Sent Events através do protocolo <a href="https://mercure.rocks/">Mercure</a>.</p>
+
+<p><a href="https://dunglas.dev/2024/11/frankenphp-1-3-massive-performance-improvements-watcher-mode-dedicated-prometheus-metrics-and-more/">https://dunglas.dev/2024/11/frankenphp-1-3-massive-performance-improvements-watcher-mode-dedicated-prometheus-metrics-and-more/</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[10 coisas para não fazer no PHP 7]]></title>
             <link href="https://www.phpes.org/blog/2018/08/19/10-coisas-para-nao-fazer-php-7/"/>
@@ -164,24 +176,6 @@ $ chmod +x psysh
             <content type="html"><![CDATA[<p><a href="https://github.com/sidkshatriya/dontbug">Dontbug debugger</a> permite gravar a execução de scripts PHP e depois visualizar a execução na IDE através do modo debug (tanto a execução normal quanto reversa).</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DA76z77KtY0" frameborder="0" allowfullscreen></iframe>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Design Patterns PHP]]></title>
-            <link href="https://www.phpes.org/blog/2016/09/19/design-patterns-php/"/>
-            <updated>2016-09-19T00:00:00+00:00</updated>
-            <id>https://www.phpes.org/blog/2016/09/19/design-patterns-php/</id>
-            <content type="html"><![CDATA[<blockquote>
-  <p>Esta é uma coleção de padrões de projetos conhecidos e alguns códigos de exemplo de como implementá-los em PHP. Todo padrão tem uma pequena lista de exemplos (muitos deles vindos do Zend Framework, Symfony2 ou Doctrine2 já que tenho mais familiaridade com eles</p>
-  
-  <p>Eu acredito que o problema com os padrões é que muitas pessoas os conhecem mas não sabem quando aplicá-los</p>
-</blockquote>
-
-<ul>
-<li>Original (en): <a href="http://designpatternsphp.readthedocs.io/">DesignPatternsPHP</a></li>
-<li>Português (pt_BR): <a href="http://designpatternsphp.readthedocs.io/pt_BR/latest/README.html">DesignPatternsPHP</a></li>
-<li>Código-fonte: <a href="https://github.com/domnikl/DesignPatternsPHP">Github</a></li>
-</ul>
 ]]></content>
         </entry>
     </feed>

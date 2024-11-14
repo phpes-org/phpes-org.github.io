@@ -3,9 +3,21 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/blog/tags/php.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2024-11-14T18:09:09+00:00</updated>
+    <updated>2024-11-14T18:20:31+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[FrankenPHP 1.3]]></title>
+            <link href="https://www.phpes.org/blog/2024/11/14/frankenphp-130/"/>
+            <updated>2024-11-14T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2024/11/14/frankenphp-130/</id>
+            <content type="html"><![CDATA[<p>Uma nova versão <a href="https://frankenphp.dev/">FrankenPHP</a> foi lançada e de acordo com benchmark realizados pelo time de desenvolvimento, essa nova versão 1.3 é 54% mais eficiente que a versão anterior.</p>
+
+<p>Para quem ainda não conhece, FrankenPHP é um servidor de aplicação PHP constrituído em cima do servidor web Caddy. Além servir arquivos PHP nativamente, ainda possui suporte a Server-Sent Events através do protocolo <a href="https://mercure.rocks/">Mercure</a>.</p>
+
+<p><a href="https://dunglas.dev/2024/11/frankenphp-1-3-massive-performance-improvements-watcher-mode-dedicated-prometheus-metrics-and-more/">https://dunglas.dev/2024/11/frankenphp-1-3-massive-performance-improvements-watcher-mode-dedicated-prometheus-metrics-and-more/</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[10 coisas para não fazer no PHP 7]]></title>
             <link href="https://www.phpes.org/blog/2018/08/19/10-coisas-para-nao-fazer-php-7/"/>
@@ -220,20 +232,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
   
   <p>Piwik aims to be a Free software alternative to Google Analytics, and is already used on more than 1,000,000 websites. Privacy is built-in!</p>
 </blockquote>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Awesome Symfony]]></title>
-            <link href="https://www.phpes.org/blog/2016/04/29/awesome-symfony/"/>
-            <updated>2016-04-29T00:00:00+00:00</updated>
-            <id>https://www.phpes.org/blog/2016/04/29/awesome-symfony/</id>
-            <content type="html"><![CDATA[<p>Coletânea com bundles, utilitários e recursos para desenvolvimento utilizando o framework Symfony.</p>
-
-<blockquote>
-  <p>A list of awesome Symfony bundles, utilities and resources.</p>
-</blockquote>
-
-<p>Fonte: <a href="https://github.com/sitepoint/awesome-symfony">https://github.com/sitepoint/awesome-symfony</a></p>
 ]]></content>
         </entry>
     </feed>
