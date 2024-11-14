@@ -5,6 +5,7 @@
 /app/logs/*
 /output_*/
 /node_modules/
+/source/components/
 /source/build/
 s3.conf
 /vendor/
