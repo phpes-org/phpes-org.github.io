@@ -3,7 +3,7 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/atom.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2024-11-14T18:22:04+00:00</updated>
+    <updated>2024-11-14T18:24:36+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
@@ -11,7 +11,7 @@
             <link href="https://www.phpes.org/blog/2024/11/14/whats-new-in-php-84-video/"/>
             <updated>2024-11-14T00:00:00+00:00</updated>
             <id>https://www.phpes.org/blog/2024/11/14/whats-new-in-php-84-video/</id>
-            <content type="html"><![CDATA[<iframe width="1705" height="968" src="https://www.youtube.com/embed/mokBtjyT8fo" title="What&#39;s new in PHP 8.4?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <content type="html"><![CDATA[<iframe style="width: 100%; height: 400px" src="https://www.youtube.com/embed/mokBtjyT8fo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 ]]></content>
         </entry>
             <entry>
