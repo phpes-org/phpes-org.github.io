@@ -14,5 +14,13 @@
             "email": "beau@dflydev.com",
             "homepage": "http://beausimensen.com"
         }
-    ]
+    ],
+    "require": {
+        "sculpin/sculpin": "^3.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "sculpin/sculpin-theme-composer-plugin": true
+        }
+    }
 }
