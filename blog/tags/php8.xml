@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[PHP-ES]]></title>
+    <link href="https://www.phpes.org/blog/tags/php8.xml" rel="self"/>
+    <link href="https://www.phpes.org/"/>
+    <updated>2024-11-14T18:22:04+00:00</updated>
+    <id>https://www.phpes.org/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[What&#039;s new in PHP 8.4 [video]]]></title>
+            <link href="https://www.phpes.org/blog/2024/11/14/whats-new-in-php-84-video/"/>
+            <updated>2024-11-14T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2024/11/14/whats-new-in-php-84-video/</id>
+            <content type="html"><![CDATA[<iframe width="1705" height="968" src="https://www.youtube.com/embed/mokBtjyT8fo" title="What&#39;s new in PHP 8.4?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+]]></content>
+        </entry>
+    </feed>

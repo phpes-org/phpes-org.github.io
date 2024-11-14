@@ -3,9 +3,17 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/blog/tags/php.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2024-11-14T18:20:31+00:00</updated>
+    <updated>2024-11-14T18:22:04+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[What&#039;s new in PHP 8.4 [video]]]></title>
+            <link href="https://www.phpes.org/blog/2024/11/14/whats-new-in-php-84-video/"/>
+            <updated>2024-11-14T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2024/11/14/whats-new-in-php-84-video/</id>
+            <content type="html"><![CDATA[<iframe width="1705" height="968" src="https://www.youtube.com/embed/mokBtjyT8fo" title="What&#39;s new in PHP 8.4?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[FrankenPHP 1.3]]></title>
             <link href="https://www.phpes.org/blog/2024/11/14/frankenphp-130/"/>
@@ -218,20 +226,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
 </blockquote>
 
 <p>Fonte: <a href="https://github.com/nfephp-org/nfephp">https://github.com/nfephp-org/nfephp</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Piwik]]></title>
-            <link href="https://www.phpes.org/blog/2016/05/02/piwik/"/>
-            <updated>2016-05-02T00:00:00+00:00</updated>
-            <id>https://www.phpes.org/blog/2016/05/02/piwik/</id>
-            <content type="html"><![CDATA[<p><a href="http://piwik.org/">Piwik</a> é uma alternativa opensource ao Google Analytics, escrito em PHP e que utiliza MySQL como base de dados.</p>
-
-<blockquote>
-  <p>Piwik is a full featured PHP MySQL software program that you download and install on your own webserver. At the end of the five minute installation process you will be given a JavaScript code. Simply copy and paste this tag on websites you wish to track and access your analytics reports in real time.</p>
-  
-  <p>Piwik aims to be a Free software alternative to Google Analytics, and is already used on more than 1,000,000 websites. Privacy is built-in!</p>
-</blockquote>
 ]]></content>
         </entry>
     </feed>
