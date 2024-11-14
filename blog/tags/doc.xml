@@ -3,7 +3,7 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/blog/tags/doc.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2024-11-14T18:06:33+00:00</updated>
+    <updated>2024-11-14T18:09:09+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
@@ -22,6 +22,20 @@
 <li>Português (pt_BR): <a href="http://designpatternsphp.readthedocs.io/pt_BR/latest/README.html">DesignPatternsPHP</a></li>
 <li>Código-fonte: <a href="https://github.com/domnikl/DesignPatternsPHP">Github</a></li>
 </ul>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[PHP: The Right Way]]></title>
+            <link href="https://www.phpes.org/blog/2016/03/30/php-the-right-way/"/>
+            <updated>2016-03-30T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2016/03/30/php-the-right-way/</id>
+            <content type="html"><![CDATA[<p><a href="http://www.phptherightway.com/">PHP: The Right Way</a> é uma leitura obrigatória para todo desenvolvedor PHP. Abordando os padrões e melhores práticas de desenvolvimento.</p>
+
+<blockquote>
+  <p>There’s a lot of outdated information on the Web that leads new PHP users astray, propagating bad practices and insecure code. PHP: The Right Way is an easy-to-read, quick reference for PHP popular coding standards, links to authoritative tutorials around the Web and what the contributors consider to be best practices at the present time.</p>
+</blockquote>
+
+<p>Fonte: <a href="http://www.phptherightway.com/">http://www.phptherightway.com/</a></p>
 ]]></content>
         </entry>
     </feed>
