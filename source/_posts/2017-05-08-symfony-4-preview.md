@@ -2,7 +2,7 @@
 title: Symfony 4 Preview
 author:
     name: Rogério Lino
-    link: http://github.com/rogeriolino
+    link: https://github.com/rogeriolino
 tags:
     - symfony
     - symfony4
@@ -23,4 +23,4 @@ Tópicos:
 - [Symfony 4: A small screencast…](https://medium.com/@fabpot/symfony-4-a-small-screencast-cf6511823f)
 - [Symfony 4: A quick Demo](https://medium.com/@fabpot/symfony-4-a-quick-demo-da7d32be323)
 
-Fonte: [http://symfony.com/blog/symfony-4-a-new-way-to-develop-applications](http://symfony.com/blog/symfony-4-a-new-way-to-develop-applications)
+Fonte: [https://symfony.com/blog/symfony-4-a-new-way-to-develop-applications](https://symfony.com/blog/symfony-4-a-new-way-to-develop-applications)

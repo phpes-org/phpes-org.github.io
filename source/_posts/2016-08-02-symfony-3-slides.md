@@ -2,7 +2,7 @@
 title: Symfony 3 Slides
 author:
     name: Rogério Lino
-    link: http://github.com/rogeriolino
+    link: https://github.com/rogeriolino
 tags:
     - symfony
     - slides

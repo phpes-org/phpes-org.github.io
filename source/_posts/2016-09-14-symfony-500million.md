@@ -2,7 +2,7 @@
 title: Symfony 500million
 author:
     name: Rogério Lino
-    link: http://github.com/rogeriolino
+    link: https://github.com/rogeriolino
 tags:
     - symfony
     - components
@@ -16,6 +16,6 @@ Desde o lançamento do Symfony 2.0 (28 de julho de 2011) os pacotes dos componen
 
 De acordo com a página, seguindo a taxa de download atual, a marca de 500 milhões de downloads será alcançada no dia 26 deste mês às 06h34 (horário de Brasília).
 
-E as melhores fotos publicadas no Twitter com a hashtag `#500million` serão premiadas ([conforme publicação no blog oficial](http://symfony.com/blog/the-road-to-500-million-symfony-downloads)).
+E as melhores fotos publicadas no Twitter com a hashtag `#500million` serão premiadas ([conforme publicação no blog oficial](https://symfony.com/blog/the-road-to-500-million-symfony-downloads)).
 
-Fonte: [http://symfony.com/blog/the-road-to-500-million-symfony-downloads](http://symfony.com/blog/the-road-to-500-million-symfony-downloads)
+Fonte: [https://symfony.com/blog/the-road-to-500-million-symfony-downloads](https://symfony.com/blog/the-road-to-500-million-symfony-downloads)

@@ -2,7 +2,7 @@
 title: PHP Middleworld
 author:
     name: Rogério Lino
-    link: http://github.com/rogeriolino
+    link: https://github.com/rogeriolino
 tags:
     - middleware
     - psr-7
@@ -11,7 +11,7 @@ tags:
 
 ---
 
-[PHP Middleworld](http://www.php-middleworld.com/) é um site que facilita a busca por implementações de middleware da [PSR-7](http://www.php-fig.org/psr/psr-7/) para serem utilizados em frameworks compatíveis.
+[PHP Middleworld](http://www.php-middleworld.com/) é um site que facilita a busca por implementações de middleware da [PSR-7](https://www.php-fig.org/psr/psr-7/) para serem utilizados em frameworks compatíveis.
 
 >What is middleware?
 >

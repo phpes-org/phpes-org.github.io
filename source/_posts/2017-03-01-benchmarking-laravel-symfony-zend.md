@@ -2,7 +2,7 @@
 title: Benchmarking Laravel, Symfony, & Zend
 author:
     name: Rogério Lino
-    link: http://github.com/rogeriolino
+    link: https://github.com/rogeriolino
 tags:
     - benckmark
     - laravel

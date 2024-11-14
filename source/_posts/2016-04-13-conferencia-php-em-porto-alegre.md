@@ -2,7 +2,7 @@
 title: Conferência PHP em Porto Alegre
 author:
     name: Rogério Lino
-    link: http://github.com/rogeriolino
+    link: https://github.com/rogeriolino
 tags:
     - php
     - phprs

@@ -2,7 +2,7 @@
 title: Aplicação Symfony como HTTP Server
 author:
     name: Rogério Lino
-    link: http://github.com/rogeriolino
+    link: https://github.com/rogeriolino
 tags:
     - php
     - symfony

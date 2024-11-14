@@ -2,7 +2,7 @@
 title: Pagekit CMS
 author:
     name: Rogério Lino
-    link: http://github.com/rogeriolino
+    link: https://github.com/rogeriolino
 tags:
     - php
     - symfony
@@ -14,4 +14,4 @@ Divulgado hoje no blog do Symfony o novo CMS [PageKit](https://pagekit.com/), qu
 
 >Pagekit is an Open Source CMS built with several Symfony Components. Recently we had the opportunity to meet with Jan Schönherr, one of its lead developers, and we talked with him about Symfony and Pagekit.
 
-Fonte: [http://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components](http://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components)
+Fonte: [https://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components](https://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components)

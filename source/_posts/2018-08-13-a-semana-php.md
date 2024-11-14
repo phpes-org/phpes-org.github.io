@@ -2,7 +2,7 @@
 title: A Semana PHP
 author:
     name: Rogério Lino
-    link: http://github.com/rogeriolino
+    link: https://github.com/rogeriolino
 tags:
     - newsletter
     - noticias

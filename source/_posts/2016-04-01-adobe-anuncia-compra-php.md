@@ -2,7 +2,7 @@
 title: Adobe anuncia compra do PHP
 author:
     name: Rogério Lino
-    link: http://github.com/rogeriolino
+    link: https://github.com/rogeriolino
 tags:
     - aprilfools
 

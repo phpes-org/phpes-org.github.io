@@ -2,7 +2,7 @@
 title: '10 coisas para não fazer no PHP 7'
 author:
     name: Rogério Lino
-    link: http://github.com/rogeriolino
+    link: https://github.com/rogeriolino
 tags:
     - php7
     - top10
@@ -23,6 +23,6 @@ Artigo em inglês listando 10 coisas para você não fazer no PHP7:
 9. Do Not Reinvent the Wheel
 10. Do Not Neglect Other Languages
 
-[http://www.advanceidea.co.in/blog/things-not-to-do-in-php-7](http://www.advanceidea.co.in/blog/things-not-to-do-in-php-7)
+[https://www.advanceidea.co.in/blog/things-not-to-do-in-php-7](https://www.advanceidea.co.in/blog/things-not-to-do-in-php-7)
 
 

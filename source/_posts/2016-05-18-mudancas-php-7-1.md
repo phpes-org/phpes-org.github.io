@@ -2,7 +2,7 @@
 title: Mudanças PHP 7.1
 author:
     name: Rogério Lino
-    link: http://github.com/rogeriolino
+    link: https://github.com/rogeriolino
 tags:
     - php
     - php7.1

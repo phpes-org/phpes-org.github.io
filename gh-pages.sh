@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git clone --depth=1 http://github.com/phpes-org/phpes-org.github.io.git output_prod
+git clone --depth=1 https://github.com/phpes-org/phpes-org.github.io.git output_prod
 cd output_prod/
 git pull origin master
 cd ../
