@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/tutorial.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2018-09-19T12:26:44-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="https://www.phpes.org/blog/tags/tutorial.xml" rel="self"/>
+    <link href="https://www.phpes.org/"/>
+    <updated>2024-11-14T18:06:33+00:00</updated>
+    <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[[Vídeo] ReactPHP Middleware]]></title>
-            <link href="http://www.phpes.org/blog/2018/08/15/reactphp-middleware/"/>
-            <updated>2018-08-15T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2018/08/15/reactphp-middleware/</id>
+            <link href="https://www.phpes.org/blog/2018/08/15/reactphp-middleware/"/>
+            <updated>2018-08-15T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2018/08/15/reactphp-middleware/</id>
             <content type="html"><![CDATA[<iframe style="width: 100%; height: 400px" src="https://www.youtube.com/embed/nRMlOrW2rwE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 ]]></content>
         </entry>

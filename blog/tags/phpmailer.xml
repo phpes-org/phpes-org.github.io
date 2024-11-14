@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/phpmailer.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2018-09-19T12:26:44-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="https://www.phpes.org/blog/tags/phpmailer.xml" rel="self"/>
+    <link href="https://www.phpes.org/"/>
+    <updated>2024-11-14T18:06:33+00:00</updated>
+    <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Mailer RCE Flaw Vulnerability]]></title>
-            <link href="http://www.phpes.org/blog/2017/01/10/mailer-rce-flaw-vulnerability/"/>
-            <updated>2017-01-10T00:00:00-02:00</updated>
-            <id>http://www.phpes.org/blog/2017/01/10/mailer-rce-flaw-vulnerability/</id>
+            <link href="https://www.phpes.org/blog/2017/01/10/mailer-rce-flaw-vulnerability/"/>
+            <updated>2017-01-10T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2017/01/10/mailer-rce-flaw-vulnerability/</id>
             <content type="html"><![CDATA[<p>No final do ano passado foram encontradas falhas RCE (Remote Code Execution) nas seguintes bibliotecas: PHPMailer (até v5.2.20) SwiftMailer (até v5.4.4) e Zend-mail (até v2.4.10).</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xyYMYvT2bx8" frameborder="0" allowfullscreen></iframe>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/framework.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2018-09-19T12:26:44-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="https://www.phpes.org/blog/tags/framework.xml" rel="self"/>
+    <link href="https://www.phpes.org/"/>
+    <updated>2024-11-14T18:06:33+00:00</updated>
+    <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Benchmarking Laravel, Symfony, &amp; Zend]]></title>
-            <link href="http://www.phpes.org/blog/2017/03/01/benchmarking-laravel-symfony-zend/"/>
-            <updated>2017-03-01T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2017/03/01/benchmarking-laravel-symfony-zend/</id>
+            <link href="https://www.phpes.org/blog/2017/03/01/benchmarking-laravel-symfony-zend/"/>
+            <updated>2017-03-01T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2017/03/01/benchmarking-laravel-symfony-zend/</id>
             <content type="html"><![CDATA[<p>Post (inglês) demonstrando um benchmark entre os frameworks <a href="https://laravel.com">Laravel</a>, <a href="https://symfony.com">Symfony</a> e <a href="https://framework.zend.com">Zend</a>.</p>
 
 <blockquote>
@@ -22,10 +22,10 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Zend Framework 3 Lançado]]></title>
-            <link href="http://www.phpes.org/blog/2016/06/30/zend-framework-3-lancado/"/>
-            <updated>2016-06-30T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/06/30/zend-framework-3-lancado/</id>
-            <content type="html"><![CDATA[<p>Dia 28 foi anunciado no blog oficial do Zend Framework o lançamento da versão 3. Agora seguindo a <a href="http://www.php-fig.org/psr/psr-7/">PSR-7</a> e compatível com PHP 7.0.</p>
+            <link href="https://www.phpes.org/blog/2016/06/30/zend-framework-3-lancado/"/>
+            <updated>2016-06-30T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2016/06/30/zend-framework-3-lancado/</id>
+            <content type="html"><![CDATA[<p>Dia 28 foi anunciado no blog oficial do Zend Framework o lançamento da versão 3. Agora seguindo a <a href="https://www.php-fig.org/psr/psr-7/">PSR-7</a> e compatível com PHP 7.0.</p>
 
 <p>Fonte: <a href="https://framework.zend.com/blog/2016-06-28-zend-framework-3.html">https://framework.zend.com/blog/2016-06-28-zend-framework-3.html</a></p>
 ]]></content>

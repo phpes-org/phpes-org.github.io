@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/php7.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2018-09-19T12:26:44-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="https://www.phpes.org/blog/tags/php7.xml" rel="self"/>
+    <link href="https://www.phpes.org/"/>
+    <updated>2024-11-14T18:06:33+00:00</updated>
+    <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[10 coisas para não fazer no PHP 7]]></title>
-            <link href="http://www.phpes.org/blog/2018/08/19/10-coisas-para-nao-fazer-php-7/"/>
-            <updated>2018-08-19T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2018/08/19/10-coisas-para-nao-fazer-php-7/</id>
+            <link href="https://www.phpes.org/blog/2018/08/19/10-coisas-para-nao-fazer-php-7/"/>
+            <updated>2018-08-19T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2018/08/19/10-coisas-para-nao-fazer-php-7/</id>
             <content type="html"><![CDATA[<p>Artigo em inglês listando 10 coisas para você não fazer no PHP7:</p>
 
 <ol>
@@ -26,7 +26,7 @@
 <li>Do Not Neglect Other Languages</li>
 </ol>
 
-<p><a href="http://www.advanceidea.co.in/blog/things-not-to-do-in-php-7">http://www.advanceidea.co.in/blog/things-not-to-do-in-php-7</a></p>
+<p><a href="https://www.advanceidea.co.in/blog/things-not-to-do-in-php-7">https://www.advanceidea.co.in/blog/things-not-to-do-in-php-7</a></p>
 ]]></content>
         </entry>
     </feed>

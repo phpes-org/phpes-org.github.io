@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/cron.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2018-09-19T12:26:44-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="https://www.phpes.org/blog/tags/cron.xml" rel="self"/>
+    <link href="https://www.phpes.org/"/>
+    <updated>2024-11-14T18:06:33+00:00</updated>
+    <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Crunz]]></title>
-            <link href="http://www.phpes.org/blog/2016/08/31/crunz/"/>
-            <updated>2016-08-31T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/08/31/crunz/</id>
+            <link href="https://www.phpes.org/blog/2016/08/31/crunz/"/>
+            <updated>2016-08-31T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2016/08/31/crunz/</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/lavary/crunz">Crunz</a> é um agendador de tarefas periódicas escrito em PHP. Possibilitando configurar as tarefas a serem executadas através de uma API fluente.</p>
 
 <pre><code class="php">&lt;?php
@@ -34,9 +34,9 @@ return $schedule;
         </entry>
             <entry>
             <title type="html"><![CDATA[Jobby]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/28/jobby/"/>
-            <updated>2016-04-28T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/28/jobby/</id>
+            <link href="https://www.phpes.org/blog/2016/04/28/jobby/"/>
+            <updated>2016-04-28T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2016/04/28/jobby/</id>
             <content type="html"><![CDATA[<p>Com <a href="https://github.com/jobbyphp/jobby">Jobby</a> você gerencia os jobs através do PHP sem necessidade de alterar a crontab.</p>
 
 <blockquote>

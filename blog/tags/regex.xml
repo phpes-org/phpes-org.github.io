@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/regex.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2018-09-19T12:26:44-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="https://www.phpes.org/blog/tags/regex.xml" rel="self"/>
+    <link href="https://www.phpes.org/"/>
+    <updated>2024-11-14T18:06:33+00:00</updated>
+    <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Natika Forum system]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/05/natika-forum-system/"/>
-            <updated>2016-04-05T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/05/natika-forum-system/</id>
+            <link href="https://www.phpes.org/blog/2016/04/05/natika-forum-system/"/>
+            <updated>2016-04-05T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2016/04/05/natika-forum-system/</id>
             <content type="html"><![CDATA[<p>Sistema simples de fórum escrito em PHP voltado para desenvolvedores e integrado com autenticação via redes sociais (Social Login).</p>
 
 <blockquote>
@@ -22,16 +22,16 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[PHP Live Regex]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/04/php-live-regex/"/>
-            <updated>2016-04-04T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/04/php-live-regex/</id>
+            <link href="https://www.phpes.org/blog/2016/04/04/php-live-regex/"/>
+            <updated>2016-04-04T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2016/04/04/php-live-regex/</id>
             <content type="html"><![CDATA[<p>Ferramenta online para criar e testar expressões regulares em PHP.</p>
 
 <blockquote>
   <p>PHP Live Regex - A Live Regular Expression Tester for PHP</p>
 </blockquote>
 
-<p>Fonte: <a href="http://www.phpliveregex.com/">http://www.phpliveregex.com/</a></p>
+<p>Fonte: <a href="https://www.phpliveregex.com/">https://www.phpliveregex.com/</a></p>
 ]]></content>
         </entry>
     </feed>

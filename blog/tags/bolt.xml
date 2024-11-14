@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/bolt.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2018-09-19T12:26:44-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="https://www.phpes.org/blog/tags/bolt.xml" rel="self"/>
+    <link href="https://www.phpes.org/"/>
+    <updated>2024-11-14T18:06:33+00:00</updated>
+    <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Bolt CMS]]></title>
-            <link href="http://www.phpes.org/blog/2016/05/11/bolt-cms/"/>
-            <updated>2016-05-11T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/05/11/bolt-cms/</id>
-            <content type="html"><![CDATA[<p>Lançada a versão 3.0.0 do gerenciador de conteúdo <a href="https://bolt.cm/">Bolt</a> (CMS desenvolvido utilizando <a href="http://silex.sensiolabs.org/">Silex</a> e <a href="http://twig.sensiolabs.org/">Twig</a>, ambos do <a href="http://symfony.com/">Symfony</a>).</p>
+            <link href="https://www.phpes.org/blog/2016/05/11/bolt-cms/"/>
+            <updated>2016-05-11T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2016/05/11/bolt-cms/</id>
+            <content type="html"><![CDATA[<p>Lançada a versão 3.0.0 do gerenciador de conteúdo <a href="https://bolt.cm/">Bolt</a> (CMS desenvolvido utilizando <a href="http://silex.sensiolabs.org/">Silex</a> e <a href="http://twig.sensiolabs.org/">Twig</a>, ambos do <a href="https://symfony.com/">Symfony</a>).</p>
 
 <blockquote>
   <p>Bolt is an open source Content Management Tool, which strives to be as simple and straightforward as possible. It is quick to set up, easy to configure, uses elegant templates, and above all: It’s a joy to use.</p>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[PHP-ES]]></title>
-    <link href="http://www.phpes.org/blog/tags/pagekit.xml" rel="self"/>
-    <link href="http://www.phpes.org/"/>
-    <updated>2018-09-19T12:26:44-03:00</updated>
-    <id>http://www.phpes.org/</id>
+    <link href="https://www.phpes.org/blog/tags/pagekit.xml" rel="self"/>
+    <link href="https://www.phpes.org/"/>
+    <updated>2024-11-14T18:06:33+00:00</updated>
+    <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Pagekit CMS]]></title>
-            <link href="http://www.phpes.org/blog/2016/04/26/pagekit-cms/"/>
-            <updated>2016-04-26T00:00:00-03:00</updated>
-            <id>http://www.phpes.org/blog/2016/04/26/pagekit-cms/</id>
+            <link href="https://www.phpes.org/blog/2016/04/26/pagekit-cms/"/>
+            <updated>2016-04-26T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2016/04/26/pagekit-cms/</id>
             <content type="html"><![CDATA[<p>Divulgado hoje no blog do Symfony o novo CMS <a href="https://pagekit.com/">PageKit</a>, que tem o código-fonte aberto e é construído utilizando os components do Symfony. Segundo definição do site do projeto, o PageKit é um CMS moderno, intuitivo, modular, e flexível.</p>
 
 <blockquote>
   <p>Pagekit is an Open Source CMS built with several Symfony Components. Recently we had the opportunity to meet with Jan Schönherr, one of its lead developers, and we talked with him about Symfony and Pagekit.</p>
 </blockquote>
 
-<p>Fonte: <a href="http://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components">http://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components</a></p>
+<p>Fonte: <a href="https://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components">https://symfony.com/blog/pagekit-an-open-source-cms-built-with-symfony-components</a></p>
 ]]></content>
         </entry>
     </feed>
