@@ -1,5 +1,5 @@
 ---
-title: PHP: The Right Way
+title: 'PHP: The Right Way'
 author:
     name: Rogério Lino
     link: https://github.com/rogeriolino
