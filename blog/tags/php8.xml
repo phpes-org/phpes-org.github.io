@@ -3,9 +3,20 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/blog/tags/php8.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2024-11-14T18:33:58+00:00</updated>
+    <updated>2024-11-21T18:17:55+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[PHP 8.4 released]]></title>
+            <link href="https://www.phpes.org/blog/2024/11/21/php-84-released/"/>
+            <updated>2024-11-21T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2024/11/21/php-84-released/</id>
+            <content type="html"><![CDATA[<p>Lançada a versão 8.4 do PHP:</p>
+
+<p>Português: <a href="https://www.php.net/releases/8.4/pt_BR.php">https://www.php.net/releases/8.4/pt_BR.php</a>
+Inglês: <a href="https://www.php.net/releases/8.4/en.php">https://www.php.net/releases/8.4/en.php</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[What&#039;s new in PHP 8.4 [video]]]></title>
             <link href="https://www.phpes.org/blog/2024/11/14/whats-new-in-php-84-video/"/>

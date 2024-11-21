@@ -3,9 +3,20 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/blog/tags/php.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2024-11-14T18:33:58+00:00</updated>
+    <updated>2024-11-21T18:17:55+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[PHP 8.4 released]]></title>
+            <link href="https://www.phpes.org/blog/2024/11/21/php-84-released/"/>
+            <updated>2024-11-21T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2024/11/21/php-84-released/</id>
+            <content type="html"><![CDATA[<p>Lançada a versão 8.4 do PHP:</p>
+
+<p>Português: <a href="https://www.php.net/releases/8.4/pt_BR.php">https://www.php.net/releases/8.4/pt_BR.php</a>
+Inglês: <a href="https://www.php.net/releases/8.4/en.php">https://www.php.net/releases/8.4/en.php</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[What&#039;s new in PHP 8.4 [video]]]></title>
             <link href="https://www.phpes.org/blog/2024/11/14/whats-new-in-php-84-video/"/>
@@ -213,19 +224,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
 </blockquote>
 
 <p>Fonte: <a href="https://symfony.com/blog/clean-software-architecture-with-deptrac">https://symfony.com/blog/clean-software-architecture-with-deptrac</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[NFePHP]]></title>
-            <link href="https://www.phpes.org/blog/2016/05/03/nfephp/"/>
-            <updated>2016-05-03T00:00:00+00:00</updated>
-            <id>https://www.phpes.org/blog/2016/05/03/nfephp/</id>
-            <content type="html"><![CDATA[<blockquote>
-  <p>API para comunicação entre o emitente de NFe e os serviços dos SEFAZ estaduais. Inteiramente construído em PHP, roda em qualquer sistema operacional.
-  NFePHP é uma API para gerenciamento das comunicações entre o emitente de NFe e os serviços dos SEFAZ estaduais. Inteiramente construído em PHP para rodar sob qualquer sistema operacional.</p>
-</blockquote>
-
-<p>Fonte: <a href="https://github.com/nfephp-org/nfephp">https://github.com/nfephp-org/nfephp</a></p>
 ]]></content>
         </entry>
     </feed>
