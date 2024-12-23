@@ -3,7 +3,7 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/atom.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2024-11-21T18:17:55+00:00</updated>
+    <updated>2024-12-23T21:13:31+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
@@ -15,6 +15,16 @@
 
 <p>Português: <a href="https://www.php.net/releases/8.4/pt_BR.php">https://www.php.net/releases/8.4/pt_BR.php</a>
 Inglês: <a href="https://www.php.net/releases/8.4/en.php">https://www.php.net/releases/8.4/en.php</a></p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[How to Upgrade deprecated PHPUnit withConsecutive()]]></title>
+            <link href="https://www.phpes.org/blog/2024/11/21/how-to-upgrade-deprecated-phpunit-withconsecutive/"/>
+            <updated>2024-11-21T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2024/11/21/how-to-upgrade-deprecated-phpunit-withconsecutive/</id>
+            <content type="html"><![CDATA[<p>Dica para uma dúvida muito comum quando precisa atualizar a versão do PHPUnit 9.6 para 10+, uma vez que o <code>withConsecutive</code> foi depreciado.</p>
+
+<p><a href="https://tomasvotruba.com/blog/how-to-upgrade-deprecated-phpunit-with-consecutive">https://tomasvotruba.com/blog/how-to-upgrade-deprecated-phpunit-with-consecutive</a></p>
 ]]></content>
         </entry>
             <entry>
@@ -139,25 +149,6 @@ Inglês: <a href="https://www.php.net/releases/8.4/en.php">https://www.php.net/r
 </blockquote>
 
 <p>Visualizar todos os middlewares disponíveis: <a href="http://www.php-middleworld.com/explore">http://www.php-middleworld.com/explore</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Mailer RCE Flaw Vulnerability]]></title>
-            <link href="https://www.phpes.org/blog/2017/01/10/mailer-rce-flaw-vulnerability/"/>
-            <updated>2017-01-10T00:00:00+00:00</updated>
-            <id>https://www.phpes.org/blog/2017/01/10/mailer-rce-flaw-vulnerability/</id>
-            <content type="html"><![CDATA[<p>No final do ano passado foram encontradas falhas RCE (Remote Code Execution) nas seguintes bibliotecas: PHPMailer (até v5.2.20) SwiftMailer (até v5.4.4) e Zend-mail (até v2.4.10).</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xyYMYvT2bx8" frameborder="0" allowfullscreen></iframe>
-
-<p>Maiores detalhes:</p>
-
-<ul>
-<li>PHPMailer &lt; 5.2.18 Remote Code Execution (CVE-2016-10033)</li>
-<li>PHPMailer &lt; 5.2.20 Remote Code Execution (CVE-2016-10045 / escapeshell bypass)</li>
-<li>SwiftMailer &lt;= 5.4.5-DEV Remote Code Execution (CVE-2016-10074)</li>
-<li>Zend Framework / zend-mail &lt; 2.4.11 - Remote Code Execution (CVE-2016-10034)</li>
-</ul>
 ]]></content>
         </entry>
     </feed>

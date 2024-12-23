@@ -3,7 +3,7 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/blog/tags/php.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2024-11-21T18:17:55+00:00</updated>
+    <updated>2024-12-23T21:13:31+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
@@ -15,6 +15,16 @@
 
 <p>Português: <a href="https://www.php.net/releases/8.4/pt_BR.php">https://www.php.net/releases/8.4/pt_BR.php</a>
 Inglês: <a href="https://www.php.net/releases/8.4/en.php">https://www.php.net/releases/8.4/en.php</a></p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[How to Upgrade deprecated PHPUnit withConsecutive()]]></title>
+            <link href="https://www.phpes.org/blog/2024/11/21/how-to-upgrade-deprecated-phpunit-withconsecutive/"/>
+            <updated>2024-11-21T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2024/11/21/how-to-upgrade-deprecated-phpunit-withconsecutive/</id>
+            <content type="html"><![CDATA[<p>Dica para uma dúvida muito comum quando precisa atualizar a versão do PHPUnit 9.6 para 10+, uma vez que o <code>withConsecutive</code> foi depreciado.</p>
+
+<p><a href="https://tomasvotruba.com/blog/how-to-upgrade-deprecated-phpunit-with-consecutive">https://tomasvotruba.com/blog/how-to-upgrade-deprecated-phpunit-with-consecutive</a></p>
 ]]></content>
         </entry>
             <entry>
@@ -206,24 +216,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
 </blockquote>
 
 <p>Fonte: <a href="https://bolt.cm/newsitem/bolt-3-0-0-stable-released">https://bolt.cm/newsitem/bolt-3-0-0-stable-released</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Deptrac]]></title>
-            <link href="https://www.phpes.org/blog/2016/05/09/deptrac/"/>
-            <updated>2016-05-09T00:00:00+00:00</updated>
-            <id>https://www.phpes.org/blog/2016/05/09/deptrac/</id>
-            <content type="html"><![CDATA[<p>No início do mês foi anunciado no blog do Symfony uma nova ferramenta da Sensio Labs. Trata-se do <a href="https://github.com/sensiolabs-de/deptrac">Deptrac</a>, que é um analisador de código que verifica as dependências entre as camadas da sua aplicação e alerta em caso de quebra de alguma regra definida.</p>
-
-<p><img src="https://raw.githubusercontent.com/sensiolabs-de/deptrac/master/examples/ControllerServiceRepository1.png" alt="ModelController1" /></p>
-
-<blockquote>
-  <p>Deptrac is a static code analysis tool that helps to enforce rules for dependencies between software layers.</p>
-  
-  <p>For example, you can define a rule like "controllers may not depend on models". To ensure this, deptrac analyzes your code to find any usages of models in your controllers and will show you where this rule was violated.</p>
-</blockquote>
-
-<p>Fonte: <a href="https://symfony.com/blog/clean-software-architecture-with-deptrac">https://symfony.com/blog/clean-software-architecture-with-deptrac</a></p>
 ]]></content>
         </entry>
     </feed>
