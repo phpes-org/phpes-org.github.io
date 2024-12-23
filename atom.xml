@@ -3,9 +3,19 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/atom.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2024-12-23T21:13:31+00:00</updated>
+    <updated>2024-12-23T21:15:13+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[How to Upgrade deprecated PHPUnit withConsecutive()]]></title>
+            <link href="https://www.phpes.org/blog/2024/12/23/how-to-upgrade-deprecated-phpunit-withconsecutive/"/>
+            <updated>2024-12-23T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2024/12/23/how-to-upgrade-deprecated-phpunit-withconsecutive/</id>
+            <content type="html"><![CDATA[<p>Dica para uma dúvida muito comum quando precisa atualizar a versão do PHPUnit 9.6 para 10+, uma vez que o <code>withConsecutive</code> foi depreciado.</p>
+
+<p><a href="https://tomasvotruba.com/blog/how-to-upgrade-deprecated-phpunit-with-consecutive">https://tomasvotruba.com/blog/how-to-upgrade-deprecated-phpunit-with-consecutive</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[PHP 8.4 released]]></title>
             <link href="https://www.phpes.org/blog/2024/11/21/php-84-released/"/>
@@ -15,16 +25,6 @@
 
 <p>Português: <a href="https://www.php.net/releases/8.4/pt_BR.php">https://www.php.net/releases/8.4/pt_BR.php</a>
 Inglês: <a href="https://www.php.net/releases/8.4/en.php">https://www.php.net/releases/8.4/en.php</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[How to Upgrade deprecated PHPUnit withConsecutive()]]></title>
-            <link href="https://www.phpes.org/blog/2024/11/21/how-to-upgrade-deprecated-phpunit-withconsecutive/"/>
-            <updated>2024-11-21T00:00:00+00:00</updated>
-            <id>https://www.phpes.org/blog/2024/11/21/how-to-upgrade-deprecated-phpunit-withconsecutive/</id>
-            <content type="html"><![CDATA[<p>Dica para uma dúvida muito comum quando precisa atualizar a versão do PHPUnit 9.6 para 10+, uma vez que o <code>withConsecutive</code> foi depreciado.</p>
-
-<p><a href="https://tomasvotruba.com/blog/how-to-upgrade-deprecated-phpunit-with-consecutive">https://tomasvotruba.com/blog/how-to-upgrade-deprecated-phpunit-with-consecutive</a></p>
 ]]></content>
         </entry>
             <entry>

@@ -7,13 +7,13 @@
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://www.phpes.org/blog/2024/11/21/php-84-released/</loc>
-    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+    <loc>https://www.phpes.org/blog/2024/12/23/how-to-upgrade-deprecated-phpunit-withconsecutive/</loc>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://www.phpes.org/blog/2024/11/21/how-to-upgrade-deprecated-phpunit-withconsecutive/</loc>
+    <loc>https://www.phpes.org/blog/2024/11/21/php-84-released/</loc>
     <lastmod>2024-11-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
