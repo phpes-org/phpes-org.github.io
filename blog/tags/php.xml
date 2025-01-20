@@ -3,9 +3,19 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/blog/tags/php.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2024-12-23T21:15:13+00:00</updated>
+    <updated>2025-01-20T16:51:56+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Case study - Upply: The PHP advantage: How we resisted the switch to Scala, rust, or go]]></title>
+            <link href="https://www.phpes.org/blog/2025/01/20/case-study-upply-the-php-advantage-how-we-resisted-the-switch-to-scala-rust-or-go/"/>
+            <updated>2025-01-20T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2025/01/20/case-study-upply-the-php-advantage-how-we-resisted-the-switch-to-scala-rust-or-go/</id>
+            <content type="html"><![CDATA[<p>Alguns pontos do porquê a empresa Upply, uma start-up dedicada ao transporte de cargas e cadeia de suprimentos, acertou ao escolher PHP.</p>
+
+<p><a href="https://symfony.com/blog/case-study-upply-the-php-advantage-how-we-resisted-the-switch-to-scala-rust-or-go">Case study - Upply: The PHP advantage: How we resisted the switch to Scala, rust, or go</a></p>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[How to Upgrade deprecated PHPUnit withConsecutive()]]></title>
             <link href="https://www.phpes.org/blog/2024/12/23/how-to-upgrade-deprecated-phpunit-withconsecutive/"/>
@@ -202,20 +212,6 @@ var_dump(isset($str{-10})); // =&gt; bool(false)
 <li><a href="https://dotdev.co/upcoming-changes-in-php-7-1-76ebea53b820">https://dotdev.co/upcoming-changes-in-php-7-1-76ebea53b820</a></li>
 <li><a href="https://wiki.php.net/rfc#php_71">https://wiki.php.net/rfc#php_71</a></li>
 </ul>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Bolt CMS]]></title>
-            <link href="https://www.phpes.org/blog/2016/05/11/bolt-cms/"/>
-            <updated>2016-05-11T00:00:00+00:00</updated>
-            <id>https://www.phpes.org/blog/2016/05/11/bolt-cms/</id>
-            <content type="html"><![CDATA[<p>Lançada a versão 3.0.0 do gerenciador de conteúdo <a href="https://bolt.cm/">Bolt</a> (CMS desenvolvido utilizando <a href="http://silex.sensiolabs.org/">Silex</a> e <a href="http://twig.sensiolabs.org/">Twig</a>, ambos do <a href="https://symfony.com/">Symfony</a>).</p>
-
-<blockquote>
-  <p>Bolt is an open source Content Management Tool, which strives to be as simple and straightforward as possible. It is quick to set up, easy to configure, uses elegant templates, and above all: It’s a joy to use.</p>
-</blockquote>
-
-<p>Fonte: <a href="https://bolt.cm/newsitem/bolt-3-0-0-stable-released">https://bolt.cm/newsitem/bolt-3-0-0-stable-released</a></p>
 ]]></content>
         </entry>
     </feed>
