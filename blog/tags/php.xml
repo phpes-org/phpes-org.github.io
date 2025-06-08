@@ -3,9 +3,22 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/blog/tags/php.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2025-01-20T16:53:09+00:00</updated>
+    <updated>2025-06-08T15:27:09+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[FrankenPHP Is Now Officially Supported by The PHP Foundation]]></title>
+            <link href="https://www.phpes.org/blog/2025/06/08/frankenphp-is-now-part-of-the-php-organization/"/>
+            <updated>2025-06-08T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2025/06/08/frankenphp-is-now-part-of-the-php-organization/</id>
+            <content type="html"><![CDATA[<p>Anúncio oficial sobre projeto FrankenPHP se tornando parte oficial do <a href="https://thephp.foundation/">The PHP Organization</a>.</p>
+
+<ul>
+<li>https://les-tilleuls.coop/en/blog/30-years-of-php-frankenphp-is-now-part-of-the-php-organization</li>
+<li>https://thephp.foundation/blog/2025/05/15/frankenphp/</li>
+</ul>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Case study - Upply: The PHP advantage: How we resisted the switch to Scala, rust, or go]]></title>
             <link href="https://www.phpes.org/blog/2025/01/20/case-study-upply-the-php-advantage-how-we-resisted-the-switch-to-scala-rust-or-go/"/>
@@ -118,100 +131,6 @@ Inglês: <a href="https://www.php.net/releases/8.4/en.php">https://www.php.net/r
 <p>Lembrando sempre que é uma versão prévia e que não deve ser utilizada em produção.</p>
 
 <p>Fonte: <a href="http://php.net/archive/2016.php#id2016-06-09-1">http://php.net/archive/2016.php#id2016-06-09-1</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Mudanças PHP 7.1]]></title>
-            <link href="https://www.phpes.org/blog/2016/05/18/mudancas-php-7-1/"/>
-            <updated>2016-05-18T00:00:00+00:00</updated>
-            <id>https://www.phpes.org/blog/2016/05/18/mudancas-php-7-1/</id>
-            <content type="html"><![CDATA[<p>Entre as <a href="https://wiki.php.net/rfc#php_71">alterações previstas</a> para a versão 7.1 do PHP, as que mais me chamaram atenção são:</p>
-
-<h3 id="catching-multiple-exception-types"><a href="https://wiki.php.net/rfc/multiple-catch">Catching Multiple Exception Types</a></h3>
-
-<p>Atualmente caso queira tratar mais de um tipo de exceção, deve replicar o bloco <code>catch</code>:</p>
-
-<pre><code>&lt;?php
-
-try {
-   // Some code...
-} catch (ExceptionType1 $e) {
-   // Code to handle the exception
-} catch (ExceptionType2 $e) {
-   // Same code to handle the exception
-} catch (Exception $e) {
-   // ...
-}
-</code></pre>
-
-<p>Já de acordo com a RFC aprovada, em cada <code>catch</code> é possível interceptar mais de um tipo de exceção:</p>
-
-<pre><code>&lt;?php
-
-try {
-   // Some code...
-} catch (ExceptionType1 | ExceptionType2 $e) {
-   // Code to handle the exception
-} catch (\Exception $e) {
-   // ...
-}
-</code></pre>
-
-<h3 id="void-return-type"><a href="https://wiki.php.net/rfc/void_return_type">Void Return Type</a></h3>
-
-<p>Essa alteração é praticamente uma estenção do que foi introduzido no PHP 7.0, que é a definição de tipo de retornos em funções. Só que agora estendendo para <code>void</code>, que deixa explícita uma função sem retorno.</p>
-
-<pre><code>function should_return_nothing(): void {
-    return 1; // Fatal error: A void function must not return a value
-}
-
-function lacks_return(): void {
-    // valid
-}
-</code></pre>
-
-<h3 id="generalize-support-of-negative-string-offsets"><a href="https://wiki.php.net/rfc/negative-string-offsets">Generalize support of negative string offsets</a></h3>
-
-<p>Habilita acesso a um caracter individual da String através de valores negativos.</p>
-
-<pre><code>$str='abcdef';
-var_dump($str[-2]); // =&gt; string(1) "e"
-
-$str{-3}='.';
-var_dump($str);     // =&gt; string(6) "abc.ef"
-
-var_dump(isset($str{-4}));  // =&gt; bool(true)
-
-var_dump(isset($str{-10})); // =&gt; bool(false)
-</code></pre>
-
-<h3 id="support-class-constant-visibility"><a href="https://wiki.php.net/rfc/class_const_visibility">Support Class Constant Visibility</a></h3>
-
-<p>Permite adicionar modificador de acesso nas constantes da classe. Caso o modificador seja ocultado o valor padrão será <code>public</code>.</p>
-
-<pre><code>class Token {
-
-    // Constants default to public
-    const PUBLIC_CONST = 0;
-
-    // Constants then also can have a defined visibility
-    private const PRIVATE_CONST = 0;
-    protected const PROTECTED_CONST = 0;
-    public const PUBLIC_CONST_TWO = 0;
-
-    //Constants can only have one visibility declaration list
-    private const FOO = 1, BAR = 2;
-}
-</code></pre>
-
-<hr />
-
-<p>Para mais detalhes sobre as mudanças no PHP 7.1:</p>
-
-<ul>
-<li><a href="https://dotdev.co/upcoming-changes-in-php-7-1-76ebea53b820">https://dotdev.co/upcoming-changes-in-php-7-1-76ebea53b820</a></li>
-<li><a href="https://wiki.php.net/rfc#php_71">https://wiki.php.net/rfc#php_71</a></li>
-</ul>
 ]]></content>
         </entry>
     </feed>

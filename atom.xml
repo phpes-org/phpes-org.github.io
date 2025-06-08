@@ -3,9 +3,22 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/atom.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2025-01-20T16:53:09+00:00</updated>
+    <updated>2025-06-08T15:27:09+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[FrankenPHP Is Now Officially Supported by The PHP Foundation]]></title>
+            <link href="https://www.phpes.org/blog/2025/06/08/frankenphp-is-now-part-of-the-php-organization/"/>
+            <updated>2025-06-08T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2025/06/08/frankenphp-is-now-part-of-the-php-organization/</id>
+            <content type="html"><![CDATA[<p>Anúncio oficial sobre projeto FrankenPHP se tornando parte oficial do <a href="https://thephp.foundation/">The PHP Organization</a>.</p>
+
+<ul>
+<li>https://les-tilleuls.coop/en/blog/30-years-of-php-frankenphp-is-now-part-of-the-php-organization</li>
+<li>https://thephp.foundation/blog/2025/05/15/frankenphp/</li>
+</ul>
+]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Case study - Upply: The PHP advantage: How we resisted the switch to Scala, rust, or go]]></title>
             <link href="https://www.phpes.org/blog/2025/01/20/case-study-upply-the-php-advantage-how-we-resisted-the-switch-to-scala-rust-or-go/"/>
@@ -125,20 +138,6 @@ Inglês: <a href="https://www.php.net/releases/8.4/en.php">https://www.php.net/r
 </ul>
 
 <p>Fonte: <a href="https://symfony.com/blog/symfony-4-a-new-way-to-develop-applications">https://symfony.com/blog/symfony-4-a-new-way-to-develop-applications</a></p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Benchmarking Laravel, Symfony, &amp; Zend]]></title>
-            <link href="https://www.phpes.org/blog/2017/03/01/benchmarking-laravel-symfony-zend/"/>
-            <updated>2017-03-01T00:00:00+00:00</updated>
-            <id>https://www.phpes.org/blog/2017/03/01/benchmarking-laravel-symfony-zend/</id>
-            <content type="html"><![CDATA[<p>Post (inglês) demonstrando um benchmark entre os frameworks <a href="https://laravel.com">Laravel</a>, <a href="https://symfony.com">Symfony</a> e <a href="https://framework.zend.com">Zend</a>.</p>
-
-<blockquote>
-  <p>A variety of benchmarks comparing PHP frameworks float around the web. However, they are often comparing “apples” to “oranges”. In particular, I want to focus on Laravel, Symfony, and Zend and why these three frameworks are often benchmarked incorrectly against each other.</p>
-</blockquote>
-
-<p>Fonte: <a href="https://medium.com/@taylorotwell/benchmarking-laravel-symfony-zend-2c01c2b270f8">https://medium.com/@taylorotwell/benchmarking-laravel-symfony-zend-2c01c2b270f8</a></p>
 ]]></content>
         </entry>
     </feed>
