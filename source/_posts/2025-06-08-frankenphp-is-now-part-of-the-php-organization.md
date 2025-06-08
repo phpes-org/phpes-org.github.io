@@ -12,5 +12,5 @@ tags:
 Anúncio oficial sobre projeto FrankenPHP se tornando parte oficial do [The PHP Organization](https://thephp.foundation/).
 
 
-- https://les-tilleuls.coop/en/blog/30-years-of-php-frankenphp-is-now-part-of-the-php-organization
-- https://thephp.foundation/blog/2025/05/15/frankenphp/
+- [https://les-tilleuls.coop/en/blog/30-years-of-php-frankenphp-is-now-part-of-the-php-organization](https://les-tilleuls.coop/en/blog/30-years-of-php-frankenphp-is-now-part-of-the-php-organization)
+- [https://thephp.foundation/blog/2025/05/15/frankenphp/](https://thephp.foundation/blog/2025/05/15/frankenphp/)
