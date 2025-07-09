@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[PHP-ES]]></title>
+    <link href="https://www.phpes.org/blog/tags/tempest.xml" rel="self"/>
+    <link href="https://www.phpes.org/"/>
+    <updated>2025-07-09T18:42:03+00:00</updated>
+    <id>https://www.phpes.org/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Tempest 1.0 released]]></title>
+            <link href="https://www.phpes.org/blog/2025/07/09/tempest-10-released/"/>
+            <updated>2025-07-09T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2025/07/09/tempest-10-released/</id>
+            <content type="html"><![CDATA[<p>Saiu a primeira versão estável do framework Tempest:</p>
+
+<blockquote>
+  <p>After almost 2 years and 656 merged pull requests by 59 contributors, it is finally time to tag the first release of Tempest</p>
+</blockquote>
+
+<p><a href="https://tempestphp.com/blog/tempest-1">https://tempestphp.com/blog/tempest-1</a></p>
+]]></content>
+        </entry>
+    </feed>
