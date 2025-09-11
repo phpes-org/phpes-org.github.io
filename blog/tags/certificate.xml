@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[PHP-ES]]></title>
+    <link href="https://www.phpes.org/blog/tags/certificate.xml" rel="self"/>
+    <link href="https://www.phpes.org/"/>
+    <updated>2025-09-11T19:31:41+00:00</updated>
+    <id>https://www.phpes.org/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Native ACME Support Comes to NGINX]]></title>
+            <link href="https://www.phpes.org/blog/1970/01/01/_posts/2025-09-1-native-actime-support-comes-to-nginx.md/"/>
+            <updated>2025-09-11T19:31:41+00:00</updated>
+            <id>https://www.phpes.org/blog/1970/01/01/_posts/2025-09-1-native-actime-support-comes-to-nginx.md/</id>
+            <content type="html"><![CDATA[<p>Let's Encrypt anunciou o módulo nativo do NGINX para geração de certificados utilizando o protocolo ACME.</p>
+
+<blockquote>
+  <p>On August 12, the popular open source web server NGINX announced support for ACME with their official ngx_http_acme module (implemented with memory safe Rust code!).</p>
+</blockquote>
+
+<p><a href="https://letsencrypt.org/2025/09/11/native-acme-for-nginx">https://letsencrypt.org/2025/09/11/native-acme-for-nginx</a></p>
+]]></content>
+        </entry>
+    </feed>
