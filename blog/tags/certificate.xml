@@ -3,14 +3,14 @@
     <title><![CDATA[PHP-ES]]></title>
     <link href="https://www.phpes.org/blog/tags/certificate.xml" rel="self"/>
     <link href="https://www.phpes.org/"/>
-    <updated>2025-09-11T19:36:01+00:00</updated>
+    <updated>2025-09-11T19:36:49+00:00</updated>
     <id>https://www.phpes.org/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Native ACME Support Comes to NGINX]]></title>
-            <link href="https://www.phpes.org/blog/1970/01/01/_posts/2025-09-1-native-actime-support-comes-to-nginx.md/"/>
-            <updated>2025-09-11T19:36:01+00:00</updated>
-            <id>https://www.phpes.org/blog/1970/01/01/_posts/2025-09-1-native-actime-support-comes-to-nginx.md/</id>
+            <link href="https://www.phpes.org/blog/2025/09/01/native-actime-support-comes-to-nginx/"/>
+            <updated>2025-09-01T00:00:00+00:00</updated>
+            <id>https://www.phpes.org/blog/2025/09/01/native-actime-support-comes-to-nginx/</id>
             <content type="html"><![CDATA[<p>Let's Encrypt anunciou o módulo nativo do NGINX para geração de certificados utilizando o protocolo ACME.</p>
 
 <blockquote>
