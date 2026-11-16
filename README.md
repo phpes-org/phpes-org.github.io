@@ -9,7 +9,8 @@ a partir da branch `master`. Não é preciso gerar nada localmente para publicar
 
 - Faça um clone do repositório
 - Escreva o post em markdown e salve em `_posts/` seguindo o formato `Y-m-d-slug-do-post.md`
-- Envie as alterações para a `master` (commit/push ou pull request). O GitHub Pages publica automaticamente.
+- Abra um pull request para a `master`. A branch é protegida: não aceita push direto, e o PR só pode ser mergeado com o workflow Lint passando.
+- Após o merge, o GitHub Pages publica automaticamente.
 
 Formato do front matter:
 
@@ -26,7 +27,7 @@ tags:
 
 ## Validação (CI)
 
-Cada push na `master` e cada pull request executam o workflow [Lint](.github/workflows/lint.yml), que:
+Cada pull request executa o workflow [Lint](.github/workflows/lint.yml), que:
 
 1. valida os posts (`script/validate-posts.rb`): nome do arquivo `AAAA-MM-DD-slug.md`, data válida e não futura, slug único, e front matter com `title`, `author.name`, `author.link` e `tags`;
 2. faz o build do Jekyll com as mesmas versões do GitHub Pages;

@@ -1,9 +1,10 @@
 name: Lint
 
+# Roda apenas em pull requests. A master é protegida: alterações entram
+# somente via PR, com os jobs "markdown" e "site" passando.
 on:
-  push:
-    branches: [master]
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
