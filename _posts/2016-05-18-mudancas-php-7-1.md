@@ -15,7 +15,7 @@ Entre as [alterações previstas](https://wiki.php.net/rfc#php_71) para a versã
 
 Atualmente caso queira tratar mais de um tipo de exceção, deve replicar o bloco `catch`:
 
-```
+```php
 <?php
 
 try {
@@ -31,7 +31,7 @@ try {
 
 Já de acordo com a RFC aprovada, em cada `catch` é possível interceptar mais de um tipo de exceção:
 
-```
+```php
 <?php
 
 try {
@@ -47,7 +47,7 @@ try {
 
 Essa alteração é praticamente uma estenção do que foi introduzido no PHP 7.0, que é a definição de tipo de retornos em funções. Só que agora estendendo para `void`, que deixa explícita uma função sem retorno.
 
-```
+```php
 function should_return_nothing(): void {
     return 1; // Fatal error: A void function must not return a value
 }
@@ -61,7 +61,7 @@ function lacks_return(): void {
 
 Habilita acesso a um caracter individual da String através de valores negativos.
 
-```
+```php
 $str='abcdef';
 var_dump($str[-2]); // => string(1) "e"
 
@@ -73,12 +73,11 @@ var_dump(isset($str{-4}));	// => bool(true)
 var_dump(isset($str{-10}));	// => bool(false)
 ```
 
-
 ### [Support Class Constant Visibility](https://wiki.php.net/rfc/class_const_visibility)
 
 Permite adicionar modificador de acesso nas constantes da classe. Caso o modificador seja ocultado o valor padrão será `public`.
 
-```
+```php
 class Token {
 
 	// Constants default to public
@@ -98,5 +97,5 @@ class Token {
 
 Para mais detalhes sobre as mudanças no PHP 7.1:
 
- - [https://dotdev.co/upcoming-changes-in-php-7-1-76ebea53b820](https://dotdev.co/upcoming-changes-in-php-7-1-76ebea53b820)
- - [https://wiki.php.net/rfc#php_71](https://wiki.php.net/rfc#php_71)
+- [https://dotdev.co/upcoming-changes-in-php-7-1-76ebea53b820](https://dotdev.co/upcoming-changes-in-php-7-1-76ebea53b820)
+- [https://wiki.php.net/rfc#php_71](https://wiki.php.net/rfc#php_71)

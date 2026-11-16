@@ -1,0 +1,55 @@
+name: Lint
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lint-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Lint de Markdown (configuração em .markdownlint-cli2.jsonc)
+        run: npx --yes markdownlint-cli2@0.18.1
+
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Validar posts (nome do arquivo e front matter)
+        run: ruby script/validate-posts.rb
+
+      - name: Build do Jekyll (mesmas versões do GitHub Pages)
+        run: bundle exec jekyll build --strict_front_matter
+        env:
+          JEKYLL_ENV: production
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAGES_REPO_NWO: ${{ github.repository }}
+
+      - name: Verificar links internos
+        run: >-
+          bundle exec htmlproofer ./_site
+          --disable-external
+          --no-enforce-https
+          --ignore-empty-alt
+          --ignore-missing-alt
+          --checks Links,Images,Scripts

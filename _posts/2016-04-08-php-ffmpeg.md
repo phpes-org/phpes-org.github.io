@@ -14,10 +14,9 @@ tags:
 
 >This library requires a working FFMpeg install. You will need both FFMpeg and FFProbe binaries to use it. Be sure that these binaries can be located with system PATH to get the benefit of the binary detection, otherwise you should have to explicitely give the binaries path on load.
 
-
 Exemplo:
 
-```
+```php
 $ffmpeg = FFMpeg\FFMpeg::create();
 $video = $ffmpeg->open('video.mpg');
 $video

@@ -1,0 +1,28 @@
+// Configuração do markdownlint (https://github.com/DavidAnson/markdownlint)
+{
+  "config": {
+    "default": true,
+
+    // Texto corrido: não limitar o tamanho das linhas
+    "MD013": false,
+
+    // Posts podem usar HTML (iframes de vídeo, imagens com tamanho, etc.)
+    "MD033": false,
+
+    // Permite "$ comando" em blocos de código sem mostrar a saída
+    "MD014": false,
+
+    // Tabs são aceitos dentro de blocos de código
+    "MD010": { "code_blocks": false },
+
+    // O título do post vem do front matter, não de um "# Título" no conteúdo
+    "MD025": { "front_matter_title": "" },
+    "MD041": false,
+
+    // Blocos de código sempre cercados por ``` e com linguagem definida
+    "MD046": { "style": "fenced" },
+    "MD040": true
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules/**", "vendor/**", "_site/**"]
+}
