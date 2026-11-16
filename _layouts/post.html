@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<article class="post">
+    <header>
+        <h2>{{ page.title }} <small>post</small></h2>
+        {% if page.author %}
+            <p class="author">
+                Por <a href="{{ page.author.link }}">{{ page.author.name }}</a>
+            </p>
+        {% endif %}
+    </header>
+    <div>
+        {{ content }}
+    </div>
+    <footer>
+        {% include tags.html tags=page.tags %}
+    </footer>
+</article>
+{% if page.previous or page.next %}
+    <nav class="article">
+        <ul class="pager">
+            {% if page.previous %}
+                <li>
+                    <a href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title }}">
+                        &laquo;
+                        Anterior
+                    </a>
+                </li>
+            {% endif %}
+            {% if page.next %}
+                <li>
+                    <a href="{{ page.next.url | relative_url }}" title="{{ page.next.title }}">
+                        Próximo
+                        &raquo;
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
+{% endif %}
+
+{% if site.disqus.shortname and site.disqus.shortname != "" %}
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = '{{ site.disqus.shortname }}';
+    var disqus_config = function () {
+        this.page.url = "{{ page.url | absolute_url }}";
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+
+    s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+{% endif %}
