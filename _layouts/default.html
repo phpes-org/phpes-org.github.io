@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
     <head>
-        <title>{{ page.title }} &mdash; {{ site.title }} &mdash; {{ site.subtitle }}</title>
         <meta charset="utf-8">
-        <meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% if page.url == "/" %}{{ site.title }} &mdash; {{ site.subtitle }}{% else %}{{ page.title }} &mdash; {{ site.title }}{% endif %}</title>
         <meta name="description" content="{{ site.description }}">
         <meta name="keywords" content="php, phpes, grupo, espirito santo, php7, dicas, tutoriais, notícias, blog">
+        <meta name="theme-color" content="#64b5f6">
 
         {% if page.layout == "post" %}
             <meta name="robots" content="index, follow">
@@ -21,77 +21,141 @@
         <meta property="og:description" content="{{ site.subtitle }}" />
         <meta property="og:image" content="{{ '/images/og-image.png' | absolute_url }}" />
 
-        <link rel="stylesheet" href="{{ '/css/bootstrap.css' | relative_url }}">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
-        <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/agate.css">
-        <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap">
+        <link rel="stylesheet" id="hljs-light" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+        <link rel="stylesheet" id="hljs-dark" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" media="(prefers-color-scheme: dark)">
+        <script>
+            // Aplica o tema salvo antes da renderização, evitando o "flash" do tema errado
+            (function () {
+                var theme = null;
+                try { theme = localStorage.getItem('theme'); } catch (e) {}
+                window.applyTheme = function (t) {
+                    var root = document.documentElement;
+                    if (t === 'light' || t === 'dark') {
+                        root.setAttribute('data-theme', t);
+                    } else {
+                        root.removeAttribute('data-theme');
+                    }
+                    var light = document.getElementById('hljs-light');
+                    var dark = document.getElementById('hljs-dark');
+                    if (!light || !dark) return;
+                    if (t === 'light') { light.media = 'all'; dark.media = 'not all'; }
+                    else if (t === 'dark') { light.media = 'not all'; dark.media = 'all'; }
+                };
+                applyTheme(theme);
+            })();
+        </script>
+        <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="shortcut icon" href="{{ '/images/elephant-mini.png' | relative_url }}">
-
-        <link rel="stylesheet" href="{{ '/css/highlight-github.css' | relative_url }}" />
+        <link rel="icon" href="{{ '/images/elephant-mini.png' | relative_url }}">
         <link rel="alternate" type="application/atom+xml" href="{{ '/atom.xml' | absolute_url }}" title="{{ site.title }} activity feed" />
     </head>
     <body>
-        <header>
-            <div class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div id="navbar-main" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="{{ '/blog/' | relative_url }}">Arquivo</a></li>
-                            <li><a href="{{ '/blog/tags/' | relative_url }}">Tags</a></li>
-                            <li><a href="{{ '/about/' | relative_url }}">Sobre</a></li>
-                        </ul>
-                    </div>
+        <div class="flag-stripe" aria-hidden="true"></div>
+        <header class="site-header">
+            <div class="wrap">
+                <a class="brand" href="{{ '/' | relative_url }}">
+                    <img src="{{ '/images/elephant-mini.png' | relative_url }}" alt="" width="36" height="35">
+                    <span>{{ site.title }}</span>
+                </a>
+                <div class="header-actions">
+                    <nav class="site-nav" aria-label="Principal">
+                        <a href="{{ '/blog/' | relative_url }}"{% if page.url == "/blog/" %} aria-current="page"{% endif %}>Arquivo</a>
+                        <a href="{{ '/blog/tags/' | relative_url }}"{% if page.url == "/blog/tags/" %} aria-current="page"{% endif %}>Tags</a>
+                        <a href="{{ '/about/' | relative_url }}"{% if page.url == "/about/" %} aria-current="page"{% endif %}>Sobre</a>
+                    </nav>
+                    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Alternar tema claro/escuro" title="Alternar tema claro/escuro">
+                        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+                    </button>
                 </div>
             </div>
         </header>
-        <div class="container">
-            <div class="col-md-8">
+
+        {% if page.url == "/" %}
+        <section class="hero">
+            <div class="wrap">
+                <div>
+                    <h1>PHP <span>Espírito Santo</span></h1>
+                    <p>Grupo de desenvolvedores PHP do Espírito Santo. Notícias, ferramentas e novidades do ecossistema PHP.</p>
+                </div>
+                <img src="{{ '/images/elephant.png' | relative_url }}" alt="" width="200" height="191">
+            </div>
+        </section>
+        {% endif %}
+
+        <main class="wrap layout">
+            <div class="content">
                 {{ content }}
             </div>
-            <div class="col-md-4">
-                <div class="feature">
-                    <article>
-                        <header>
-                            <h3>Comunidades</h3>
-                        </header>
-                        <div>
-                            <ul>
-                                <li><a href="https://phpcomrapadura.org/">PHP CE</a></li>
-                                <li><a href="https://phpdf.org.br/">PHP DF</a></li>
-                                <li><a href="https://www.meetup.com/pt-br/php-mg/">PHP MG</a></li>
-                                <li><a href="https://twitter.com/phpms">PHP MS</a></li>
-                                <li><a href="https://phpeste.dev/">PHP NE</a></li>
-                                <li><a href="http://php-pb.net/">PHP PB</a></li>
-                                <li><a href="https://www.instagram.com/phppernambuco/">PHP PE</a></li>
-                                <li><a href="https://x.com/phppr_org">PHP PR</a></li>
-                                <li><a href="https://php.rio/">PHP Rio</a></li>
-                                <li><a href="https://phpsp.org.br/">PHP SP</a></li>
-                                <li><a href="https://www.phpsc.com.br/">PHP SC</a></li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
+
+            <aside class="sidebar">
+                {% assign members = site.github.organization_members | sort: "login" %}
+                {% if members.size > 0 %}
+                <section class="card">
+                    <h3>Membros</h3>
+                    <div class="members">
+                        {% for member in members %}
+                        <a href="{{ member.html_url }}" title="{{ member.login }}">
+                            <img src="{{ member.avatar_url }}&amp;s=96" alt="{{ member.login }}" width="44" height="44" loading="lazy">
+                        </a>
+                        {% endfor %}
+                    </div>
+                </section>
+                {% endif %}
+
+                <section class="card">
+                    <h3>Comunidades</h3>
+                    <ul class="communities">
+                        <li><a href="https://t.me/phpbrasil">PHP Brasil</a></li>
+                        <li><a href="https://phpcomrapadura.org/">PHP CE</a></li>
+                        <li><a href="https://phpdf.org.br/">PHP DF</a></li>
+                        <li><a href="https://www.meetup.com/pt-br/php-mg/">PHP MG</a></li>
+                        <li><a href="https://twitter.com/phpms">PHP MS</a></li>
+                        <li><a href="https://phpeste.dev/">PHP NE</a></li>
+                        <li><a href="http://php-pb.net/">PHP PB</a></li>
+                        <li><a href="https://www.instagram.com/phppernambuco/">PHP PE</a></li>
+                        <li><a href="https://x.com/phppr_org">PHP PR</a></li>
+                        <li><a href="https://php.rio/">PHP Rio</a></li>
+                        <li><a href="https://phpsp.org.br/">PHP SP</a></li>
+                        <li><a href="https://www.phpsc.com.br/">PHP SC</a></li>
+                    </ul>
+                </section>
+            </aside>
+        </main>
+
+        <footer class="site-footer">
+            <div class="wrap">
+                <span>&copy; {{ site.time | date: "%Y" }} {{ site.title }} &middot; Grupo de PHP do Espírito Santo</span>
+                <nav aria-label="Rodapé">
+                    <a href="https://github.com/phpes-org">GitHub</a>
+                    <a href="{{ '/atom.xml' | relative_url }}">Feed</a>
+                </nav>
             </div>
-        </div>
-        <footer class="container">
-            &copy; {{ site.time | date: "%Y" }} {{ site.title }} - Grupo de PHP do Espírito Santo
         </footer>
 
-        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+        <script>
+            (function () {
+                var button = document.getElementById('theme-toggle');
+                var media = window.matchMedia('(prefers-color-scheme: dark)');
+
+                function currentTheme() {
+                    var forced = document.documentElement.getAttribute('data-theme');
+                    if (forced) return forced;
+                    return media.matches ? 'dark' : 'light';
+                }
+
+                button.addEventListener('click', function () {
+                    var next = currentTheme() === 'dark' ? 'light' : 'dark';
+                    applyTheme(next);
+                    try { localStorage.setItem('theme', next); } catch (e) {}
+                });
+            })();
+        </script>
 
         {% if site.google_analytics_tracking_id %}
         <script>

@@ -3,29 +3,30 @@ layout: default
 title: Tags
 ---
 {% assign tags = site.tags | sort %}
-<article>
+<article class="card">
     <header>
-        <h2>Tags</h2>
+        <h1>Tags</h1>
+        <p class="meta">{{ tags.size }} tags</p>
     </header>
-    <div>
-        <p class="tags">
-            {% for tag in tags %}
-            <a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
-            {% endfor %}
-        </p>
-    </div>
-</article>
-
-{% for tag in tags %}
-<article>
-    <h3 id="{{ tag[0] | slugify }}">"{{ tag[0] }}"</h3>
-    <ul>
-        {% for post in tag[1] %}
-        <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            <small>{{ post.date | date: "%d/%m/%Y" }}</small>
-        </li>
+    <ul class="tags" style="margin-top: 16px">
+        {% for tag in tags %}
+        <li><a href="#{{ tag[0] | slugify }}">#{{ tag[0] }} <small>{{ tag[1].size }}</small></a></li>
         {% endfor %}
     </ul>
 </article>
-{% endfor %}
+
+<article class="card">
+    {% for tag in tags %}
+    <section class="tag-section" id="{{ tag[0] | slugify }}">
+        <h2 class="section-title">#{{ tag[0] }}</h2>
+        <ul class="post-list">
+            {% for post in tag[1] %}
+            <li>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endfor %}
+</article>

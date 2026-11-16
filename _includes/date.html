@@ -1,0 +1,3 @@
+{%- assign _months = "janeiro,fevereiro,março,abril,maio,junho,julho,agosto,setembro,outubro,novembro,dezembro" | split: "," -%}
+{%- assign _m = include.date | date: "%-m" | minus: 1 -%}
+<time datetime="{{ include.date | date: '%Y-%m-%d' }}">{{ include.date | date: "%-d" }} de {{ _months[_m] }} de {{ include.date | date: "%Y" }}</time>

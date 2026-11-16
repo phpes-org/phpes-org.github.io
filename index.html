@@ -3,37 +3,35 @@ layout: default
 title: Home
 ---
 {% for post in paginator.posts %}
-    <article>
-        <header>
-            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        </header>
-        <div>
-            {{ post.content }}
-        </div>
-        <footer>
-            {% include tags.html tags=post.tags %}
-        </footer>
-    </article>
+<article class="card">
+    <header>
+        {% include meta.html post=post %}
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    </header>
+    <div class="prose">
+        {{ post.content }}
+    </div>
+    {% if post.tags and post.tags.size > 0 %}
+    <footer>
+        {% include tags.html tags=post.tags %}
+    </footer>
+    {% endif %}
+</article>
 {% endfor %}
+
 {% if paginator.previous_page or paginator.next_page %}
-    <nav>
-        <ul class="pager">
-            {% if paginator.next_page %}
-                <li>
-                    <a href="{{ paginator.next_page_path | relative_url }}">
-                        Posts antigos
-                        &raquo;
-                    </a>
-                </li>
-            {% endif %}
-            {% if paginator.previous_page %}
-                <li>
-                    <a href="{{ paginator.previous_page_path | relative_url }}">
-                        &laquo;
-                        Novos posts
-                    </a>
-                </li>
-            {% endif %}
-        </ul>
-    </nav>
+<nav class="pager" aria-label="Páginas">
+    {% if paginator.previous_page %}
+    <a class="prev" href="{{ paginator.previous_page_path | relative_url }}">
+        <small>&larr; Anterior</small>
+        <strong>Posts mais novos</strong>
+    </a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a class="next" href="{{ paginator.next_page_path | relative_url }}">
+        <small>Próxima &rarr;</small>
+        <strong>Posts mais antigos</strong>
+    </a>
+    {% endif %}
+</nav>
 {% endif %}

@@ -1,25 +1,25 @@
 ---
 layout: default
-title: Posts Archive
+title: Arquivo
 ---
 {% assign months = "Janeiro,Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Outubro,Novembro,Dezembro" | split: "," %}
 {% assign groups = site.posts | group_by_exp: "post", "post.date | date: '%Y-%m'" %}
-<article>
-  <header>
-    <h2>Arquivo</h2>
-  </header>
-  <div>
+<article class="card">
+    <header>
+        <h1>Arquivo</h1>
+        <p class="meta">{{ site.posts.size }} posts publicados</p>
+    </header>
     {% for group in groups %}
-      {% assign first = group.items | first %}
-      {% assign month_index = first.date | date: "%-m" | minus: 1 %}
-      <h3>{{ months[month_index] }} {{ first.date | date: "%Y" }}</h3>
-      <ul>
-        {% for post in group.items %}
-        <li>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
+        {% assign first = group.items | first %}
+        {% assign month_index = first.date | date: "%-m" | minus: 1 %}
+        <h2 class="section-title">{{ months[month_index] }} {{ first.date | date: "%Y" }}</h2>
+        <ul class="post-list">
+            {% for post in group.items %}
+            <li>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+            </li>
+            {% endfor %}
+        </ul>
     {% endfor %}
-  </div>
 </article>

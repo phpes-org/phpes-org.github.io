@@ -28,10 +28,13 @@ defaults:
 markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter_opts:
+    disable: true
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-github-metadata
 
 exclude:
   - README.md
