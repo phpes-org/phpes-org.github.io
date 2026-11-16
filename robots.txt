@@ -1,5 +1,8 @@
+---
+layout: null
+sitemap: false
+---
 User-agent: *
 Disallow: /blog/tags/
-Disallow: /blog/categories/
 
-Sitemap: https://www.phpes.org/sitemap.xml
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

@@ -1,343 +1,39 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Home &mdash; PHP-ES &mdash; PHP Espírito Santo</title>
-        <meta charset="utf-8">
-        <meta name="theme-color" content="#ffffff">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="PHP-ES - Grupo de PHP do Espírito Santo">
-        <meta name="keywords" content="php, phpes, grupo, espirito santo, php7, dicas, tutoriais, notícias, blog">
-
-                    <meta name="robots" content="noindex, follow">
-            <meta property="og:url" content="https://www.phpes.org" />
-            <meta property="og:title" content="PHP-ES" />
-            <meta property="og:description" content="PHP Espírito Santo" />
-            <meta property="og:image" content="https://www.phpes.org/images/og-image.png" />
-        
-        <link rel="stylesheet" href="https://www.phpes.org/css/bootstrap.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
-        <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/agate.css">
-        <link href="https://www.phpes.org/css/style.css" rel="stylesheet" type="text/css" />
-
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="shortcut icon" href="https://www.phpes.org/images/elephant-mini.png">
-
-        <link rel="stylesheet" href="https://www.phpes.org/components/highlightjs/styles/github.css" />
-        <link rel="alternate" type="application/atom+xml" href="https://www.phpes.org/atom.xml" title="PHP-ES activity feed" />
-
-                                    </head>
-    <body>
-        <header>
-            <div class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <a class="brand" href="https://www.phpes.org/">PHP-ES</a>
-                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-        					<span class="icon-bar"></span>
-        					<span class="icon-bar"></span>
-        					<span class="icon-bar"></span>
-        				</button>
-                    </div>
-                    <div id="navbar-main" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="https://www.phpes.org/blog">Arquivo</a></li>
-                            <li><a href="https://www.phpes.org/blog/tags">Tags</a></li>
-                            <li><a href="https://www.phpes.org/about">Sobre</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="container">
-            <div class="col-md-8">
-                    <article>
-        <header>
-            <h2><a href="https://www.phpes.org/blog/2025/09/01/native-actime-support-comes-to-nginx/">Native ACME Support Comes to NGINX</a></h2>
-        </header>
-        <div>
-            <p>Let's Encrypt anunciou o módulo nativo do NGINX para geração de certificados utilizando o protocolo ACME.</p>
-
-<blockquote>
-  <p>On August 12, the popular open source web server NGINX announced support for ACME with their official ngx_http_acme module (implemented with memory safe Rust code!).</p>
-</blockquote>
-
-<p><a href="https://letsencrypt.org/2025/09/11/native-acme-for-nginx">https://letsencrypt.org/2025/09/11/native-acme-for-nginx</a></p>
-
-        </div>
-        <footer>
-                            <p class="tags">
-                Tags:
-                                <a href="https://www.phpes.org/blog/tags/letsencrypt">letsencrypt</a>                                 <a href="https://www.phpes.org/blog/tags/nginx">nginx</a>                                 <a href="https://www.phpes.org/blog/tags/certificate">certificate</a>                                </p>
-                    </footer>
-    </article>
+---
+layout: default
+title: Home
+---
+{% for post in paginator.posts %}
     <article>
         <header>
-            <h2><a href="https://www.phpes.org/blog/2025/07/09/tempest-10-released/">Tempest 1.0 released</a></h2>
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         </header>
         <div>
-            <p>Saiu a primeira versão estável do framework Tempest:</p>
-
-<blockquote>
-  <p>After almost 2 years and 656 merged pull requests by 59 contributors, it is finally time to tag the first release of Tempest</p>
-</blockquote>
-
-<p><a href="https://tempestphp.com/blog/tempest-1">https://tempestphp.com/blog/tempest-1</a></p>
-
+            {{ post.content }}
         </div>
         <footer>
-                            <p class="tags">
-                Tags:
-                                <a href="https://www.phpes.org/blog/tags/php">php</a>                                 <a href="https://www.phpes.org/blog/tags/tempest">tempest</a>                                </p>
-                    </footer>
+            {% include tags.html tags=post.tags %}
+        </footer>
     </article>
-    <article>
-        <header>
-            <h2><a href="https://www.phpes.org/blog/2025/06/08/frankenphp-is-now-part-of-the-php-organization/">FrankenPHP Is Now Officially Supported by The PHP Foundation</a></h2>
-        </header>
-        <div>
-            <p>Anúncio oficial sobre projeto FrankenPHP se tornando parte oficial do <a href="https://thephp.foundation/">The PHP Organization</a>.</p>
-
-<ul>
-<li><a href="https://les-tilleuls.coop/en/blog/30-years-of-php-frankenphp-is-now-part-of-the-php-organization">https://les-tilleuls.coop/en/blog/30-years-of-php-frankenphp-is-now-part-of-the-php-organization</a></li>
-<li><a href="https://thephp.foundation/blog/2025/05/15/frankenphp/">https://thephp.foundation/blog/2025/05/15/frankenphp/</a></li>
-</ul>
-
-        </div>
-        <footer>
-                            <p class="tags">
-                Tags:
-                                <a href="https://www.phpes.org/blog/tags/php">php</a>                                 <a href="https://www.phpes.org/blog/tags/frankenphp">frankenphp</a>                                 <a href="https://www.phpes.org/blog/tags/github">github</a>                                </p>
-                    </footer>
-    </article>
-    <article>
-        <header>
-            <h2><a href="https://www.phpes.org/blog/2025/01/20/case-study-upply-the-php-advantage-how-we-resisted-the-switch-to-scala-rust-or-go/">Case study - Upply: The PHP advantage: How we resisted the switch to Scala, rust, or go</a></h2>
-        </header>
-        <div>
-            <p>Alguns pontos do porquê a empresa Upply, uma start-up dedicada ao transporte de cargas e cadeia de suprimentos, acertou ao escolher PHP.</p>
-
-<p><a href="https://symfony.com/blog/case-study-upply-the-php-advantage-how-we-resisted-the-switch-to-scala-rust-or-go">Case study - Upply: The PHP advantage: How we resisted the switch to Scala, rust, or go</a></p>
-
-        </div>
-        <footer>
-                            <p class="tags">
-                Tags:
-                                <a href="https://www.phpes.org/blog/tags/php">php</a>                                 <a href="https://www.phpes.org/blog/tags/symfony">symfony</a>                                </p>
-                    </footer>
-    </article>
-    <article>
-        <header>
-            <h2><a href="https://www.phpes.org/blog/2024/12/23/how-to-upgrade-deprecated-phpunit-withconsecutive/">How to Upgrade deprecated PHPUnit withConsecutive()</a></h2>
-        </header>
-        <div>
-            <p>Dica para uma dúvida muito comum quando precisa atualizar a versão do PHPUnit 9.6 para 10+, uma vez que o <code>withConsecutive</code> foi depreciado.</p>
-
-<p><a href="https://tomasvotruba.com/blog/how-to-upgrade-deprecated-phpunit-with-consecutive">https://tomasvotruba.com/blog/how-to-upgrade-deprecated-phpunit-with-consecutive</a></p>
-
-        </div>
-        <footer>
-                            <p class="tags">
-                Tags:
-                                <a href="https://www.phpes.org/blog/tags/php">php</a>                                 <a href="https://www.phpes.org/blog/tags/phpunit">phpunit</a>                                </p>
-                    </footer>
-    </article>
-    <article>
-        <header>
-            <h2><a href="https://www.phpes.org/blog/2024/11/21/php-84-released/">PHP 8.4 released</a></h2>
-        </header>
-        <div>
-            <p>Lançada a versão 8.4 do PHP:</p>
-
-<p>Português: <a href="https://www.php.net/releases/8.4/pt_BR.php">https://www.php.net/releases/8.4/pt_BR.php</a>
-Inglês: <a href="https://www.php.net/releases/8.4/en.php">https://www.php.net/releases/8.4/en.php</a></p>
-
-        </div>
-        <footer>
-                            <p class="tags">
-                Tags:
-                                <a href="https://www.phpes.org/blog/tags/php">php</a>                                 <a href="https://www.phpes.org/blog/tags/php8">php8</a>                                </p>
-                    </footer>
-    </article>
-    <article>
-        <header>
-            <h2><a href="https://www.phpes.org/blog/2024/11/14/whats-new-in-php-84-video/">What&#039;s new in PHP 8.4 [video]</a></h2>
-        </header>
-        <div>
-            <iframe style="width: 100%; height: 400px" src="https://www.youtube.com/embed/mokBtjyT8fo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-        </div>
-        <footer>
-                            <p class="tags">
-                Tags:
-                                <a href="https://www.phpes.org/blog/tags/video">video</a>                                 <a href="https://www.phpes.org/blog/tags/php">php</a>                                 <a href="https://www.phpes.org/blog/tags/php8">php8</a>                                </p>
-                    </footer>
-    </article>
-    <article>
-        <header>
-            <h2><a href="https://www.phpes.org/blog/2024/11/14/frankenphp-130/">FrankenPHP 1.3</a></h2>
-        </header>
-        <div>
-            <p>Uma nova versão <a href="https://frankenphp.dev/">FrankenPHP</a> foi lançada e de acordo com benchmark realizados pelo time de desenvolvimento, essa nova versão 1.3 é 54% mais eficiente que a versão anterior.</p>
-
-<p>Para quem ainda não conhece, FrankenPHP é um servidor de aplicação PHP constrituído em cima do servidor web Caddy. Além servir arquivos PHP nativamente, ainda possui suporte a Server-Sent Events através do protocolo <a href="https://mercure.rocks/">Mercure</a>.</p>
-
-<p><a href="https://dunglas.dev/2024/11/frankenphp-1-3-massive-performance-improvements-watcher-mode-dedicated-prometheus-metrics-and-more/">https://dunglas.dev/2024/11/frankenphp-1-3-massive-performance-improvements-watcher-mode-dedicated-prometheus-metrics-and-more/</a></p>
-
-        </div>
-        <footer>
-                            <p class="tags">
-                Tags:
-                                <a href="https://www.phpes.org/blog/tags/server">server</a>                                 <a href="https://www.phpes.org/blog/tags/frankenphp">frankenphp</a>                                 <a href="https://www.phpes.org/blog/tags/php">php</a>                                </p>
-                    </footer>
-    </article>
-    <article>
-        <header>
-            <h2><a href="https://www.phpes.org/blog/2018/08/19/10-coisas-para-nao-fazer-php-7/">10 coisas para não fazer no PHP 7</a></h2>
-        </header>
-        <div>
-            <p>Artigo em inglês listando 10 coisas para você não fazer no PHP7:</p>
-
-<ol>
-<li>Do Not Use mysql Functions</li>
-<li>Do Not Write Wasteful Code</li>
-<li>Do Not Use PHP Close Tags</li>
-<li>Do Not Pass by Reference if Not Needed</li>
-<li>Do Not Perform Queries In A Loop</li>
-<li>Do Not Use * in SQL Queries</li>
-<li>Do Not Trust User Input</li>
-<li>Do Not Try to Be Clever</li>
-<li>Do Not Reinvent the Wheel</li>
-<li>Do Not Neglect Other Languages</li>
-</ol>
-
-<p><a href="https://www.advanceidea.co.in/blog/things-not-to-do-in-php-7">https://www.advanceidea.co.in/blog/things-not-to-do-in-php-7</a></p>
-
-        </div>
-        <footer>
-                            <p class="tags">
-                Tags:
-                                <a href="https://www.phpes.org/blog/tags/php7">php7</a>                                 <a href="https://www.phpes.org/blog/tags/top10">top10</a>                                 <a href="https://www.phpes.org/blog/tags/php">php</a>                                </p>
-                    </footer>
-    </article>
-    <article>
-        <header>
-            <h2><a href="https://www.phpes.org/blog/2018/08/15/reactphp-middleware/">[Vídeo] ReactPHP Middleware</a></h2>
-        </header>
-        <div>
-            <iframe style="width: 100%; height: 400px" src="https://www.youtube.com/embed/nRMlOrW2rwE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-        </div>
-        <footer>
-                            <p class="tags">
-                Tags:
-                                <a href="https://www.phpes.org/blog/tags/reactphp">reactphp</a>                                 <a href="https://www.phpes.org/blog/tags/tutorial">tutorial</a>                                 <a href="https://www.phpes.org/blog/tags/video">video</a>                                 <a href="https://www.phpes.org/blog/tags/php">php</a>                                </p>
-                    </footer>
-    </article>
+{% endfor %}
+{% if paginator.previous_page or paginator.next_page %}
     <nav>
         <ul class="pager">
-                            <li>
-                    <a href="https://www.phpes.org/page/2">
+            {% if paginator.next_page %}
+                <li>
+                    <a href="{{ paginator.next_page_path | relative_url }}">
                         Posts antigos
                         &raquo;
                     </a>
                 </li>
-                                </ul>
+            {% endif %}
+            {% if paginator.previous_page %}
+                <li>
+                    <a href="{{ paginator.previous_page_path | relative_url }}">
+                        &laquo;
+                        Novos posts
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
     </nav>
-            </div>
-            <div class="col-md-4">
-                <div class="feature">
-                    <article>
-                        <header>
-                            <h3>Comunidades</h3>
-                        </header>
-                        <div>
-                            <ul>
-                                <li>
-                                    <a href="https://phpcomrapadura.org/">
-                                        PHP CE
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://phpdf.org.br/">
-                                        PHP DF
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://phpeste.net">
-                                        PHP MA
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://phpmg.com/">
-                                        PHP MG
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/phpms">
-                                        PHP MS
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://php-pb.net/">
-                                        PHP PB
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.phppe.net/">
-                                        PHP PE
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://phppr.org/">
-                                        PHP PR
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://php.rio/">
-                                        PHP Rio
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.phprs.com.br/">
-                                        PHP RS
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://phpsp.org.br/">
-                                        PHP SP
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.phpsc.com.br/">
-                                        PHP SC
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-        <footer class="container">
-            &copy; 2025 PHP-ES - Grupo de PHP do Espírito Santo
-        </footer>
-
-        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
-                
-                <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-75721006-1', 'auto');
-          ga('send', 'pageview');
-
-        </script>
-        
-                    </body>
-</html>
+{% endif %}

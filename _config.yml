@@ -1,0 +1,41 @@
+title: PHP-ES
+subtitle: PHP Espírito Santo
+description: PHP-ES - Grupo de PHP do Espírito Santo
+url: https://www.phpes.org
+baseurl: ""
+lang: pt-BR
+timezone: America/Sao_Paulo
+
+google_analytics_tracking_id: UA-75721006-1
+
+disqus:
+  shortname: phpes
+
+# Mantém as URLs geradas pelo Sculpin: /blog/2016/03/28/slug/
+permalink: /blog/:year/:month/:day/:title/
+
+# Paginação da home: /, /page/2/, /page/3/...
+paginate: 10
+paginate_path: /page/:num/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
